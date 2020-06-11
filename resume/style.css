@@ -183,6 +183,7 @@ section:last-child {
   font-family: 'Georgia', serif;
   font-size: 1.2em;
   color: #737373;
+  margin-bottom: 6px;
 }
 
 .sectionContent h2 {
