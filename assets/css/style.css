@@ -11,8 +11,7 @@
 }
 
 body {
-    /* background: #1f1f1f; */
-    background: #328668;
+    background: #1f1f1f;
     font-size: calc(12px + (26 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
