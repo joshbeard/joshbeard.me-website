@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Lucida Console", Monaco, monospace;
-    font-size: 12px;
     letter-spacing: 1px;
     word-spacing: 2px;
     font-weight: 300;
@@ -13,17 +12,19 @@
 
 body {
     background: #1f1f1f;
+    font-size: calc(12px + (26 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
 #header {
     border-bottom: 1px solid #71EDBE;
     text-align: center;
+    padding: 6px;
+    background: #282835;
 }
 
 #header h1 {
     color: #71B8ED;
     margin: 6px;
-    font-size: 28px;
     letter-spacing: 2px;
     color: #71B8ED;
     font-weight: 700;
@@ -33,7 +34,6 @@ body {
 #header h2 {
     color: #71B8ED;
     margin: 6px;
-    font-size: 18px;
     letter-spacing: 4px;
     color: #71B8ED;
 }
@@ -45,20 +45,21 @@ body {
 #content #links {
     border: 1px solid #B46E4C;
     padding: 2px;
+    margin: 0 auto;
+    width: 12em;
 }
 
 #content #links h2 {
     color: #ED9971;
     border-bottom: 1px solid #B46E4C;
     margin: 4px;
-    font-size: 18px;
     letter-spacing: 2px;
     font-weight: 700;
 }
 
 #content #links ul {
     margin: 10px;
-    list-style-type: circle;
+    list-style-type: none;
     list-style-position: inside;
     color: #fff;
 }
@@ -71,11 +72,6 @@ body {
     color: #71EDBE;
 }
 
-#content #links li span {
-    font-size: 12px;
-}
-
-
 #content #images {
     margin-top: 8px;
     border: 1px solid #AE93DD;
@@ -86,7 +82,6 @@ body {
     color: #AE93DD;
     border-bottom: 1px solid #655E70;
     margin: 4px;
-    font-size: 18px;
     letter-spacing: 2px;
     font-weight: 700;
 }
@@ -98,12 +93,12 @@ body {
 
 #footer span {
     color: #656565;
-    font-size: 8px;
     letter-spacing: 1px;
     word-spacing: 2px;
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
+    font-size: 0.6em;
 }
 
 #footer a {
