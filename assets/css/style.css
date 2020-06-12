@@ -42,14 +42,18 @@ body {
     padding: 12px;
 }
 
-#content #links {
+#content #links, #content #stats {
     border: 1px solid #B46E4C;
     padding: 2px;
     margin: 0 auto;
     width: 12em;
 }
 
-#content #links h2 {
+#content #stats {
+    width: 26em;
+}
+
+#content #links h2, #content #stats h2 {
     color: #ED9971;
     border-bottom: 1px solid #B46E4C;
     margin: 4px;
@@ -57,18 +61,22 @@ body {
     font-weight: 700;
 }
 
-#content #links ul {
+#content #links ul, #content #stats ul {
     margin: 10px;
     list-style-type: none;
     list-style-position: inside;
     color: #fff;
 }
 
-#content #links a {
+#content #stats ul {
+    list-style-type: disc;
+}
+
+#content #links a, #content #stats a {
     color: #AE93DD;
     text-decoration: none;
 }
-#content #links a:hover {
+#content #links a:hover, #content #stats a:hover {
     color: #71EDBE;
 }
 
