@@ -40,13 +40,14 @@ body {
 
 #content {
     padding: 12px;
+    border-bottom: 1px solid #71EDBE;
 }
 
 #content #links, #content #stats {
-    border: 1px solid #B46E4C;
     padding: 2px;
     margin: 0 auto;
-    width: 12em;
+    padding-left: 3em;
+    width: 10em;
 }
 
 #content #stats {
