@@ -1,5 +1,9 @@
 ---
+stages:
+  - deploy
+
 deploy:
+  stage: deploy
   image:
     name: banst/awscli
     entrypoint: ['']
