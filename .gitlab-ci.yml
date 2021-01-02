@@ -9,6 +9,9 @@ minify:
     name: thekevjames/minify:2.5.2
     entrypoint: ['']
   script: minify --recursive --output $CI_PROJECT_DIR $CI_PROJECT_DIR
+  artifacts:
+    paths:
+      - $CI_PROJECT_DIR
   only:
     - master
 
@@ -17,6 +20,8 @@ deploy:
   image:
     name: banst/awscli
     entrypoint: ['']
+  dependencies:
+    - minify
   script:
     - aws s3 sync .
       s3://$S3_BUCKET_NAME
