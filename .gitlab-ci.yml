@@ -1,0 +1,14 @@
+---
+deploy:
+  image: banst/awscli
+  script:
+    - aws s3 sync .
+      s3://$S3_BUCKET_NAME
+      --delete
+      --exclude ".git/*"
+      --exclude ".gitlab-ci.yml"
+      --exclude "README.md"
+      --exclude "resume/*"
+      --acl public-read
+  only:
+    - master
