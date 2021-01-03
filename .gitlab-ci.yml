@@ -1,8 +1,7 @@
 # .gitlab-ci for www-joshbeard.me
 #
-# 1. Validate HTML
-# 2. Minify
-# 3. Deploy to S3
+# 1. Minify
+# 2. Deploy to S3
 #
 # Variables set in GitLab vars:
 # AWS_ACCESS_KEY_ID
@@ -12,19 +11,8 @@
 #
 ---
 stages:
-  - validate
   - minify
   - deploy
-
-# Not validating css due to use of the 'calc()' function.
-# Reference: https://www.w3.org/Bugs/Public/show_bug.cgi?id=18913
-validation:
-  stage: validate
-  image:
-    name: validator/validator
-    entrypoint: ['']
-  script:
-    - vnu --also-check-css $CI_PROJECT_DIR/*.html
 
 minify:
   stage: minify
