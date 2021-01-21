@@ -60,4 +60,8 @@ deploy:
       --exclude "resume/*"
       --acl public-read
   only:
-    - master
+    variables:
+      # Access to deploy keys is protected
+      - $CI_COMMIT_REF_PROTECTED == "true"
+    refs:
+      - master
