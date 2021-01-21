@@ -1,0 +1,12 @@
+# Jekyll config for joshbeard.me
+---
+name: Josh Beard
+source: .
+destination: ./_site
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'docker-compose.yml'
+  - 'README.md'
+  - 'vendor/'
+  - 'Makefile'
