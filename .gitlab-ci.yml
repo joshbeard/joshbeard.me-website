@@ -1,7 +1,8 @@
 # .gitlab-ci for www-joshbeard.me
 #
-# 1. Minify
-# 2. Deploy to S3
+# 1. Build
+# 2. Minify
+# 3. Deploy to S3
 #
 # Variables set in GitLab vars:
 # AWS_ACCESS_KEY_ID
@@ -11,18 +12,34 @@
 #
 ---
 stages:
+  - build
   - minify
   - deploy
+
+build:
+  stage: build
+  image:
+    name: jekyll/jekyll
+    entrypoint: ['']
+  script:
+    - jekyll build --config /site/._config.yml
+  artifacts:
+    paths:
+      - _site
+  only:
+    - master
 
 minify:
   stage: minify
   image:
     name: thekevjames/minify:2.5.2
     entrypoint: ['']
-  script: minify --recursive --output $CI_PROJECT_DIR $CI_PROJECT_DIR
+  dependencies:
+    - build
+  script: minify --recursive --output _site _site
   artifacts:
     paths:
-      - $CI_PROJECT_DIR
+      - _site
   only:
     - master
 
@@ -34,7 +51,7 @@ deploy:
   dependencies:
     - minify
   script:
-    - aws s3 sync .
+    - aws s3 sync _site/
       s3://$S3_BUCKET_NAME
       --delete
       --exclude ".git/*"
