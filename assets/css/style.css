@@ -108,6 +108,12 @@ body {
     flex-shrink: 0;
 }
 
+#error {
+    color: #fff;
+    margin: 16px 20px 16px 20px;
+    text-align: center;
+}
+
 #footer {
     text-align: center;
     width: 100%;
