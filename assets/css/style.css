@@ -82,11 +82,13 @@ body {
     font-family: "Gruppo", Arial, Helvetica, sans-serif;
 }
 
-#content #links a {
+#content #links a,
+#error a {
     color: #AE93DD;
     text-decoration: none;
 }
-#content #links a:hover {
+#content #links a:hover,
+#error a:hover {
     color: #71EDBE;
 }
 
@@ -112,6 +114,10 @@ body {
     color: #fff;
     margin: 16px 20px 16px 20px;
     text-align: center;
+}
+
+#error span.error_return {
+    font-size: 0.6em;
 }
 
 #footer {
