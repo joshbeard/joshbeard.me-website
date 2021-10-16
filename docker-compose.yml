@@ -3,7 +3,7 @@ services:
 
   site:
     image: jekyll/jekyll
-    command: jekyll serve --config /srv/jekyll/._config.yml --force_polling
+    command: jekyll serve --force_polling
     ports:
       - 4000:4000
     volumes:
