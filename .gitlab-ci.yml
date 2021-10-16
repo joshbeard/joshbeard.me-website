@@ -22,7 +22,7 @@ build:
     name: jekyll/jekyll
     entrypoint: ['']
   script:
-    - jekyll build --config ._config.yml
+    - jekyll build
   artifacts:
     paths:
       - _site
