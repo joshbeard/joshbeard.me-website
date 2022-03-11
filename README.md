@@ -9,4 +9,4 @@ A [Jekyll](https://jekyllrb.com/) site for my personal landing page,
 docker-compose up
 ```
 
-This will start a local server available at <https://localhost:4000/>
+This will start a local server available at <http://localhost:4000/>
