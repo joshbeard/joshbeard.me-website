@@ -1,7 +1,7 @@
 ---
 title: My GPG Keys
 layout: page
-permalink: /gpg
+permalink: /gpg/
 ---
 
 * [Download my GPG public key](files/joshbeard-public.asc) ([`joshbeard-public.asc`](files/joshbeard-public.asc))
