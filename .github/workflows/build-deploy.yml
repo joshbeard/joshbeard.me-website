@@ -75,11 +75,13 @@ jobs:
           # 6 months for assets
           aws s3 cp s3://s3-website-joshbeard-me/assets/ s3://s3-website-joshbeard-me/assets/ --recursive --acl public-read --cache-control max-age=15552000
           # Two weeks for common files
-          for f in *.html *.txt gpg/* files/* *.png *.ico; do
+          for f in *.png *.ico; do
             aws s3 cp s3://${{ secrets.AWS_S3_BUCKET }}/${f} s3://${{ secrets.AWS_S3_BUCKET }}/${f} --acl public-read --cache-control max-age=1209600
           done
-          # One week for index
-          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET }}/index.html s3://${{ secrets.AWS_S3_BUCKET }}/${f} --acl public-read --cache-control max-age=604800
+          # One day for html
+          for f in *.html gpg/* files/*; do
+            aws s3 cp s3://${{ secrets.AWS_S3_BUCKET }}/${f} s3://${{ secrets.AWS_S3_BUCKET }}/${f} --acl public-read --cache-control max-age=86400
+          done
         env:
           # https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
