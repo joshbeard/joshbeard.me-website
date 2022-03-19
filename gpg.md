@@ -4,7 +4,7 @@ layout: page
 permalink: /gpg/
 ---
 
-* [Download my GPG public key](files/joshbeard-public.asc) ([`joshbeard-public.asc`](files/joshbeard-public.asc))
+* [Download my GPG public key](/files/joshbeard-public.asc) ([`joshbeard-public.asc`](/files/joshbeard-public.asc))
 * Key ID: `0xCA96989D4A3F7869F5DEB38DF9BE548EC3641B41` (short: `C3641B41`)
 * Fingerprint: `CA96 989D 4A3F 7869 F5DE  B38D F9BE 548E C364 1B41`
 * See it on [keys.opengpg.org](https://keys.openpgp.org/search?q=0xCA96989D4A3F7869F5DEB38DF9BE548EC3641B41)
