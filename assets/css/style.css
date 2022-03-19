@@ -1,12 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    font-weight: 300;
-    font-style: normal;
-    font-variant: small-caps;
-    text-transform: none;
 }
 
 html, body {
@@ -32,13 +26,19 @@ body {
 }
 
 #header h1 {
-    color: #71B8ED;
     margin: 6px;
     letter-spacing: 2px;
-    color: #71B8ED;
     font-weight: 500;
-    text-decoration: rgb(232, 230, 227);
-    font-family: "Turret Road", 'Courier New', Courier, monospace;
+    font-family: "Play", sans;
+}
+
+#header h1 a {
+    color: #71B8ED;
+    text-decoration: none;
+}
+
+#header h1 a:hover {
+    color: #5AF2F0;
 }
 
 #header h2 {
@@ -50,16 +50,17 @@ body {
 
 #content {
     flex-grow: 1;
+    color: #fff;
 }
 
-#content #links {
+#content #home #links {
     padding: 2px;
     margin: auto;
     margin-bottom: 10px;
     display: table;
 }
 
-#content #links h2 {
+#content #home #links h2 {
     color: #ED9971;
     border-bottom: 1px solid #B46E4C;
     margin: 4px;
@@ -67,38 +68,38 @@ body {
     font-weight: 700;
 }
 
-#content #links ul {
+#content #home #links ul {
     margin: 10px;
     list-style-type: none;
     list-style-position: inside;
     color: #fff;
 }
 
-#content #links li {
+#content #home #links li {
     margin-bottom: 8px;
 }
 
-#content #links ul li span {
-    font-family: "Gruppo", Arial, Helvetica, sans-serif;
+#content #home #links ul li span {
+    font-family: "Play", sans;
 }
 
-#content #links a,
+#content #home #links a,
 #error a {
     color: #AE93DD;
     text-decoration: none;
 }
-#content #links a:hover,
+#content #home #links a:hover,
 #error a:hover {
     color: #71EDBE;
 }
 
-#content #images {
+#content #home #images {
     margin-top: 8px;
     border: 1px solid #AE93DD;
     padding: 2px;
 }
 
-#content #images h2 {
+#content #home #images h2 {
     color: #AE93DD;
     border-bottom: 1px solid #655E70;
     margin: 4px;
@@ -108,6 +109,17 @@ body {
 
 #header, #content, #footer {
     flex-shrink: 0;
+}
+
+div#home {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    /*font-variant: small-caps;*/
+    text-transform: none;
 }
 
 #error {
@@ -133,7 +145,7 @@ body {
     font-style: normal;
     font-variant: normal;
     font-size: 0.6em;
-    font-family: "Gruppo", Arial, Helvetica, sans-serif;
+    font-family: "Play", Arial, Helvetica, sans-serif;
 }
 
 #footer a {
@@ -143,4 +155,102 @@ body {
 
 #footer a:hover {
     text-decoration: underline;
+}
+
+div#page,
+div#portfolio {
+    margin: 0 80px 0 80px;
+}
+
+div#portfolio,
+div#page {
+    font-family: "Ubuntu";
+    font-variant: none;
+    word-spacing: 0;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 18px;
+}
+
+div#page a,
+div#portfolio a {
+    color: #77CBE9;
+}
+
+div#page a:hover,
+div#portfolio a:hover {
+    color: #77E9A4;
+}
+
+div#page h2,
+div#portfolio h2 {
+    text-align: center;
+    font-family: "Play";
+    color: #8FCF63;
+    letter-spacing: 4px;
+    font-size: 42px;
+}
+
+div#page h3,
+div#portfolio h3 {
+    color: #9663C3;
+    font-family: "Play";
+    margin-top: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+div#page h3.subsubtitle,
+div#portfolio h3.subsubtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #7EB758;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+div#page ul,
+div#portfolio ul {
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 1.5;
+    /* list-style-position: inside; */
+}
+
+div#portfolio ul li,
+div#portfolio ul li {
+    font-variant: none;
+    margin-bottom: 10px;
+}
+
+#page .centered_text,
+#portfolio .centered_text {
+    text-align: center;
+    font-size: 22px;
+}
+
+#page_content pre {
+    background-color: #262626;
+    padding: 8px;
+    margin: 8px 0 8px 0;
+    border: 1px solid #282835;
+}
+
+div#page_content {
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    div#page,
+    div#portfolio{
+       margin: 0 20px 0 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    div#page,
+    div#portfolio{
+       margin: 0 10px 0 10px;
+    }
 }

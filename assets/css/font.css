@@ -1,40 +1,27 @@
-/* turret-road-regular - latin */
+/* ubuntu-regular - latin */
 @font-face {
-    font-family: 'Turret Road';
+    font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/turret-road-v2-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Turret Road Regular'), local('TurretRoad-Regular'),
-         url('../fonts/turret-road-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/turret-road-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/turret-road-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/turret-road-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/turret-road-v2-latin-regular.svg#TurretRoad') format('svg'); /* Legacy iOS */
-}
-/* turret-road-500 - latin */
-@font-face {
-    font-family: 'Turret Road';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/turret-road-v2-latin-500.eot'); /* IE9 Compat Modes */
-    src: local('Turret Road Medium'), local('TurretRoad-Medium'),
-         url('../fonts/turret-road-v2-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/turret-road-v2-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/turret-road-v2-latin-500.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/turret-road-v2-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/turret-road-v2-latin-500.svg#TurretRoad') format('svg'); /* Legacy iOS */
+    src: url('../fonts/ubuntu/ubuntu-v19-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/ubuntu/ubuntu-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ubuntu/ubuntu-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ubuntu/ubuntu-v19-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/ubuntu/ubuntu-v19-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ubuntu/ubuntu-v19-latin-regular.svg#Ubuntu') format('svg'); /* Legacy iOS */
 }
 
-/* gruppo-regular - latin */
+/* play-regular - latin */
 @font-face {
-    font-family: 'Gruppo';
+    font-family: 'Play';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/gruppo-v11-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Gruppo'),
-         url('../fonts/gruppo-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/gruppo-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/gruppo-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/gruppo-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/gruppo-v11-latin-regular.svg#Gruppo') format('svg'); /* Legacy iOS */
-}
+    src: url('../fonts/play/play-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/play/play-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/play/play-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/play/play-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/play/play-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/play/play-v16-latin-regular.svg#Play') format('svg'); /* Legacy iOS */
+  }
