@@ -84,11 +84,13 @@ body {
 }
 
 #content #home #links a,
+span.bottom_text a,
 #error a {
     color: #AE93DD;
     text-decoration: none;
 }
 #content #home #links a:hover,
+span.bottom_text a:hover,
 #error a:hover {
     color: #71EDBE;
 }
@@ -130,6 +132,15 @@ div#home {
 
 #error span.error_return {
     font-size: 0.6em;
+}
+
+span.bottom_text {
+    text-align: center;
+    display: block;
+    font-size: .4em;
+    margin: 0 auto;
+    color: #CACACA;
+    font-family: "Play", sans;
 }
 
 #footer {
