@@ -262,15 +262,19 @@ div#portfolio ul li {
 }
 
 #page_content pre {
-    background-color: #262626;
     background-color: #262E33;
     padding: 12px;
     margin: 16px 0 16px 0;
-    border: 1px solid #282835;
-    border: 1px solid #343353;
     border: 1px solid #3E4C54;
     border-radius: 6px;
     font-family: 'Ubuntu Mono', monospace;
+}
+
+div.ascii-art #page_content pre {
+    background-color: transparent;
+    padding: 0;
+    margin: 12px 0 12px 0;
+    border: none;
 }
 
 #page_content code.language-plaintext {
@@ -278,6 +282,16 @@ div#portfolio ul li {
     border: 1px solid #3E4C54;
     padding: 2px; /*2px 0 2px; */
     font-family: 'Ubuntu Mono', monospace;
+}
+
+#page_content code.language-ascii-art {
+    background-color: transparent;
+    border: 0; /*1px solid #3E4C54;*/
+    padding: 2px; /*2px 0 2px; */
+    font-size: .9em;
+    color: #506274;
+    color: #466244;
+    color: #4F726A;
 }
 
 div#page_content {

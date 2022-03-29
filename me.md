@@ -2,7 +2,9 @@
 title: About Josh Beard
 layout: page
 permalink: /me/
+class: ascii-art
 ---
+
 ### Personal
 
 I'm a somewhat private and introverted person, especially online, so having a
@@ -13,6 +15,12 @@ everyone's stance on everything anymore, front and center and often in an
 antagonistic way and increasingly polarizing and divisive. I may try to write
 other content just to have a website - casual stuff, technical, or artsy, even
 if no one is looking.
+
+```ascii-art
+         ,,,
+        (o o)
+----oOO--( )--OOo----
+```
 
 If you are looking at this and dig personal websites and that sort of thing,
 say [hello](mailto:hello@joshbeard.me)! It'd be really cool to exchange a
@@ -27,6 +35,17 @@ outdoors (hiking, scenic drives), music (listening, watching, playing), food
 I've been a computer hobbyist since I was a kid in the mid 90's, starting with
 our obsolete family computer bought from a garage sale, the next family
 computer, and several other vintage computers I collected from people back then.
+
+```ascii-art
+ _____________
+|[]|       |  |
+|  |  jwb  |  |
+|  |_______|  |
+|   _______   |
+|  |       |  |
+|  |_______|  |
+|__|_____|_|__|
+```
 
 I took an interest in Linux and Free and Open Source Software around 1999 and
 became particuarily interested in setting up and administering servers and

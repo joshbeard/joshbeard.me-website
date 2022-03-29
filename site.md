@@ -2,6 +2,7 @@
 title: About This Site
 layout: page
 permalink: /site/
+class: ascii-art
 ---
 ### Framework
 
@@ -16,6 +17,20 @@ I use [FontAwesome](https://fontawesome.com/) for the icons on the landing page
 and a couple of fonts from Google Web Fonts. All assets are hosted locally.
 
 The site should be mobile friendly.
+
+```ascii-art
+      _ _
+    _{ ' }_
+   { `.!.` }
+   ',_/Y\_,'
+     {_,_}
+       |
+     (\|  /)
+      \| //
+       |//
+jgs \\ |/  //
+^^^^^^^^^^^^^^^
+```
 
 ### Hosting
 
@@ -42,3 +57,19 @@ To deploy the AWS resources, I use Terraform and maintain that in the
 [joshbeard/joshbeard.me-tf-aws](https://github.com/joshbeard/joshbeard.me-tf-aws)
 repository to separate it from the content. This uses my common [tf-aws-site](https://github.com/joshbeard/tf-aws-site)
 Terraform module to deploy, which manages a common AWS stack for my static websites.
+
+```ascii-art
+          &&& &&  & &&
+      && &\/&\|& ()|/ @, &&
+      &\/(/&/&||/& /_/)_&/_&
+   &() &\/&|()|/&\/ '%" & ()
+  &_\_&&_\ |& |&&/&__%_/_& &&
+&&   && & &| &| /& & % ()& /&&
+ ()&_---()&\&\|&&-&&--%---()~
+     &&     \|||
+             |||
+             |||
+             |||
+       , -=-~  .-^- _
+ejm97         `
+```
