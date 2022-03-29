@@ -403,11 +403,21 @@ div.post-nav a:hover {
     div#portfolio{
        margin: 0 20px 0 20px;
     }
+    #page_content pre {
+        white-space: pre-wrap;       /* css-3 */
+        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     div#page,
     div#portfolio{
        margin: 0 10px 0 10px;
+    }
+    div#menu_bar ul li {
+        padding: 4px 10px 4px 10px;
     }
 }
