@@ -50,11 +50,15 @@ computer, and several other vintage computers I collected from people back then.
 
 I took an interest in Linux and Free and Open Source Software around 1999 and
 became particuarily interested in setting up and administering servers and
-websites.
+websites. I've continued to use Linux every day, both professionally and as a
+hobbiest.
 
 In the early 2000's, I started using FreeBSD more and ran it for several years
 on my desktop and home servers, eventually using it professionally at one of my
 previous jobs.
+
+I owe my career to Free and Open Source Software and the ecosystem
+built around Linux and UNIX.
 
 ### Professional Life
 
@@ -62,18 +66,19 @@ I got my professional "foot in the door" of systems administration at a school
 district several years ago. At that point, I had already been running common
 services on Linux and FreeBSD for years for all sorts of things and had some
 coding experience - at least shell, PHP, and web stuff. In that role, I really
-honed my coding skills and several types of services, particularly e-mail
-services, file services, LDAP, and HTTP. There, I learned about Puppet and
-configuration management, which launched me into a new phase of my career.
+honed my coding skills and gained experience with several types of services,
+particularly e-mail services, file services, LDAP, and HTTP. There, I learned
+about Puppet and configuration management, which launched me into a new phase of
+my career - 'DevOps'.
 
 These days I work in a "DevOps and Sysadmin" role - I provide and maintain the
-IT platform for dozens of applications and product teams and the build and
+IT platform for dozens of applications and product teams as well as the build and
 deployment process for those applications and services, using automation and
 code.
 
-I spend most of my day in a code editor bouncing across several projects. The
-type of code I am typically working with is Terraform, Python, Ansible, Puppet,
-Shell, YAML and JSON, and an assortment of others on occassion. I work with AWS,
-Docker, and GitLab a lot.
+I spend most of my day in a code editor and command-line, bouncing across
+several projects. The type of code I am typically working with is Terraform,
+Python, Ansible, Puppet, Shell, YAML and JSON, and an assortment of others on
+occassion. I work with AWS, Docker, and GitLab a lot.
 
-See my [resume](/resume/) for more details about my professional life.
+See my [resume](/resume/) for more details about my professional experience.
