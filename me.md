@@ -27,7 +27,8 @@ say [hello](mailto:hello@joshbeard.me)! It'd be really cool to exchange a
 "postcard" of sorts with people in e-mail.
 
 I live in Colorado Springs, Colorado. I enjoy time with family, computers,
-outdoors (hiking, scenic drives), music (listening, watching, playing), food
+outdoors (hiking, scenic drives), music
+([listening](https://www.last.fm/user/hewbert), watching, playing), food
 (mostly just eating), games (card, party, board), and all sorts of other stuff.
 
 ### The Good ol' Days
