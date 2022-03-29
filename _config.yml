@@ -3,6 +3,7 @@
 name: Josh Beard
 source: .
 destination: ./_site
+permalink: /posts/:year/:month/:day/:title:output_ext
 exclude:
   - 'Gemfile'
   - 'Gemfile.lock'
@@ -10,3 +11,10 @@ exclude:
   - 'README.md'
   - 'vendor/'
   - 'Makefile'
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge

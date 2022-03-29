@@ -4,8 +4,13 @@
     <div id="page">
         <h2 id="page_title">{{ page.title }}</h2>
         <div id="page_content">
-            {{ content }}
+            {%- for post in site.posts -%}
+            {%- unless post.hidden -%}
+              {% include post-list.html %}
+            {%- endunless -%}
+          {%- endfor -%}
         </div>
     </div>
 </div>
 {% include foot.html %}
+

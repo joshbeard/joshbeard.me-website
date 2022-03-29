@@ -1,0 +1,32 @@
+{% include head.html %}
+{% include menu.html %}
+<div id="content">
+    <div id="page">
+        <div id="page_content">
+            <div class="post">
+                <div class="post_title">
+                    <h3 class="post_title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                </div>
+                <div class="post_date">
+                    {{ page.date | date: "%A, %b %d, %Y" }}
+                </div>
+                <div class="post_content">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          <div class="post-nav bottom_shaded">
+            <div class="post-nav-prev">
+              {% if page.previous.url %}
+              <a href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+              {% endif %}
+            </div>
+            <div class="post-nav-next">
+              {% if page.next.url %}
+              <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+              {% endif %}
+            </div>
+          </div>
+{% include page-foot.html %}
