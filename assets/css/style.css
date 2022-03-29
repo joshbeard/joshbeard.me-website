@@ -324,6 +324,7 @@ div#menu_bar ul li {
     border-right: 1px solid #303642;
     padding: 4px 16px 4px 16px;
     font-family: 'Ubuntu Mono', monospace;
+    font-family: "Play", sans;
 }
 div#menu_bar ul li:first-child {
     border-left: 1px solid #303642;
@@ -412,7 +413,7 @@ div.post-nav a:hover {
    }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
     div#page,
     div#portfolio{
        margin: 0 10px 0 10px;
