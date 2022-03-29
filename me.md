@@ -43,9 +43,8 @@ computer, and several other vintage computers I collected from people back then.
 |  |  jwb  |  |
 |  |_______|  |
 |   _______   |
-|  |       |  |
-|  |_______|  |
-|__|_____|_|__|
+|  |     | |  |
+\__|_____|_|__|
 ```
 
 I took an interest in Linux and Free and Open Source Software around 1999 and
