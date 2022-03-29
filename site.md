@@ -9,7 +9,7 @@ This is a [Jekyll](https://jekyllrb.com/) site with a completely custom theme
 and layout. The site was originally a single landing page, but I've expanded it.
 Being Jekyll, it's completely static. It doesn't use JavaScript, cookies,
 analytics, or anything like that. It's a simple static website. See my [Smol
-Stack](http://localhost:4000/posts/2022/03/28/smol-stack.html)
+Stack](/posts/2022/03/28/smol-stack.html)
 post for information about alternatives to HTTP/WWW for this site.
 
 I use [FontAwesome](https://fontawesome.com/) for the icons on the landing page
@@ -39,6 +39,6 @@ I'm now using GitHub Actions for building and deploying the website, which consi
 * Invalidate CloudFront distribution cache
 
 To deploy the AWS resources, I use Terraform and maintain that in the
-[joshbeard/joshbeard.me-tf-aws](http://localhost:4000/posts/2022/03/28/smol-stack.html)
+[joshbeard/joshbeard.me-tf-aws](https://github.com/joshbeard/joshbeard.me-tf-aws)
 repository to separate it from the content. This uses my common [tf-aws-site](https://github.com/joshbeard/tf-aws-site)
 Terraform module to deploy, which manages a common AWS stack for my static websites.
