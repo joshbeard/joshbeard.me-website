@@ -7,6 +7,8 @@ I've recently taken an interest in what's been dubbed the [Smol Internet](https:
 protocols, sometimes old ones, in contemporary use. This also has cross over with the [Yesterweb](https://yesterweb.org/).
 I've deployed my own stack and content of some of these services for fun.
 
+<!-- more -->
+
 ### Apps
 
 * [Lagrange](https://gmi.skyjake.fi/lagrange/) is a nice cross-platform browser that supports each of these protocols (desktop).
@@ -18,8 +20,6 @@ I've deployed my own stack and content of some of these services for fun.
 
 See the [awesome-gemini](https://github.com/kr1sp1n/awesome-gemini) repo on
 GitHub for a list of things related to Gemini.
-
-<!-- more -->
 
 ### Gopher
 
