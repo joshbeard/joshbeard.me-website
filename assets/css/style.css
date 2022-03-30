@@ -413,7 +413,7 @@ div.post-nav a:hover {
    }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 440px) {
     div#page,
     div#portfolio{
        margin: 0 10px 0 10px;
