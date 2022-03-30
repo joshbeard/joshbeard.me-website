@@ -4,6 +4,8 @@ layout: page
 permalink: /site/
 class: ascii-art
 ---
+I also deploy a [Small Internet](small.html) stack (Gopher, Gemini).
+
 ### Framework
 
 This is a [Jekyll](https://jekyllrb.com/) site with a completely custom theme
