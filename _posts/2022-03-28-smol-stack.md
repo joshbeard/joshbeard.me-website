@@ -21,6 +21,13 @@ I've deployed my own stack and content of some of these services for fun.
 See the [awesome-gemini](https://github.com/kr1sp1n/awesome-gemini) repo on
 GitHub for a list of things related to Gemini.
 
+### Deployment
+
+I'm using Ansible to deploy these services to an LXC container to my Homelab.
+
+See <https://github.com/joshbeard/homelab-service-smolstack> for my Ansible
+playbook for the whole stack.
+
 ### Gopher
 
 The [Gopher](https://en.wikipedia.org/wiki/Gopher_(protocol)) protocol predates the web but still has an active
