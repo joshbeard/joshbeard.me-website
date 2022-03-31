@@ -77,3 +77,8 @@ Terraform module to deploy, which manages a common AWS stack for my static websi
        , -=-~  .-^- _
 ejm97         `
 ```
+
+<div class="site_version">
+Version <a href="https://github.com/joshbeard/joshbeard.me-website/commit/{{ site.data['sha']}}" class="version_sha">{{ site.data['short_sha']}}</a>
+<span class="version_timestamp">{{ site.data['timestamp'] }}</span>
+</div>

@@ -1,0 +1,23 @@
+# Jekyll plugin for generating Git hash
+#
+# Adapted from:
+# Author: Yegor Bugayenko <yegor@tpc2.com>
+# Source: http://github.com/yegor256/jekyll-git-hash
+#
+# Distributed under the MIT license
+# Copyright Yegor Bugayenko, 2014
+
+module Jekyll
+    class GitHashGenerator < Generator
+      priority :high
+      safe true
+      def generate(site)
+        hash = %x( git rev-parse HEAD ).strip
+        site.data['sha'] = hash
+        short_hash = %x( git rev-parse --short HEAD ).strip
+        site.data['short_sha'] = short_hash
+        timestamp = %x( git show -s --format=%ci ).strip
+        site.data['timestamp'] = timestamp
+      end
+    end
+end
