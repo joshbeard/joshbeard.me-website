@@ -1,50 +1,69 @@
+/*
+  ==== Common Defaults
+*/
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
+
 body {
-    background: #1f1f1f;
     font-size: calc(26px + (26 - 12) * ((100vw - 300px) / (1600 - 300)));
     margin: 0;
     padding: 0;
+    background: #1f1f1f;
 }
 
-#container {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+a {
+    color: #77CBE9;
 }
 
-#header {
-    border-bottom: 1px solid #207A4C;
-    text-align: center;
-    padding: 6px;
-    background: #282835;
-}
-
-#header h1 {
+h1 {
     margin: 6px;
     letter-spacing: 2px;
     font-weight: 500;
     font-family: "Play", sans;
 }
 
-#header h1 a {
+h1 a {
     color: #71B8ED;
     text-decoration: none;
 }
 
-#header h1 a:hover {
+h1 a:hover {
     color: #5AF2F0;
 }
 
-#header h2 {
-    color: #71B8ED;
-    margin: 6px;
+
+h2 {
     letter-spacing: 4px;
     color: #71B8ED;
+}
+
+blockquote {
+    border-left: 3px solid #7EB758;
+    padding: 2px 0 2px 8px;
+    margin: 10px 0 10px 0;
+    font-style: italic;
+    color: #EDF7FF;
+}
+
+/*
+  ==== Common Containers
+*/
+#container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-bottom: 1px solid #207A4C;
+}
+
+#header {
+    text-align: center;
+    padding: 6px;
+    background: #282835;
+    border-bottom: 1px solid #207A4C;
 }
 
 #content {
@@ -52,64 +71,46 @@ body {
     color: #fff;
 }
 
-#content #home #links {
+#header, #content, #footer {
+    flex-shrink: 0;
+}
+
+/*
+  ==== Home Page
+*/
+li.home_link a,
+a.bottom_link,
+#error a {
+    color: #AE93DD;
+    text-decoration: none;
+}
+
+li.home_link a:hover,
+a.bottom_link:hover,
+#error a:hover {
+    color: #71EDBE;
+}
+
+div.home_links {
     padding: 2px;
     margin: auto;
     margin-bottom: 10px;
     display: table;
 }
 
-#content #home #links h2 {
-    color: #ED9971;
-    border-bottom: 1px solid #B46E4C;
-    margin: 4px;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
-#content #home #links ul {
+ul.home_links {
     margin: 10px;
     list-style-type: none;
     list-style-position: inside;
     color: #fff;
 }
 
-#content #home #links li {
+li.home_link {
     margin-bottom: 8px;
 }
 
-#content #home #links ul li span {
+li.home_link span {
     font-family: "Play", sans;
-}
-
-#content #home #links a,
-span.bottom_text a,
-#error a {
-    color: #AE93DD;
-    text-decoration: none;
-}
-#content #home #links a:hover,
-span.bottom_text a:hover,
-#error a:hover {
-    color: #71EDBE;
-}
-
-#content #home #images {
-    margin-top: 8px;
-    border: 1px solid #AE93DD;
-    padding: 2px;
-}
-
-#content #home #images h2 {
-    color: #AE93DD;
-    border-bottom: 1px solid #655E70;
-    margin: 4px;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
-#header, #content, #footer {
-    flex-shrink: 0;
 }
 
 div#home {
@@ -133,6 +134,88 @@ div#home {
     font-size: 0.6em;
 }
 
+
+/*
+  ==== Pages
+*/
+div#page {
+    margin: 0 80px 0 80px;
+    font-family: "Ubuntu";
+    font-variant: none;
+    word-spacing: 0;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 18px;
+}
+
+div#page a:hover {
+    color: #77E9A4;
+}
+
+div#page h2 {
+    text-align: center;
+    font-family: "Play";
+    color: #8FCF63;
+    letter-spacing: 4px;
+    font-size: 42px;
+}
+
+div#page h3 {
+    color: #9663C3;
+    font-family: "Play";
+    margin-top: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+div#page h3 a {
+    color: #71B8ED;
+    text-decoration: none;
+}
+
+div#page h3.subsubtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #7EB758;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+div#page p {
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+div#page_content {
+    margin-top: 20px;
+}
+
+div#page ul {
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+#page .centered_text {
+    text-align: center;
+    font-size: 22px;
+}
+
+#page_content pre {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: .9em;
+    background-color: #262E33;
+    border: 1px solid #3E4C54;
+    border-radius: 6px;
+    padding: 8px 8px 8px 8px;
+    margin: 16px 0 16px 0;
+}
+
+/*
+  ==== Bottom Text
+*/
 span.bottom_text {
     text-align: center;
     display: block;
@@ -146,11 +229,6 @@ span.bottom_text {
 span.finger {
     font-family: "Ubuntu Mono", monospace;
     margin-top: 2px;
-}
-
-div#page p {
-    margin-bottom: 12px;
-    line-height: 1.3;
 }
 
 .site_version {
@@ -167,6 +245,9 @@ a.version_sha {
     color: #4F889C;
 }
 
+/*
+  ==== Footer
+*/
 #footer {
     text-align: center;
     width: 100%;
@@ -192,98 +273,6 @@ a.version_sha {
     text-decoration: underline;
 }
 
-div#page,
-div#portfolio {
-    margin: 0 80px 0 80px;
-}
-
-div#portfolio,
-div#page {
-    font-family: "Ubuntu";
-    font-variant: none;
-    word-spacing: 0;
-    font-weight: normal;
-    letter-spacing: 0;
-    font-size: 18px;
-}
-
-/*
-div#page a,
-div#portfolio a {
-*/
-a {
-    color: #77CBE9;
-}
-
-div#page a:hover,
-div#portfolio a:hover {
-    color: #77E9A4;
-}
-
-div#page h2,
-div#portfolio h2 {
-    text-align: center;
-    font-family: "Play";
-    color: #8FCF63;
-    letter-spacing: 4px;
-    font-size: 42px;
-}
-
-div#page h3,
-div#portfolio h3 {
-    color: #9663C3;
-    font-family: "Play";
-    margin-top: 40px;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    font-size: 28px;
-}
-
-div#page h3 a,
-div#portfolio h3 a {
-    color: #71B8ED;
-    text-decoration: none;
-}
-
-div#page h3.subsubtitle,
-div#portfolio h3.subsubtitle {
-    text-align: center;
-    font-size: 18px;
-    color: #7EB758;
-    margin-top: 0;
-    letter-spacing: 1px;
-}
-
-div#page ul,
-div#portfolio ul {
-    font-size: 18px;
-    margin-left: 20px;
-    line-height: 1.5;
-    margin-bottom: 12px;
-}
-
-div#portfolio ul li,
-div#portfolio ul li {
-    font-variant: none;
-    margin-bottom: 10px;
-}
-
-#page .centered_text,
-#portfolio .centered_text {
-    text-align: center;
-    font-size: 22px;
-}
-
-#page_content pre {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: .9em;
-    background-color: #262E33;
-    border: 1px solid #3E4C54;
-    border-radius: 6px;
-    padding: 8px 8px 8px 8px;
-    margin: 16px 0 16px 0;
-}
-
 div.ascii-art #page_content pre {
     background-color: transparent;
     padding: 0;
@@ -299,20 +288,8 @@ code.language-ascii-art {
     color: #4F726A;
 }
 
-div#page_content {
-    margin-top: 20px;
-}
-
-blockquote {
-    border-left: 3px solid #7EB758;
-    padding: 2px 0 2px 8px;
-    margin: 10px 0 10px 0;
-    font-style: italic;
-    color: #EDF7FF;
-}
-
 /*
-  Menu
+  ==== Menu
 */
 div#menu_bar {
     color: #fff;
@@ -343,7 +320,7 @@ div#menu_bar ul li a {
 }
 
 /*
-  Posts
+  ==== Posts
 */
 div#page h3.post_title {
     margin-bottom: 0;
@@ -396,6 +373,9 @@ div.post-nav a:hover {
     text-decoration: underline;
 }
 
+/*
+  ==== Media Overrides
+*/
 @media (max-width: 480px) {
     div#page,
     div#portfolio{
