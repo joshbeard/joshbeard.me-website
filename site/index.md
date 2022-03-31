@@ -11,16 +11,25 @@ I also deploy a [Small Internet](small.html) stack (Gopher, Gemini).
 ### Framework
 
 This is a [Jekyll](https://jekyllrb.com/) site with a completely custom theme
-and layout. The site was originally a single landing page, but I've expanded it.
-Being Jekyll, it's completely static. It doesn't use JavaScript, cookies,
-analytics, or anything like that. It's a simple static website. See my [Smol
-Stack](/posts/2022/03/28/smol-stack.html)
+and layout. Being Jekyll, it's completely static. See my [Smol Stack](/posts/2022/03/28/smol-stack.html)
 post for information about alternatives to HTTP/WWW for this site.
+
+The site should be mobile friendly.
+
+#### JavaScript and Cookies
+
+A "light" (colors) CSS theme for my site can be toggled using
+the icon in the top right of the page. A cookie is used called `theme` to
+remember the style between pages. No cookie is created until the theme is
+toggled. JavaScript is used to toggle the CSS and to set the cookie, which
+expires after the browser session.
+
+The site does not require JavaScript or Cookies.
+
+#### Fonts
 
 I use [FontAwesome](https://fontawesome.com/) for the icons on the landing page
 and a couple of fonts from Google Web Fonts. All assets are hosted locally.
-
-The site should be mobile friendly.
 
 ```ascii-art
       _ _

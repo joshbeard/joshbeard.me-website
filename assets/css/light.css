@@ -1,0 +1,209 @@
+/*
+  ==== Common Defaults
+*/
+body {
+    background: #F2F2F2;
+}
+
+a {
+    color: #0F4BD4;
+}
+
+a:hover {
+    color: #279D3E;
+}
+
+h1 a {
+    color: #fff;
+    text-shadow: -1px -1px #383A44;
+}
+
+h1 a:hover {
+    color: #fff;
+}
+
+
+h2 {
+    color: #71B8ED;
+}
+
+blockquote {
+    border-left: 3px solid #7EB758;
+    color: #737373;
+}
+
+/*
+  ==== Common Containers
+*/
+#header {
+    background: #418564;
+    border-bottom: 1px solid #2E5E47;
+}
+
+#content {
+    color: #1f1f1f;
+}
+
+#theme_toggle {
+    color: #68B891;
+}
+#theme_toggle:hover {
+    color: #305543;
+}
+
+/*
+  ==== Home Page
+*/
+li.home_link a,
+a.bottom_link,
+#error a {
+    color: #4B8C9D;
+    color: #383A44;
+    color: #525463;
+    text-decoration: none;
+}
+
+li.home_link a:hover,
+a.bottom_link:hover,
+#error a:hover {
+    color: #91569F;
+    color: #0F4BD4;
+    color: #449D65;
+}
+
+#error {
+    color: #1f1f1f;
+}
+
+/*
+  ==== Pages
+*/
+div#page a:hover {
+    color: #7143C4;
+    color: #279D3E;
+}
+
+div#page h2 {
+    color: #418464;
+}
+
+div#page h3 {
+    color: #9663C3;
+}
+
+div#page h3 a {
+    color: #9663C3;
+}
+
+div#page h3.subsubtitle {
+    color: #7EB758;
+}
+
+#page_content pre {
+    background-color: #fff;
+    border: 1px solid #79B153;
+}
+
+/*
+  ==== Bottom Text
+*/
+span.bottom_text {
+    color: #CACACA;
+}
+
+.site_version {
+    color: #909090;
+    border-top: 1px solid #909090;
+}
+
+a.version_sha {
+    color: #4F889C;
+}
+
+/*
+  ==== Footer
+*/
+#footer span {
+    color: #656565;
+}
+
+#footer a {
+    color: #7E748F;
+    color: #556F98;
+}
+
+div.ascii-art #page_content pre {
+    background-color: transparent;
+}
+
+code.language-ascii-art {
+    background-color: transparent;
+    color: #4F726A;
+}
+
+/*
+  ==== Menu
+*/
+div#menu_bar {
+    color: #fff;
+    background: #383A44;
+    border-bottom: 1px solid #fff;
+}
+div#menu_bar ul li {
+    border-right: 1px solid #303642;
+}
+div#menu_bar ul li:first-child {
+    border-left: 1px solid #303642;
+}
+div#menu_bar ul li:hover {
+    background:#555D71;
+}
+div#menu_bar ul li a {
+    color: #fff;
+}
+
+/*
+  ==== Posts
+*/
+div.post_date {
+    color: #A5A5A5;
+}
+
+.post_page_footer {
+    background: #1F1F1F;
+}
+
+div.post-nav a {
+    color: #71EDBE;
+}
+
+div.post-nav a:hover {
+    color: #71EDBE;
+}
+
+/*
+  ==== Media Overrides
+*/
+@media (max-width: 480px) {
+    div#page,
+    div#portfolio{
+       margin: 0 20px 0 20px;
+    }
+    #page_content pre {
+        white-space: pre-wrap;       /* css-3 */
+        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+   }
+}
+
+@media (max-width: 440px) {
+    div#page,
+    div#portfolio{
+       margin: 0 10px 0 10px;
+    }
+    div#menu_bar ul li {
+        padding: 4px 10px 4px 10px;
+    }
+}

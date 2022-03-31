@@ -30,7 +30,9 @@
         </title>
 
         <link href="{{ "/assets/css/style.css" | relative_url | bust_cache }}" rel="stylesheet" />
+        <link id="css_style_light" href="{{ "/assets/css/light.css" | relative_url | bust_cache }}" rel="stylesheet" disabled="disabled"/>
         <link href="{{ "/assets/css/syntax.css" | relative_url | bust_cache }}" rel="stylesheet" />
+        <link id="css_syntax_light" href="{{ "/assets/css/syntax-light.css" | relative_url | bust_cache }}" rel="stylesheet" disabled="disabled" />
         <link href="{{ "/assets/css/font.css" | relative_url | bust_cache }}" rel="stylesheet" />
         <link href="{{ "/assets/fa/css/all.min.css" | relative_url | bust_cache }}" rel="stylesheet" />
 
@@ -41,8 +43,9 @@
         <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     </head>
 
-    <body>
+    <body onLoad="loadTheme()">
         <div id="container">
             <div id="header">
+                <div id="theme_toggle"><i class="fa-solid fa-circle-half-stroke" title="Toggle light/dark" onclick="toggle()"></i></div>
                 <h1><a href="/">Josh Beard</a></h1>
             </div>
