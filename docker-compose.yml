@@ -3,7 +3,7 @@ services:
 
   site:
     image: jekyll/jekyll
-    command: jekyll serve --force_polling
+    command: bash -c "bundle install && jekyll serve --force_polling"
     ports:
       - 4000:4000
     volumes:
