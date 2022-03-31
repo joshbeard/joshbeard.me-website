@@ -1,5 +1,8 @@
 ---
 title: My GPG Keys
+meta_title: GPG Keys
+description: My GPG Keys and Related Resources
+keywords: gpg, gpg keys, gpg-keys, pgp
 layout: page
 permalink: /gpg/
 ---

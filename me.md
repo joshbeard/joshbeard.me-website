@@ -1,5 +1,7 @@
 ---
 title: About Josh Beard
+meta_title: About Me
+description: About Josh Beard
 layout: page
 permalink: /me/
 class: ascii-art

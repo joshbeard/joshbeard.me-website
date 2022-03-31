@@ -1,5 +1,7 @@
 ---
 title: About This Site
+meta_title: About This Site
+description: Information about this website
 layout: page
 permalink: /site/
 class: ascii-art
