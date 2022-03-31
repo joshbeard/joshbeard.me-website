@@ -300,6 +300,7 @@ div#menu_bar {
 }
 div#menu_bar ul {
     display: inline;
+    padding: unset;
 }
 div#menu_bar ul li {
     display: inline-block;
