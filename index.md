@@ -1,5 +1,7 @@
 ---
 title: Josh Beard
+show_meta_title: false
+description: Josh Beard is an IT professional in Colorado
 layout: home
 permalink: /
 ---
@@ -11,6 +13,5 @@ permalink: /
         <li><a href="https://github.com/joshbeard" title="github.com/joshbeard"><i class="fab fa-fw fa-github"></i>&nbsp;<span>GitHub</span></a></li>
         <li><a href="mailto:hello@joshbeard.me" title="hello@joshbeard.me"><i class="fas fa-fw fa-envelope"></i>&nbsp;<span>E-Mail</span></a></li>
         <li><a href="/gpg" title="My GPG keys"><i class="fas fa-fw fa-key"></i>&nbsp;<span>GPG</span></a></li>
-        <li><a href="/site/" title="About This Site"><i class="fas fa-fw fa-layer-group"></i>&nbsp;<span>Site Info</span></a></li>
     </ul>
 </div>
