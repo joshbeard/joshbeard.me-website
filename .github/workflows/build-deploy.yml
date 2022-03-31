@@ -16,8 +16,6 @@ jobs:
 
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
-        with:
-          command: bash -c "bundle install && jekyll build"
 
       - uses: actions/upload-artifact@master
         with:
