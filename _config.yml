@@ -2,6 +2,7 @@
 ---
 name: Josh Beard
 source: .
+url: https://joshbeard.me
 destination: ./_site
 permalink: /posts/:year/:month/:day/:title:output_ext
 exclude:
@@ -18,3 +19,9 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
+
+plugins:
+  - jekyll-target-blank
+
+target-blank:
+    add_css_classes: ext
