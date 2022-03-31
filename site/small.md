@@ -77,5 +77,3 @@ echo "josh" | nc jbeard.co 79
 ### Resources
 
 * [Poor Man's Web - The Small Web](https://zserge.com/posts/small-web/)
-
-_This post will be [updated](https://github.com/joshbeard/joshbeard.me-website/commits/master/_posts/2022-03-28-smol-stack.md) occassionally._
