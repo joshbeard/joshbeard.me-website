@@ -8,3 +8,4 @@ gem "jekyll"
 gem "kramdown"
 gem "rouge"
 gem 'jekyll-target-blank'
+gem 'jekyll-sitemap'

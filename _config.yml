@@ -22,6 +22,14 @@ kramdown:
 
 plugins:
   - jekyll-target-blank
+  - jekyll-sitemap
 
 target-blank:
     add_css_classes: ext
+
+defaults:
+  -
+    scope:
+      path:            "assets/**/*"
+    values:
+      sitemap:         false
