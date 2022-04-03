@@ -57,18 +57,14 @@ blockquote {
 li.home_link a,
 a.bottom_link,
 #error a {
-    color: #4B8C9D;
-    color: #383A44;
-    color: #525463;
+    color: #6F7186;
     text-decoration: none;
 }
 
 li.home_link a:hover,
 a.bottom_link:hover,
 #error a:hover {
-    color: #91569F;
-    color: #0F4BD4;
-    color: #449D65;
+    color: #9663C3;
 }
 
 #error {
@@ -128,8 +124,11 @@ a.version_sha {
 }
 
 #footer a {
-    color: #7E748F;
     color: #556F98;
+}
+
+#footer a:hover {
+    color: #9663C3;
 }
 
 div.ascii-art #page_content pre {
@@ -149,12 +148,16 @@ div#menu_bar {
     background: #383A44;
     border-bottom: 1px solid #fff;
 }
+/*
 div#menu_bar ul li {
     border-right: 1px solid #303642;
+    border-right: 1px solid #5B5F6F;
 }
 div#menu_bar ul li:first-child {
     border-left: 1px solid #303642;
+    border-left: 1px solid #5B5F6F;
 }
+*/
 div#menu_bar ul li:hover {
     background:#555D71;
 }

@@ -310,6 +310,7 @@ a.version_sha {
 
 #footer a:hover {
     text-decoration: underline;
+    color: #71EDBE;
 }
 
 div.ascii-art #page_content pre {
@@ -333,24 +334,25 @@ code.language-ascii-art {
 */
 div#menu_bar {
     color: #fff;
-    text-align: center;
     background: #242831;
     border-bottom: 1px solid #207A4C;
     font-size: .7em;
+    text-align: center;
 }
 div#menu_bar ul {
     display: inline;
-    padding: unset;
+    padding: 0;
+    margin: 0 auto;
 }
 div#menu_bar ul li {
-    display: inline-block;
-    border-right: 1px solid #303642;
-    padding: 4px 16px 4px 16px;
+    display: inline;
+    padding: 0 12px 0 12px;
+    margin: 0 auto;
     font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
     font-family: "Play", sans;
 }
 div#menu_bar ul li:first-child {
-    border-left: 1px solid #303642;
 }
 div#menu_bar ul li:hover {
     background:#555D71;
