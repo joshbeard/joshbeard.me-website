@@ -23,6 +23,7 @@ kramdown:
 plugins:
   - jekyll-target-blank
   - jekyll-sitemap
+  - jekyll-git_metadata
 
 target-blank:
     add_css_classes: ext

@@ -88,6 +88,6 @@ ejm97         `
 ```
 
 <div class="site_version">
-Version <a href="https://github.com/joshbeard/joshbeard.me-website/commit/{{ site.data['sha']}}" class="version_sha">{{ site.data['short_sha']}}</a>
-<span class="version_timestamp">{{ site.data['timestamp'] }}</span>
+Version <a href="https://github.com/joshbeard/joshbeard.me-website/commit/{{ site.git['last_commit']['long_sha'] }}" class="version_sha">{{ site.git['last_commit']['short_sha'] }}</a>
+<span class="version_timestamp">{{ site.git['last_commit']['commit_date'] }}</span>
 </div>
