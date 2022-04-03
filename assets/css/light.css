@@ -44,10 +44,10 @@ blockquote {
     color: #1f1f1f;
 }
 
-#theme_toggle {
+#theme_button {
     color: #68B891;
 }
-#theme_toggle:hover {
+#theme_button:hover {
     color: #305543;
 }
 
@@ -166,7 +166,7 @@ div#menu_bar ul li a {
   ==== Posts
 */
 div.post_date {
-    color: #A5A5A5;
+    color: #676767;
 }
 
 .post_page_footer {

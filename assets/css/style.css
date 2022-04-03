@@ -66,7 +66,7 @@ blockquote {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    border-bottom: 1px solid #207A4C;
+    margin-bottom: 8px;
 }
 
 #header {
@@ -89,13 +89,18 @@ blockquote {
     position: absolute;
     top: 10px;
     right: 10px;
+}
+#theme_button {
     color: #7E738F;
     font-size: .6em;
+    background: none;
+    border: none;
 }
-#theme_toggle:hover {
+#theme_button:hover {
     color: #B989B2;
     cursor: pointer;
 }
+
 
 /*
   ==== Home Page
@@ -299,6 +304,7 @@ a.version_sha {
 
 #footer a {
     color: #7E748F;
+    color: #9E92B3;
     text-decoration: none;
 }
 
@@ -319,6 +325,7 @@ code.language-ascii-art {
     padding: 2px;
     font-size: .9em;
     color: #4F726A;
+    color: #72A499;
 }
 
 /*
@@ -360,7 +367,7 @@ div#page h3.post_title {
     margin-bottom: 0;
 }
 div.post_date {
-    color: #A5A5A5;
+    color: #AFAFAF;
 }
 div.post_content {
     margin-top: 10px;

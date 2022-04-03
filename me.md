@@ -82,4 +82,4 @@ several projects. The type of code I am typically working with is Terraform,
 Python, Ansible, Puppet, Shell, YAML and JSON, and an assortment of others on
 occassion. I work with AWS, Docker, and GitLab a lot.
 
-See my [resume](/resume/) for more details about my professional experience.
+See [my resume](/resume/) for more details about my professional experience.
