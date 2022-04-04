@@ -290,6 +290,7 @@ a.version_sha {
 #footer {
     text-align: center;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 #footer span {
@@ -440,5 +441,29 @@ div.post-nav a:hover {
     }
     div#menu_bar ul li {
         padding: 4px 10px 4px 10px;
+    }
+}
+
+@media print {
+    html, body, #header {
+        background: none;
+    }
+    div#menu_bar {
+        display: none;
+    }
+    div#footer {
+        display: none;
+    }
+    #header {
+        border-bottom: none;
+    }
+    div#page h3 {
+        margin-top: 10px;
+    }
+    div#page_content {
+        margin-top: 0;
+    }
+    #theme_toggle {
+        display: none;
     }
 }
