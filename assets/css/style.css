@@ -58,6 +58,13 @@ blockquote {
     color: #EDF7FF;
 }
 
+hr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #393939;
+    border-radius: 5px;
+}
+
 /*
   ==== Common Containers
 */

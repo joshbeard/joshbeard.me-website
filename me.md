@@ -7,6 +7,8 @@ permalink: /me/
 class: ascii-art
 ---
 
+See my [now page](/now/) for a summary of what I'm up to lately.
+
 ### Personal
 
 I'm a somewhat private and introverted person, especially online, so having a

@@ -32,6 +32,10 @@ blockquote {
     color: #737373;
 }
 
+hr {
+    border: 1px solid #E0E0E0;
+}
+
 /*
   ==== Common Containers
 */
