@@ -45,6 +45,11 @@ jgs \\ |/  //
 ^^^^^^^^^^^^^^^
 ```
 
+### ASCII Art
+
+The ASCII art is credited with the artists's "tag" or initials. Most is taken from
+<https://asciiart.website/index.php?art=nature/islands>
+
 ### Hosting
 
 I've hosted my website(s) all sorts of ways over the years - a server at home,

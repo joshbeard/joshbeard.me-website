@@ -337,6 +337,10 @@ code.language-ascii-art {
     color: #72A499;
 }
 
+code.language-ascii-art-small {
+    font-size: .6em;
+}
+
 /*
   ==== Menu
 */
