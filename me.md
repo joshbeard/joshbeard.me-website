@@ -123,9 +123,6 @@ computers from a pile of parts.
 \__|_____|_|__|
 ```
 
-As my professional life has developed, I'm mostly just using work-issued
-MacBooks day-to-day and an older, but reliable and usable, MacBook Air.
-
 * [Commodore PC Compatible](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems) (owned 1996). Ran MS-DOS. Played basic games, joined BBS.
 * [Packard Bell Pentium II 133MHz](http://pbplanet.info/wiki/index.php/Multimedia_D136) (1995-2000) Hung out on a [BBS](https://en.wikipedia.org/wiki/Bulletin_board_system), Played games like [Duke Nukem 3D](https://en.wikipedia.org/wiki/Duke_Nukem_3D) and [Sim City 2000](https://en.wikipedia.org/wiki/SimCity_2000). Windows 95, 98, 2000. Later installed [Red Hat Linux 5.2](https://www.redhat.com/en/about/press-releases/press-redhatlinux52), bought off a shelf at  a Wal-Mart, and tested other Linux distributions.
 * [Zenith SupersPort 286](https://oldcrap.org/2020/10/30/zenith-supersport-286e/) (1989; owned 1997-98) Mostly used MS-DOS and kept a journal on it. Windows 3.0 installed.
@@ -134,9 +131,7 @@ MacBooks day-to-day and an older, but reliable and usable, MacBook Air.
 * [Dell Inspiron 1750](https://rmromero.blogspot.com/2010/04/dell-inspiron-17-1750-specifications.html)(?) Laptop. (2005-2011) Windows XP, Linux (Gentoo, Ubuntu), and FreeBSD.
 * [Asus Eee PC 900](https://en.wikipedia.org/wiki/Asus_Eee_PC#Eee_900_series). (2010-2012) Ran Linux (Debian) and FreeBSD.
 * Asus Netbook. (2012-2013). Ran Linux (Ubuntu)
-* [Apple MacBook Air](https://en.wikipedia.org/wiki/MacBook_Air). (2015 - Present). Runs macOS.
 * Several Work-issued [iMacs](https://en.wikipedia.org/wiki/IMac) (2008-2010). macOS.
-* Several Work-issued [MacBooks](https://en.wikipedia.org/wiki/MacBook). Runs macOS. Used Linux on MacBooks 2010-2013.
 
 Many of these were used as home servers over the years. I ran my own e-mail
 servers at home for several years, along with web servers and an assortment of
@@ -148,6 +143,11 @@ along with an occasional Linux box.
 I started using Linux on my desktop around 2000 and continued to until I started
 exploring FreeBSD, which I ran on most of my workstations from 2004-2007. From there,
 It's been a mix of more Linux and macOS on my workstations.
+
+Currently using:
+
+* [Apple MacBook Air](https://en.wikipedia.org/wiki/MacBook_Air). (2015 - Present). Runs macOS.
+* Several Work-issued [MacBooks](https://en.wikipedia.org/wiki/MacBook). Runs macOS. Used Linux on MacBooks 2010-2013.
 
 #### Home Servers
 
