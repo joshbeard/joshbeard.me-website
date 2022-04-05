@@ -14,6 +14,7 @@ Some of this I begrudgingly use.
 ### Computers
 
 * [Apple MacBook Air](https://en.wikipedia.org/wiki/MacBook_Air). (2015 - Present). Runs macOS.
+* Apple Magic Keyboard (2022). I've used many mechanicals over this years but can't find anything I like more than this.
 * Work-issued [MacBooks](https://en.wikipedia.org/wiki/MacBook). Runs macOS.
 * Homeserver: Dell PowerEdge T410
 
@@ -38,7 +39,6 @@ The [About Me](/me/) page lists some older computers I've had.
          \::/Z/_______itz__\/Z/
           \/ZZZZZZZZZZZZZZZZZ/
 ```
-
 
 ### Software
 
