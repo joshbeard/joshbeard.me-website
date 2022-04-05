@@ -75,11 +75,6 @@ See [my resume](/resume/) for more details about my professional experience.
 
 ### The Good ol' Days
 
-I've been a computer hobbyist since I was a kid/teen in the mid-late 90's, starting with
-our [obsolete family computer](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems)
-bought from a garage sale, the next family computer, and several other outdated
-computers I collected from people back then.
-
 ```ascii-art-left
                   .----.
       .---------. | == |
@@ -92,6 +87,11 @@ computers I collected from people back then.
     /:::=======:::\`\`\
 jgs `"""""""""""""`  '-'
 ```
+
+I've been a computer hobbyist since I was a kid/teen in the mid-late 90's, starting with
+our [obsolete family computer](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems)
+bought from a garage sale, the next family computer, and several other outdated
+computers I collected from people back then.
 
 I took an interest in Linux and Free and Open Source Software around 1999 and
 became particuarily interested in setting up and administering servers and
@@ -147,7 +147,8 @@ It's been a mix of more Linux and macOS on my workstations.
 Currently using:
 
 * [Apple MacBook Air](https://en.wikipedia.org/wiki/MacBook_Air). (2015 - Present). Runs macOS.
-* Several Work-issued [MacBooks](https://en.wikipedia.org/wiki/MacBook). Runs macOS. Used Linux on MacBooks 2010-2013.
+* Several Work-issued [MacBooks](https://en.wikipedia.org/wiki/MacBook) since 2010. Runs macOS. Used Linux on MacBooks 2010-2013.
+* See my [uses page](/uses/) for more information on what I'm using these days.
 
 #### Home Servers
 
