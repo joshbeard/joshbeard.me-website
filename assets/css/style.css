@@ -321,26 +321,6 @@ a.version_sha {
     color: #71EDBE;
 }
 
-div.ascii-art #page_content pre {
-    background-color: transparent;
-    padding: 0;
-    margin: 12px 0 12px 0;
-    border: none;
-}
-
-code.language-ascii-art {
-    background-color: transparent;
-    border: 0;
-    padding: 2px;
-    font-size: .9em;
-    color: #4F726A;
-    color: #72A499;
-}
-
-code.language-ascii-art-small {
-    font-size: .6em;
-}
-
 /*
   ==== Menu
 */
@@ -427,6 +407,40 @@ div.post-nav a:hover {
     color: #71EDBE;
     text-decoration: underline;
 }
+
+#page_content pre,
+div.ascii-art #page_content pre {
+    background-color: transparent;
+    padding: 0;
+    margin: 12px 0 12px 0;
+    border: none;
+}
+
+code.language-ascii-art-small,
+code.language-ascii-art-right,
+code.language-ascii-art-left,
+code.language-ascii-art {
+    background-color: transparent;
+    border: 0;
+    padding: 2px;
+    font-size: .9em;
+    color: #4F726A;
+    color: #72A499;
+}
+
+code.language-ascii-art-small {
+    font-size: 8px;
+}
+
+code.language-ascii-art-right {
+    float: right;
+    margin: 10px 0 10px 20px;
+}
+code.language-ascii-art-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+
 
 /*
   ==== Media Overrides
