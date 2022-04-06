@@ -15,7 +15,7 @@ permalink: /
         -->
         <li class="home_link"><a href="https://github.com/joshbeard" title="github.com/joshbeard"><i class="fab fa-fw fa-github"></i>&nbsp;<span>GitHub</span></a></li>
         <li class="home_link"><a href="mailto:hello@joshbeard.me" title="hello@joshbeard.me"><i class="fas fa-fw fa-envelope"></i>&nbsp;<span>E-Mail</span></a></li>
-        <li class="home_link"><a href="/gpg/" title="My GPG keys"><i class="fas fa-fw fa-key"></i>&nbsp;<span>GPG Keys</span></a></li>
+        <li class="home_link"><a href="/pgp/" title="My PGP keys"><i class="fas fa-fw fa-key"></i>&nbsp;<span>PGP Keys</span></a></li>
         <li class="home_link"><a href="/uses/" title="Uses"><i class="fas fa-fw fa-gear"></i>&nbsp;<span>What I Use</span></a></li>
     </ul>
 </div>

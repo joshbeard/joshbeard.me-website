@@ -6,6 +6,7 @@ layout: page
 permalink: /uses/
 class: ascii-art
 ---
+## What I Use
 
 This is my [uses page](https://uses.tech/).
 

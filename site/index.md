@@ -6,6 +6,8 @@ layout: page
 permalink: /site/
 class: ascii-art
 ---
+## About This Site
+
 I also deploy a [Small Internet](small.html) stack (Gopher, Gemini).
 
 ### Framework

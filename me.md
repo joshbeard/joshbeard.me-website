@@ -6,6 +6,7 @@ layout: page
 permalink: /me/
 class: ascii-art
 ---
+## About Josh Beard
 
 See my [now page](/now/) for a summary of what I'm up to lately.
 
@@ -124,7 +125,7 @@ computers from a pile of parts.
 ```
 
 * [Commodore PC Compatible](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems) (owned 1996). Ran MS-DOS. Played basic games, joined BBS.
-* [Packard Bell Pentium II 133MHz](http://pbplanet.info/wiki/index.php/Multimedia_D136) (1995-2000) Hung out on a [BBS](https://en.wikipedia.org/wiki/Bulletin_board_system), Played games like [Duke Nukem 3D](https://en.wikipedia.org/wiki/Duke_Nukem_3D) and [Sim City 2000](https://en.wikipedia.org/wiki/SimCity_2000). Windows 95, 98, 2000. Later installed [Red Hat Linux 5.2](https://www.redhat.com/en/about/press-releases/press-redhatlinux52), bought off a shelf at  a Wal-Mart, and tested other Linux distributions.
+* [Packard Bell Pentium II 133MHz](http://pbplanet.info/wiki/index.php/Multimedia_D136) (1995-2000) Hung out on a [BBS,](https://en.wikipedia.org/wiki/Bulletin_board_system) Played games like [Duke Nukem 3D](https://en.wikipedia.org/wiki/Duke_Nukem_3D) and [Sim City 2000.](https://en.wikipedia.org/wiki/SimCity_2000) Windows 95, 98, 2000. Later installed [Red Hat Linux 5.2](https://www.redhat.com/en/about/press-releases/press-redhatlinux52), bought off a shelf at  a Wal-Mart, and tested other Linux distributions.
 * [Zenith SupersPort 286](https://oldcrap.org/2020/10/30/zenith-supersport-286e/) (1989; owned 1997-98) Mostly used MS-DOS and kept a journal on it. Windows 3.0 installed.
 * Several no-name [386](https://en.wikipedia.org/wiki/I386) and [486s](https://en.wikipedia.org/wiki/I486) (1997-2005). Ran mostly DOS. Installed Windows 95 from floppy on a 486. Also ran Linux and FreeBSD on these over the years.
 * Several no-name [Pentiums](https://en.wikipedia.org/wiki/Pentium_(original)) and [AMD K5/K6](https://en.wikipedia.org/wiki/Advanced_Micro_Devices#CPUs_and_APUs) (1999-2005). Ran Linux and FreeBSD.

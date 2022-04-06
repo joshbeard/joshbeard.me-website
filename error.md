@@ -5,9 +5,6 @@ layout: home
 permalink: /error.html
 sitemap: false
 ---
+## Error - Not Found
 
-<div id="error">
-Not found.
-<br />
-<span class="error_return">[ <a href="/" class="error_return">Home</a> ]</span>
-</div>
+[Return Home](/)

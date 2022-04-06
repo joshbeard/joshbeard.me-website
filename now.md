@@ -6,6 +6,7 @@ layout: page
 permalink: /now/
 class: ascii-art
 ---
+## What I'm Up To Lately
 
 This is what I'm doing as of April 5, 2022:
 
