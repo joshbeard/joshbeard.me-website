@@ -5,9 +5,11 @@ description: My Small Internet Stack
 layout: page
 permalink: /site/small.html
 ---
+## Small Internet Stack
+
 I've recently taken an interest in what's been dubbed the [Smol Internet](https://thedorkweb.substack.com/p/gopher-gemini-and-the-smol-internet?s=r),
 "small Internet", or "the Dork web". In this context, it refers to simpler
-protocols, sometimes old ones, in contemporary use. This also has cross over with the [Yesterweb](https://yesterweb.org/).
+protocols, sometimes old ones, in contemporary use. This also has cross over with the "indie web" communities.
 I've deployed my own stack and content of some of these services for fun.
 
 <!-- more -->
@@ -36,9 +38,9 @@ playbook for the whole stack.
 The [Gopher](https://en.wikipedia.org/wiki/Gopher_(protocol)) protocol predates the web but still has an active
 community of enthusiasts.
 
-* __Gopher__: <a href="gopher://jbeard.co">gopher://jbeard.co</a>
+__Gopher__: <a href="gopher://jbeard.co">gopher://jbeard.co</a>
 
-Gopher response using netcat:
+Gopher response using [Netcat](https://www.varonis.com/blog/netcat-commands):
 
 ```shell
 echo | ncat jbeard.co 70
@@ -50,7 +52,9 @@ A newer protocol that was introduced only a few years ago is
 [Gemini](https://gemini.circumlunar.space/). This is somewhere between
 Gopher and the Web/HTTP - probably closer to the Gopher side.
 
-* __Gemini__: <a href="gemini://jbeard.co">gemini://jbeard.co</a>
+__Gemini__: <a href="gemini://jbeard.co">gemini://jbeard.co</a>
+
+Gemini response using [Netcat](https://www.varonis.com/blog/netcat-commands):
 
 ```shell
 echo "gemini://jbeard.co/" | ncat -C --ssl jbeard.co 1965
@@ -68,7 +72,7 @@ With the `finger` command:
 finger josh@jbeard.co
 ```
 
-With [Netcat](https://www.varonis.com/blog/netcat-commands):
+Finger response using [Netcat](https://www.varonis.com/blog/netcat-commands):
 
 ```shell
 echo "josh" | nc jbeard.co 79
