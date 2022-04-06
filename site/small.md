@@ -10,9 +10,7 @@ permalink: /site/small.html
 I've recently taken an interest in what's been dubbed the [Smol Internet](https://thedorkweb.substack.com/p/gopher-gemini-and-the-smol-internet?s=r),
 "small Internet", or "the Dork web". In this context, it refers to simpler
 protocols, sometimes old ones, in contemporary use. This also has cross over with the "indie web" communities.
-I've deployed my own stack and content of some of these services for fun.
-
-<!-- more -->
+I've deployed my own stack and content for some of these services for fun.
 
 ### Apps
 
