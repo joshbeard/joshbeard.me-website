@@ -80,7 +80,7 @@ jobs:
             aws s3 cp s3://${{ secrets.AWS_S3_BUCKET }}/${f} s3://${{ secrets.AWS_S3_BUCKET }}/${f} --acl public-read --cache-control max-age=1209600
           done
           # One day for html
-          for f in *.html gpg/* files/*; do
+          for f in *.html site/* pgp/* files/*; do
             aws s3 cp s3://${{ secrets.AWS_S3_BUCKET }}/${f} s3://${{ secrets.AWS_S3_BUCKET }}/${f} --acl public-read --cache-control max-age=86400
           done
         env:
