@@ -21,7 +21,7 @@ This is my [uses page](https://uses.tech/).
 * MacBook Pro (2021) (Work). Runs macOS.
 * MacBook Air (2012). Runs macOS.
 * Apple Magic Keyboard (2022). I've used many mechanicals and other styles over
-  this years but can't find anything I like more than this. I love the low
+  the years but can't find anything I like more than this. I love the low
   profile and the feel.
 * Home server: Dell PowerEdge T410 (Runs Proxmox on Debian)
 
