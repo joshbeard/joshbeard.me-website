@@ -16,8 +16,8 @@ I also deploy a [Small Internet](small.html) stack (Gopher, Gemini).
 ### Framework
 
 This is a [Jekyll](https://jekyllrb.com/) site with a completely custom theme
-and layout. Being Jekyll, it's completely static. See my [Smol Stack](/posts/2022/03/28/smol-stack.html)
-post for information about alternatives to HTTP/WWW for this site.
+and layout. Being Jekyll, it's completely static. See my [Small Internet Stack](small.html)
+page for information about alternatives to HTTP/WWW for this site.
 
 The site should be mobile friendly.
 
