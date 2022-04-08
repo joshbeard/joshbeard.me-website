@@ -5,8 +5,11 @@ description: Now
 layout: page
 permalink: /now/
 class: ascii-art
+menus: about
 ---
 ## What I'm Up To Lately
+
+{% include submenu.html %}
 
 This is what I'm doing as of April 5, 2022:
 

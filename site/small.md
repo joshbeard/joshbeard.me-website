@@ -4,8 +4,11 @@ meta_title: "Small Internet Stack"
 description: My Small Internet Stack
 layout: page
 permalink: /site/small.html
+menus: about
 ---
 ## Small Internet Stack
+
+{% include submenu.html %}
 
 I've recently taken an interest in what's been dubbed the [Smol Internet](https://thedorkweb.substack.com/p/gopher-gemini-and-the-smol-internet?s=r),
 "small Internet", or "the Dork web". In this context, it refers to simpler

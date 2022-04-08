@@ -441,6 +441,34 @@ code.language-ascii-art-left {
     margin: 10px 20px 10px 0;
 }
 
+nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav#submenu ul {
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav#submenu li {
+    display: inline;
+}
+
+ul.sub-menu:before {
+    content: " \00b7 ";
+}
+
+.sub-menu li:after {
+    content: " \00b7 ";
+}
+
+.sub-menu li:last-child:after {
+    content: none;
+}
 
 /*
   ==== Media Overrides

@@ -5,8 +5,11 @@ description: Information about this website
 layout: page
 permalink: /site/
 class: ascii-art
+menus: about
 ---
 ## About This Site
+
+{% include submenu.html %}
 
 I also deploy a [Small Internet](small.html) stack (Gopher, Gemini).
 
