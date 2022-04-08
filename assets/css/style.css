@@ -459,11 +459,11 @@ nav#submenu li {
 }
 
 ul.sub-menu:before {
-    content: " \00b7 ";
+    content: "\20\00b7\20";
 }
 
 .sub-menu li:after {
-    content: " \00b7 ";
+    content: "\20\00b7\20";
 }
 
 .sub-menu li:last-child:after {
