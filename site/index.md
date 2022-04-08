@@ -11,13 +11,13 @@ menus: about
 
 {% include submenu.html %}
 
-I also deploy a [Small Internet](small.html) stack (Gopher, Gemini).
+See my [Small Internet Stack](small.html) page for information about
+alternatives to HTTP/WWW for this site.
 
 ### Framework
 
 This is a [Jekyll](https://jekyllrb.com/) site with a completely custom theme
-and layout. Being Jekyll, it's completely static. See my [Small Internet Stack](small.html)
-page for information about alternatives to HTTP/WWW for this site.
+and layout. Being Jekyll, it's completely static.
 
 The site should be mobile friendly.
 
