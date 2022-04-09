@@ -132,17 +132,15 @@ li.home_link a.ext:after {
 
 
 div.home_links {
-    padding: 2px;
-    margin: auto;
-    margin-bottom: 10px;
+    margin: 20px auto 20px auto;
     display: table;
 }
 
 ul.home_links {
-    margin: 10px;
-    list-style-type: none;
-    list-style-position: inside;
     color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 li.home_link {
