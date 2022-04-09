@@ -11,6 +11,8 @@ menus: about
 
 {% include submenu.html %}
 
+This is my [now page](https://nownownow.com/about).
+
 This is what I'm doing as of April 5, 2022:
 
 ```ascii-art-right
@@ -47,7 +49,3 @@ This is what I'm doing as of April 5, 2022:
 * Hiked around the Rockies in Colorado the past few years.
 * Sprucing up my website, preparing portfolio.
 * Eagerly waiting for warm weather and summer.
-
----
-
-This is my [now page](https://nownownow.com/about).
