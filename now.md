@@ -1,7 +1,7 @@
 ---
-title: Now
-meta_title: Now
-description: Now
+title: What I'm Up To Lately
+meta_title: What I'm Up To Lately
+description: What I'm Up To Lately
 layout: page
 permalink: /now/
 class: ascii-art
