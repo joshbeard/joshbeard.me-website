@@ -447,6 +447,8 @@ code.language-ascii-art-left {
 nav {
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #393939;
 }
 
 nav#submenu ul {
