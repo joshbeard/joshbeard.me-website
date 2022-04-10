@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+#git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "jekyll"
 gem "kramdown"
@@ -11,5 +11,5 @@ gem "kramdown-parser-gfm"
 gem 'jekyll-target-blank'
 gem 'jekyll-sitemap'
 gem 'jekyll-git_metadata'
-gem 'jekyll-menus'
+gem 'jekyll-menus', git: 'https://github.com/forestryio/jekyll-menus.git'
 gem 'jekyll-last-modified-at'
