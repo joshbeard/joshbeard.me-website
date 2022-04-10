@@ -252,10 +252,10 @@ div#page ul {
 
 #page_content pre {
     font-family: 'Ubuntu Mono', monospace;
-    font-size: .9em;
+    font-size: .8em;
     background-color: #262E33;
-    border: 1px solid #3E4C54;
-    border-radius: 6px;
+    border: 1px solid #245E77;
+    border-radius: 2px;
     padding: 8px 8px 8px 8px;
     margin: 16px 0 16px 0;
 }
@@ -282,15 +282,31 @@ span.finger {
     font-family: "Ubuntu Mono", monospace;
     font-size: .9em;
     color: #909090;
-    border-top: 1px solid #909090;
     padding-top: 10px;
     margin-top: 30px;
     text-align: center;
+    /* border-top: 1px solid #909090; */
 }
 
 a.version_sha {
     color: #4F889C;
 }
+
+/*
+  ==== Last Modified
+*/
+div#last_modified {
+    margin: 0 auto;
+    max-width: 720px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #393939;
+    color: #9F9F9F;
+    font-size: .7em;
+    text-align: center;
+}
+
 
 /*
   ==== Footer
@@ -409,10 +425,8 @@ div.post-nav a:hover {
     text-decoration: underline;
 }
 
-#page_content pre,
 div.ascii-art #page_content pre {
     background-color: transparent;
-    padding: 0;
     margin: 12px 0 12px 0;
     border: none;
 }

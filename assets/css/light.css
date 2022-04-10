@@ -36,6 +36,10 @@ hr {
     border: 1px solid #E0E0E0;
 }
 
+nav {
+    border-bottom: 1px solid #E0E0E0;
+}
+
 /*
   ==== Common Containers
 */
@@ -113,11 +117,16 @@ span.bottom_text {
 
 .site_version {
     color: #909090;
-    border-top: 1px solid #909090;
+    /* border-top: 1px solid #E0E0E0; */
 }
 
 a.version_sha {
     color: #4F889C;
+}
+
+div#last_modified {
+    border-top: 1px solid #E0E0E0;
+    color: #9F9F9F;
 }
 
 /*
