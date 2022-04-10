@@ -5,6 +5,10 @@
         <div id="page_content">
             {{ content }}
         </div>
+        <div id="last_modified">
+            <span class="last_modified_key">Last Modified</span>&nbsp;
+            <span class="last_modified_value">{% last_modified_at %}</span>
+        </div>
     </div>
 </div>
 {% include foot.html %}

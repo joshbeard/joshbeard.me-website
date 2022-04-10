@@ -25,6 +25,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-git_metadata
   - jekyll-menus
+  - jekyll-last-modified-at
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%Y-%m-%d'
 
 target-blank:
     add_css_classes: ext
