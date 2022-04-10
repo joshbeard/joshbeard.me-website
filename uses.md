@@ -23,6 +23,7 @@ This is my [uses page](https://uses.tech/).
 * Apple Magic Keyboard (2022). I've used many mechanicals and other styles over
   the years but can't find anything I like more than this. I love the low
   profile and the feel.
+* HP Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton).
 * Home server: Dell PowerEdge T410 (Runs Proxmox on Debian)
 
 The [My Old Computers](/old-computers.html) page lists some older computers I've had.
