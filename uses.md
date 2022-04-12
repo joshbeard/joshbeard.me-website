@@ -87,7 +87,7 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 * [saml2aws](https://github.com/Versent/saml2aws) - AWS credentials with SAML
 * [ColorSlurp](https://colorslurp.com/)
 * [google-webfonts-helper](https://colorslurp.com/) for downloading and serving Google web fonts locally
-* Puppet (not much these days)
+* [Hack monospace font](https://sourcefoundry.org/hack/)
 * See my [dotfiles](https://github.com/joshbeard/dotfiles)
 
 ### Desktop Utilities
