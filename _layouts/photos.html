@@ -4,7 +4,8 @@ class: album-list
 ---
 <h2>Photos</h2>
 <div class="album-list">
-    {% for page in site.pages %}
+    {% assign sorted = site.pages | sort: 'title' | reverse %}
+    {% for page in sorted %}
         {% if page.page_type == 'album' %}
             {% if page.hidden %}{% continue %}{% endif %}
             <div class="album-in-list">
