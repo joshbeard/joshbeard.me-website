@@ -1,0 +1,44 @@
+---
+layout: page
+page_type: album
+class: album-index
+---
+<h2><a href="/photos/">Photos</a>&nbsp;&raquo;&nbsp;{{ page.title }}</h2>
+{% if page.description %}
+<div id="album-description">
+<span class='album-description'>{{ page.description }}</span>
+</div>
+{% endif %}
+
+<div id="album-contents">
+	{% if page.albums != empty %}
+	<div id='sub-albums'>
+		<h3>Sub-Albums</h3>
+		<ul>
+		{% for album in page.albums %}
+			<li><a href="{{ album.url }}">{{ album.name }}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+	{% endif %}
+
+	<div id="album-images">
+	{% for image in page.images %}
+		<div class="image-in-album">
+			<a href="{{ image.rel_link }}"><img src="/{{image.thumb}}" class="img_thumb" /></a>
+		</div>
+	{% endfor %}
+	</div>
+
+	<div class=album-footer>
+		{% if page.prev_url %}
+		<a class="nav prev-button" href="{{ page.prev_url }}">&lt;Previous Page</a>
+		{% endif %}
+		{% if page.next_url %}
+		<a class="nav next-button" href="{{ page.next_url }}">Next Page&gt;</a>
+		{% endif %}
+	</div>
+	<div class="all-photos-link">
+		<a href="/photos/">Photos</a>&nbsp;&raquo;&nbsp;{{ page.title }}
+	</div>
+</div>

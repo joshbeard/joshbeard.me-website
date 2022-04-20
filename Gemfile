@@ -7,6 +7,7 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "kramdown"
 gem "rouge"
+gem "webrick"
 gem "kramdown-parser-gfm"
 gem 'jekyll-target-blank'
 gem 'jekyll-sitemap'

@@ -1,7 +1,8 @@
 /*
   ==== Common Defaults
 */
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -24,8 +25,8 @@ a.ext:after {
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
-    margin:0px 0px 0px 4px;
-    text-decoration:none;
+    margin: 0px 0px 0px 4px;
+    text-decoration: none;
 }
 
 h1 {
@@ -86,9 +87,12 @@ hr {
 #content {
     flex-grow: 1;
     color: #fff;
+    margin: 0 auto;
 }
 
-#header, #content, #footer {
+#header,
+#content,
+#footer {
     flex-shrink: 0;
 }
 
@@ -97,12 +101,14 @@ hr {
     top: 10px;
     right: 10px;
 }
+
 #theme_button {
     color: #7E738F;
     font-size: .6em;
     background: none;
     border: none;
 }
+
 #theme_button:hover {
     color: #B989B2;
     cursor: pointer;
@@ -235,7 +241,16 @@ div#page p {
 div#page_content {
     margin: 0 auto;
     margin-top: 20px;
-    max-width: 720px;
+    max-width: 740px;
+}
+
+div.image-page div#page_content {
+    max-width: 98%;
+}
+
+div.image-page img.img_full {
+    max-width: 100%;
+    max-height: 70vh;
 }
 
 div#page ul {
@@ -348,11 +363,13 @@ div#menu_bar {
     font-size: .7em;
     text-align: center;
 }
+
 div#menu_bar ul {
     display: inline;
     padding: 0;
     margin: 0 auto;
 }
+
 div#menu_bar ul li {
     display: inline;
     padding: 0 12px 0 12px;
@@ -361,11 +378,13 @@ div#menu_bar ul li {
     text-align: center;
     font-family: "Play", sans;
 }
-div#menu_bar ul li:first-child {
-}
+
+div#menu_bar ul li:first-child {}
+
 div#menu_bar ul li:hover {
-    background:#555D71;
+    background: #555D71;
 }
+
 div#menu_bar ul li a {
     color: #fff;
     text-decoration: none;
@@ -377,13 +396,16 @@ div#menu_bar ul li a {
 div#page h3.post_title {
     margin-bottom: 0;
 }
+
 div.post_date {
     color: #AFAFAF;
 }
+
 div.post_content {
     margin-top: 10px;
     line-height: 2;
 }
+
 div.post_content p {
     margin-top: 8px;
 }
@@ -409,6 +431,7 @@ div.post-nav div {
 div.post-nav-prev {
     padding-left: 20px;
 }
+
 div.post-nav-next {
     text-align: right;
     padding-right: 20px;
@@ -451,6 +474,7 @@ code.language-ascii-art-right {
     float: right;
     margin: 10px 0 10px 20px;
 }
+
 code.language-ascii-art-left {
     float: left;
     margin: 10px 20px 10px 0;
@@ -488,51 +512,250 @@ ul.sub-menu:before {
 }
 
 /*
+  === Photo Albums
+*/
+
+/* root list of albums */
+.album-list {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+}
+
+/* album in the root list */
+.album-in-list {
+    margin: 0 6px 20px 6px;
+}
+
+/* the image for the album in the root list */
+.album-in-list-image img {
+    box-shadow: 3px 3px #686868;
+}
+
+/* the title for the album in the root list */
+.album-in-list-title {
+    text-align: center;
+    font-family: "Play", sans;
+}
+
+/* image thumbnails on main root list and the album index */
+.img-thumb,
+.img_thumb {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    max-width: 230px;
+}
+
+.img-thumb:hover,
+.img_thumb:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+#album-description {
+    text-align: center;
+    font-size: .8em;
+    color: #e5e5e5;
+    margin-bottom: 8px;
+}
+
+#album-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#album-contents {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div#page.album-index h2 {
+    font-size: .9em;
+    letter-spacing: normal;
+}
+
+.image-in-album {
+    width: 230px;
+    margin: 0 8px 18px 8px;
+}
+
+.album-image {
+    max-width: 20%;
+}
+
+.image {
+    max-width: 90%;
+}
+
+.image-container {
+    width: 100%;
+}
+
+div#page h3.img_filename {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: .8em;
+}
+
+a.nav {
+    text-decoration: none;
+}
+
+.album-footer .image-footer {
+    text-align: center;
+}
+
+.image-nav {
+    /*    align-items: stretch; */
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    height: 100%;
+}
+
+.image-nav-prev {
+    left: 0;
+    text-align: left;
+}
+
+.image-nav-next {
+    right: 0;
+    top: 0;
+    text-align: right;
+}
+
+.image-nav-prev button {
+    text-align: left;
+}
+
+.image-nav-next button {
+    text-align: right;
+}
+
+a.nav button {
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    background: #000;
+    opacity: 0.2;
+    width: 30px;
+    transition: width 0.5s, text-align 0.5s;
+    transition-duration: 0.5s;
+    padding: 0;
+    margin: 0;
+}
+
+a.nav button:hover {
+    cursor: pointer;
+    background: #525252;
+    color: #5AF2F0;
+    opacity: 0.6;
+    width: 60px;
+    text-align: center;
+}
+
+.image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-page {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+}
+
+.image-description {
+    margin-top: 20px;
+    text-align: center;
+    color: #b5b5b5;
+}
+
+.image-foot {
+    text-align: center;
+    margin-top: 20px;
+    color: #b6b6b6;
+    font-size: .9em;
+}
+
+/*
   ==== Media Overrides
 */
 @media (max-width: 480px) {
+
     div#page,
-    div#portfolio{
-       margin: 0 20px 0 20px;
+    div#portfolio {
+        margin: 0 20px 0 20px;
     }
+
     #page_content pre {
-        white-space: pre-wrap;       /* css-3 */
-        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-        white-space: -pre-wrap;      /* Opera 4-6 */
-        white-space: -o-pre-wrap;    /* Opera 7 */
-        word-wrap: break-word;       /* Internet Explorer 5.5+ */
-   }
+        white-space: pre-wrap;
+        /* css-3 */
+        white-space: -moz-pre-wrap;
+        /* Mozilla, since 1999 */
+        white-space: -pre-wrap;
+        /* Opera 4-6 */
+        white-space: -o-pre-wrap;
+        /* Opera 7 */
+        word-wrap: break-word;
+        /* Internet Explorer 5.5+ */
+    }
 }
 
 @media (max-width: 440px) {
+
     div#page,
-    div#portfolio{
-       margin: 0 10px 0 10px;
+    div#portfolio {
+        margin: 0 10px 0 10px;
     }
+
     div#menu_bar ul li {
         padding: 4px 10px 4px 10px;
     }
 }
 
 @media print {
-    html, body, #header {
+
+    html,
+    body,
+    #header {
         background: none;
     }
+
     div#menu_bar {
         display: none;
     }
+
     div#footer {
         display: none;
     }
+
     #header {
         border-bottom: none;
     }
+
     div#page h3 {
         margin-top: 10px;
     }
+
     div#page_content {
         margin-top: 0;
     }
+
     #theme_toggle {
         display: none;
     }

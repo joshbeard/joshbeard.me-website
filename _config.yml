@@ -12,6 +12,8 @@ exclude:
   - 'README.md'
   - 'vendor/'
   - 'Makefile'
+  - file_list.txt
+  - album_info.yml
 markdown: kramdown
 
 kramdown:
@@ -35,3 +37,7 @@ defaults:
       path:            "assets/**/*"
     values:
       sitemap:         false
+
+album_dir: photos
+album_out_dir: /photos
+album_thumbs_dir: thumbs

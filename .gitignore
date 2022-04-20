@@ -3,3 +3,8 @@
 /_site
 /Gemfile.lock
 /dist/
+
+/photos/**/*.jpg
+/photos/**/*.jpeg
+/photos/**/*.png
+/photos/**/*.gif

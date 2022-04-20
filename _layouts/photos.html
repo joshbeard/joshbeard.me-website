@@ -1,0 +1,27 @@
+---
+layout: page
+class: album-list
+---
+<h2>Photos</h2>
+<div class="album-list">
+    {% for page in site.pages %}
+        {% if page.page_type == 'album' %}
+            {% if page.hidden %}{% continue %}{% endif %}
+            <div class="album-in-list">
+                <div class="album-in-list-image">
+                {% if page.images %}
+                {{ page.key_image }}
+                    {% if page.key_image_data %}
+                        <a href="{{ page.url }}"><img src="/{{ page.key_image_data.thumb }}" class="img-thumb" /></a>
+                    {% else %}
+                        <a href="{{ page.url }}"><img src="/{{ page.images[0].thumb }}" class="img-thumb" /></a>
+                    {% endif %}
+                {% endif %}
+                </div>
+                <div class="album-in-list-title">
+                    <a href="{{ page.url }}">{{ page.title }}</a>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

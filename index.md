@@ -7,15 +7,15 @@ permalink: /
 ---
 <div class="home_links">
     <ul class="home_links">
-        <li class="home_link"><a href="/me/" title="About Josh Beard"><i class="fas fa-fw fa-id-card"></i>&nbsp;<span>About Me</span></a></li>
+        <li class="home_link"><a href="/me/" title="About Josh Beard"><i class="fas fa-fw fa-id-card"></i>&nbsp;<span>About</span></a></li>
         <li class="home_link"><a href="/resume/" title="Josh Beard's Résumé"><i class="fas fa-fw fa-briefcase"></i>&nbsp;<span>Résumé</span></a></li>
         <li class="home_link"><a href="/now/" title="What I'm doing lately"><i class="fas fa-fw fa-calendar"></i>&nbsp;<span>Now</span></a></li>
+        <li class="home_link"><a href="/photos/" title="Photos"><i class="fas fa-fw fa-image"></i>&nbsp;<span>Photos</span></a></li>
         <!--
         <li class="home_link"><a href="/posts/" title="Posts"><i class="fa-solid fa-fw fa-file-lines"></i>&nbsp;<span>Posts</span></a></li>
         -->
         <li class="home_link"><a href="https://github.com/joshbeard" title="github.com/joshbeard"><i class="fab fa-fw fa-github"></i>&nbsp;<span>GitHub</span></a></li>
         <li class="home_link"><a href="mailto:hello@joshbeard.me" title="hello@joshbeard.me"><i class="fas fa-fw fa-envelope"></i>&nbsp;<span>E-Mail</span></a></li>
         <li class="home_link"><a href="/pgp/" title="My PGP keys"><i class="fas fa-fw fa-key"></i>&nbsp;<span>PGP Keys</span></a></li>
-        <li class="home_link"><a href="/uses/" title="Uses"><i class="fas fa-fw fa-screwdriver-wrench"></i>&nbsp;<span>What I Use</span></a></li>
     </ul>
 </div>

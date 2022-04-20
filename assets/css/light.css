@@ -198,6 +198,40 @@ div.post-nav a:hover {
 }
 
 /*
+  === Photo Albums
+*/
+
+/* the image for the album in the root list */
+.album-in-list-image img {
+    box-shadow: 3px 3px #bcbcbc;
+    /* */
+}
+
+#album-description {
+    color: #525252;
+}
+
+a.nav button {
+    color: #ffffff;
+    background: #000;
+    opacity: 0.2;
+}
+
+a.nav button:hover {
+    background: #525252;
+    color: #5AF2F0;
+    opacity: 0.6;
+}
+
+.image-description {
+    color: #525252;
+}
+
+.image-foot {
+    color: #525252;
+}
+
+/*
   ==== Media Overrides
 */
 @media (max-width: 480px) {
