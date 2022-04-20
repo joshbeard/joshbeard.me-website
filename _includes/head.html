@@ -9,7 +9,7 @@
         <meta name="MobileOptimized" content="320">
         <!-- Open Graph -->
         <meta property="og:locale" content="en_US">
-        <meta property="og:title" content="{{ page.meta_title || page.title }}">
+        <meta property="og:title" content="{{ page.meta_title | default: page.title }}">
         <meta property="og:description" content="{{ page.description }}">
         <meta property="og:url" content="{{ site.url }}{{ page.url }}">
         <meta property="og:site_name" content="{{ site.name }}">
@@ -19,13 +19,14 @@
 
         <title>
             {{ site.name }}
-            {% if page.meta_title %}
-            - {{ page.meta_title }}
-            {% endif %}
+            {% if page.url != "/" %}
+            -
+            {{ page.meta_title | default: page.title }}
             {% if page.layout == "post" %}
                 {% if page.title %}
                 - {{ page.title }}
                 {% endif %}
+            {% endif %}
             {% endif %}
         </title>
 
