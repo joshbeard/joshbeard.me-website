@@ -75,6 +75,7 @@ jobs:
 
       - name: Set cache on S3 objects
         run: |
+          shopt -s extglob
           # 6 months for assets
           aws s3 cp s3://s3-website-joshbeard-me/assets/ s3://s3-website-joshbeard-me/assets/ --recursive --acl public-read --cache-control max-age=15552000
           # Two weeks for common files
