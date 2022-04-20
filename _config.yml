@@ -14,6 +14,8 @@ exclude:
   - 'Makefile'
   - file_list.txt
   - album_info.yml
+  - dist/
+  - .deploy/
 markdown: kramdown
 
 kramdown:
