@@ -9,7 +9,7 @@
         <meta name="MobileOptimized" content="320">
         <!-- Open Graph -->
         <meta property="og:locale" content="en_US">
-        <meta property="og:title" content="{{ page.meta_title }}">
+        <meta property="og:title" content="{{ page.meta_title || page.title }}">
         <meta property="og:description" content="{{ page.description }}">
         <meta property="og:url" content="{{ site.url }}{{ page.url }}">
         <meta property="og:site_name" content="{{ site.name }}">
@@ -43,7 +43,7 @@
         <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     </head>
 
-    <body onLoad="loadTheme()">
+    <body>
         <div id="container">
             <div id="header">
                 <div id="theme_toggle"><button id="theme_button" onClick="toggle()" title="Toggle light and dark mode"><i class="fa-solid fa-circle-half-stroke" title="Toggle light/dark"></i></button></div>
