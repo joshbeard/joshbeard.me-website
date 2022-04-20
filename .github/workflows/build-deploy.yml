@@ -59,8 +59,8 @@ jobs:
             --exclude ".git\*"
             --exclude ".gitlab-ci.yml"
             --exclude ".gitignore"
-            --exclude "photos/**/*.txt"
-            --exclude "photos/**/*.yml"
+            --exclude "file_list.txt"
+            --exclude "album_info.yml"
             --exclude "README.md"
             --exclude "resume/*"
         env:
