@@ -87,7 +87,7 @@ jobs:
             aws s3 cp s3://${{ secrets.AWS_S3_BUCKET }}/${f} s3://${{ secrets.AWS_S3_BUCKET }}/${f} --acl public-read --cache-control max-age=86400
           done
           # One day for regular content html
-          for f in *.html site/* pgp/* files/* homelab/* me/* now/* posts/**/*.html uses/*; do
+          for f in *.html site/* pgp/* files/* homelab/* me/* now/* uses/*; do
             aws s3 cp s3://${{ secrets.AWS_S3_BUCKET }}/${f} s3://${{ secrets.AWS_S3_BUCKET }}/${f} --acl public-read --cache-control max-age=86400
           done
         env:
@@ -102,7 +102,7 @@ jobs:
           DISTRIBUTION: ${{ secrets.CF_DISTRIBUTION }}
           # TODO: Determine invalidation paths based on updated/impacted files.
           # NOTE: This excludes the /photos/ location, which is handled separately from the website deployment.
-          PATHS: "/*.html /assets/* /site/* /pgp/* /me/* /files/* /homelab/* /now/* /posts/* /uses/*"
+          PATHS: "/*.html /assets/* /site/* /pgp/* /me/* /files/* /homelab/* /now/* /uses/*"
           AWS_REGION: "us-east-1"
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
