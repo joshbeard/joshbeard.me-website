@@ -1,12 +1,9 @@
 <div id="menu_bar">
     <ul>
-        <li><a href="/">Home</a>
-        </li><li><a href="/me/">About</a>
-        </li><li><a href="/resume/">Resume</a>
-        </li><li><a href="/photos">Photos</a>
-        <!--
-        </li><li><a href="/posts">Posts</a>
-        </li>
-        -->
+        {% for item in site.data.main_menu %}
+            <li>
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
     </ul>
 </div>

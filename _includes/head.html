@@ -21,13 +21,13 @@
         <title>
             {{ site.name }}
             {% if page.url != "/" %}
-            -
-            {{ page.meta_title | default: page.title }}
-            {% if page.layout == "post" %}
-                {% if page.title %}
-                - {{ page.title }}
-                {% endif %}
-            {% endif %}
+              -
+              {{ page.meta_title | default: page.title }}
+              {% if page.layout == "post" %}
+                  {% if page.title %}
+                  - {{ page.title }}
+                  {% endif %}
+              {% endif %}
             {% endif %}
         </title>
 
