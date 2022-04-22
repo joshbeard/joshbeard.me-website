@@ -6,6 +6,7 @@ layout: page
 permalink: /homelab/
 class: ascii-art
 menus: about
+keywords: ['homelab', 'home lab', 'homelabs', 'proxmox', 'home server']
 ---
 ## My Home Lab
 

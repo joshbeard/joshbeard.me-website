@@ -5,6 +5,7 @@ description: My Small Internet Stack
 layout: page
 permalink: /site/small.html
 menus: about
+keywords: ['smol web', 'smol internet', 'small internet', 'small web', 'gopher', 'gemini', 'gopher hole', 'gemini capsule', 'gopher site', 'gemini site', 'finger', 'alternative web', 'indie web', 'finger protocol', 'finger user']
 ---
 ## Small Internet Stack
 

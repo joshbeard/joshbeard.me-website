@@ -108,6 +108,7 @@ module Jekyll
 			self.data['description'] = @album_metadata['description']
             self.data['photo_descriptions'] = @album_metadata['photo_descriptions']
 			self.data['hidden'] = true if @album_metadata['hidden']
+			self.data['keywords'] = @album_metadata['keywords'] || []
 
 			files, directories = list_album_contents
 

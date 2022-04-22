@@ -3,6 +3,10 @@ title: My Old Computers
 layout: page
 meta_title: My Old Computers
 description: Description of some technology items I've owned over the years
+keywords:
+  - classic computers
+  - 90s computers
+  - vintage computers
 class: ascii-art
 menus: about
 ---

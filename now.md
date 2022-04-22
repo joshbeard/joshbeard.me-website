@@ -2,6 +2,7 @@
 title: What I'm Up To Lately
 meta_title: What I'm Up To Lately
 description: What I'm Up To Lately
+keywords: ['now page', 'status update']
 layout: page
 permalink: /now/
 class: ascii-art

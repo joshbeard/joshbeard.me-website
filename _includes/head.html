@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="{{ page.description }}">
-        <meta name="keywords" content="joshua beard, josh, joshbeard, jashbeard, devops, sysadmin, colorado springs, josh beard colorado springs, josh beard colorado, josh beard devops, josh beard denver, joshua beard colorado springs, joshua beard devops, devops engineer, colorado springs devops, colorado springs devops engineer, colorado devops engineer, denver devops engineer, josh beard resume, joshua beard resume, devops resume, devops engineer resume, sysadmin resume, systems administrator resume, josh beard sysadmin, josh beard systems administrator, josh beard apogee engineering, joshua beard apogee engineering, josh beard usgs, josh beard puppet, josh beard dsdk12">
+        {% assign keywords = page.keywords | concat: site.common_keywords %}
+        <meta name="keywords" content="{{ keywords | join: ',' }}">
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">

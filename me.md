@@ -2,6 +2,7 @@
 title: About Josh Beard
 meta_title: About Me
 description: About Josh Beard
+keywords: ['josh beard bio', 'computer geeks']
 layout: page
 permalink: /me/
 class: ascii-art
