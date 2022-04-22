@@ -1,10 +1,10 @@
 ---
 title: Josh Beard - Error
 meta_title: Not Found
-layout: home
+layout: page
 permalink: /error.html
 sitemap: false
 ---
 ## Error - Not Found
 
-[Return Home](/)
+&laquo;&nbsp;[Return Home](/)
