@@ -1,14 +1,13 @@
 ---
-title: What I'm Up To Lately
-meta_title: What I'm Up To Lately
-description: What I'm Up To Lately
+title: What I'm Up To Now
+meta_title: What I'm Up To Now
+description: What I'm Up To Now
 keywords: ['now page', 'status update']
 layout: page
 permalink: /now/
 class: ascii-art
-menus: about
 ---
-## What I'm Up To Lately
+## What I'm Up To Now
 
 {% include submenu.html %}
 

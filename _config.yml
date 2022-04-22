@@ -60,7 +60,6 @@ plugins:
   - jekyll-target-blank
   - jekyll-sitemap
   - jekyll-git_metadata
-  - jekyll-menus
 
 target-blank:
   add_css_classes: ext

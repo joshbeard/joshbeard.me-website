@@ -499,15 +499,24 @@ nav#submenu li {
     display: inline;
 }
 
-ul.sub-menu:before {
-    content: "\20\00b7\20";
-}
-
 .sub-menu li:after {
     content: "\20\00b7\20";
 }
 
 .sub-menu li:last-child:after {
+    content: none;
+}
+
+.about-page nav {
+    border-bottom: none;
+}
+
+.about-page nav#submenu li {
+    display: block;
+    line-height: 2;
+}
+
+.about-page .sub-menu li:after {
     content: none;
 }
 

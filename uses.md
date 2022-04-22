@@ -6,7 +6,6 @@ keywords: ['uses','uses.tech']
 layout: page
 permalink: /uses/
 class: ascii-art
-menus: about
 ---
 ## What I Use
 

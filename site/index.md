@@ -5,7 +5,6 @@ description: Information about this website
 layout: page
 permalink: /site/
 class: ascii-art
-menus: about
 keywords: ['jekyll sites', 'personal sites', 'indie web', 'personal site aws', 'landing page', 's3 site', 'cloudfront site']
 ---
 ## About This Site

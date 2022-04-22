@@ -8,7 +8,6 @@ keywords:
   - 90s computers
   - vintage computers
 class: ascii-art
-menus: about
 ---
 ## My old computers
 

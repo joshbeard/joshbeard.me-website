@@ -1,9 +1,12 @@
 <nav id="submenu">
-{% assign menu = site.menus.header %}
-<ul>
-{% for item in site.menus.header %}
+<ul class="sub-menu">
+{% for item in site.data.about_menu %}
     <li class="menu-item-{{ loop.index }}">
-        <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+        {% if page.url == item.url %}
+            {{ item.title }}
+        {% else %}
+            <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+        {% endif %}
         {% if item.children %}
         <ul class="sub-menu">
         {% for item in item.children %}
