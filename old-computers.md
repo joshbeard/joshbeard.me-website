@@ -29,25 +29,25 @@ computers from a pile of parts.
 jgs `"""""""""""""`  '-'
 ```
 
-* [Commodore PC Compatible](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems) (owned 1996). Ran MS-DOS. Played basic games, joined BBS.
-* [Packard Bell Pentium II 133MHz](http://pbplanet.info/wiki/index.php/Multimedia_D136) (1995-2000) Hung out on a [BBS,](https://en.wikipedia.org/wiki/Bulletin_board_system) Played games like [Duke Nukem 3D](https://en.wikipedia.org/wiki/Duke_Nukem_3D) and [Sim City 2000.](https://en.wikipedia.org/wiki/SimCity_2000) Windows 95, 98, 2000. Later installed [Red Hat Linux 5.2](https://www.redhat.com/en/about/press-releases/press-redhatlinux52), bought off a shelf at  a Wal-Mart, and tested other Linux distributions.
-* [Zenith SupersPort 286](https://oldcrap.org/2020/10/30/zenith-supersport-286e/) (1989; owned 1997-98) Mostly used MS-DOS and kept a journal on it. Windows 3.0 installed.
-* Several no-name [386](https://en.wikipedia.org/wiki/I386) and [486s](https://en.wikipedia.org/wiki/I486) (1997-2005). Ran mostly DOS. Installed Windows 95 from floppy on a 486. Also ran Linux and FreeBSD on these over the years.
-* Several no-name [Pentiums](https://en.wikipedia.org/wiki/Pentium_(original)) and [AMD K5/K6](https://en.wikipedia.org/wiki/Advanced_Micro_Devices#CPUs_and_APUs) (1999-2005). Ran Linux and FreeBSD.
-* [Dell Inspiron 1750](https://rmromero.blogspot.com/2010/04/dell-inspiron-17-1750-specifications.html)(?) Laptop. (2005-2011) Windows XP, Linux (Gentoo, Ubuntu), and FreeBSD.
-* [Asus Eee PC 900](https://en.wikipedia.org/wiki/Asus_Eee_PC#Eee_900_series). (2010-2012) Ran Linux (Debian) and FreeBSD.
-* Asus Netbook. (2012-2013). Ran Linux (Ubuntu)
-* Several Work-issued [iMacs](https://en.wikipedia.org/wiki/IMac) (2008-2010). macOS.
+* ~1996: [Commodore PC Compatible](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems). Ran MS-DOS. Played basic games, joined BBS.
+* 1996-2000: [Packard Bell Pentium II 133MHz](http://pbplanet.info/wiki/index.php/Multimedia_D136). Hung out on a [BBS,](https://en.wikipedia.org/wiki/Bulletin_board_system) Played games like [Duke Nukem 3D](https://en.wikipedia.org/wiki/Duke_Nukem_3D) and [Sim City 2000.](https://en.wikipedia.org/wiki/SimCity_2000) Windows 95, 98, 2000. Later installed [Red Hat Linux 5.2](https://www.redhat.com/en/about/press-releases/press-redhatlinux52), bought off a shelf at  a Wal-Mart, and tested other Linux distributions.
+* 1997-1999: [Zenith SupersPort 286](https://oldcrap.org/2020/10/30/zenith-supersport-286e/). Mostly used MS-DOS and kept a journal on it. Windows 3.0 installed.
+* 1997-2006: Several no-name [386](https://en.wikipedia.org/wiki/I386) and [486s](https://en.wikipedia.org/wiki/I486). Ran DOS, Linux, and FreeBSD. Installed Windows 95 from floppy on a 486.
+* 1999-2006: Several no-name [Pentiums](https://en.wikipedia.org/wiki/Pentium_(original)) and [AMD K5/K6/Athalon](https://en.wikipedia.org/wiki/Advanced_Micro_Devices#CPUs_and_APUs). Ran Linux (RedHat, CentOS, Ubuntu, Debian, Gentoo, countless others) and FreeBSD.
+* 2006-2011: [Dell Inspiron 1750](https://rmromero.blogspot.com/2010/04/dell-inspiron-17-1750-specifications.html)(?) Laptop. Mostly Linux (Ubuntu). Briefly Windows XP and FreeBSD.
+* 2010-2012: [Asus Eee PC 900](https://en.wikipedia.org/wiki/Asus_Eee_PC#Eee_900_series). Ran Linux (Debian).
+* 2012-2013: Asus Netbook. Ran Linux (Ubuntu)
+* 2008-2012: Several Work-issued [iMacs](https://en.wikipedia.org/wiki/IMac) running macOS and Linux.
 
 Many of these were used as home servers over the years. I ran my own e-mail
 servers at home for several years, along with web servers and an assortment of
 other things. I hosted e-mail and web content for myself mostly, but had a few
-users over the years and a couple of niche projects related to customizing
-desktop environments. I used FreeBSD on most of my home servers from 2004-2020,
-along with an occasional Linux box.
+users and a couple of niche projects related to customizing
+desktop environments.
 
 I started using Linux on my desktop around 2000 and continued to until I started
-exploring FreeBSD, which I ran on most of my workstations from 2004-2007. From there,
-It's been a mix of more Linux and macOS on my workstations.
+exploring FreeBSD, which I ran on most of my workstations from 2004-2007 and most
+of my homelab from 2004-2020. From there, It's been a mix of more Linux and
+macOS on my workstations.
 
 See [my "uses" page](/uses/) for what I'm currently using.
