@@ -97,6 +97,11 @@ Terraform module to deploy, which manages a common AWS stack for my static websi
 ejm97         `
 ```
 
+### Photos
+
+I deploy my [photos](/photos/) to their own S3 bucket from my workstation. I use
+a customized Jekyll plugin to generate the HTML pages for these photo albums.
+
 <div class="site_version">
 Site version <a href="https://github.com/joshbeard/joshbeard.me-website/commit/{{ site.git['last_commit']['long_sha'] }}" class="version_sha">{{ site.git['last_commit']['short_sha'] }}</a>
 <span class="version_timestamp">{{ site.git['last_commit']['commit_date'] }}</span>

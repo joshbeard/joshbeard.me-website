@@ -13,6 +13,7 @@ menus: about
 
 I'm working on publishing the codebase for my Home Lab to my
 [GitHub profile](https://github.com/joshbeard?tab=repositories&q=homelab&type=&language=&sort=).
+Eventually, I hope to provide some more content and code about my Homelab.
 
 My current home server is a Dell PowerEdge T410, bought off eBay.
 I'm running [Proxmox](https://www.proxmox.com/en/) on it with several virtual

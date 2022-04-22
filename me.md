@@ -17,11 +17,11 @@ See my [now page](/now/) for a summary of what I'm up to lately.
 I'm a somewhat private and introverted person, especially online, so having a
 personal website isn't something I expect to excel at. I'd prefer my name and
 "brand" be mostly professional and avoid particularly opinionated content,
-especially about politics, reglion, social issues, etc. It's exhausting to see
-everyone's stance on everything anymore, front and center and often in an
-antagonistic way and increasingly polarizing and divisive. I may try to write
-other content just to have a website - casual stuff, technical, or artsy, even
-if no one is looking.
+especially about politics, reglion, social issues, etc. There's enough people
+putting that front and center and often in an antagonistic way that's
+increasingly polarizing and divisive. I may try to write other content just to
+have something to call a _website_ - casual stuff, technical, or artsy, even if
+no one is looking. It's tradition and what has led me into my career.
 
 ```ascii-art
          ,,,
@@ -33,21 +33,34 @@ If you are looking at this and dig personal websites and that sort of thing,
 say [hello](mailto:hello@joshbeard.me)! It'd be really cool to exchange a
 "postcard" of sorts with people in e-mail.
 
-I live in Colorado Springs, Colorado. I enjoy time with family, computers,
-outdoors (hiking, scenic drives), music
+I live in [Colorado Springs, Colorado](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado).
+I enjoy time with family, computers, outdoors (hiking, scenic drives), music
 ([listening](https://www.last.fm/user/hewbert), watching, playing), food
 (mostly just eating), games (card, party, board), and all sorts of other stuff.
 
+I consider [Rapid City, South Dakota](https://en.wikipedia.org/wiki/Rapid_City%2C_South_Dakota) my home.
+I was born in and have family and roots in [Northeasten Arkansas](https://en.wikipedia.org/wiki/Arkansas_Delta),
+with most of my parents, grandparents, and great-grandparents generations around
+Southeast Missouri, and Tennessee.  I hardly know anything about my family
+history or ancestry. I've lived in Arkansas, Colorado, Georgia, Kansas,
+Missouri, and South Dakota.
+
 ### Professional Life
 
-I got my professional "foot in the door" of systems administration at a school
-district several years ago. At that point, I had already been running common
-services on Linux and FreeBSD for years for all sorts of things and had some
-coding experience - at least shell, PHP, and web stuff. In that role, I really
-honed my coding skills and gained experience with several types of services,
-particularly e-mail services, file services, LDAP, and HTTP. There, I learned
-about Puppet and configuration management, which launched me into a new phase of
-my career - 'DevOps'.
+I was doing hobbyist stuff with servers and web apps in virtually all of my free
+time prior to getting a career doing it. I joined the Army and did some level of
+IT administration as part of my duties, but not so much traditional systems
+administration or development. I later worked for Apple doing support and loved
+any opportunity to use the UNIX underpinnings of their platform.
+
+I got my real professional "foot in the door" of systems administration at a
+school district several years ago. At that point, I had already been running
+common services on Linux and FreeBSD for years for all sorts of things and had
+some coding experience - at least shell, PHP, and web stuff. In that role, I
+really honed my coding skills and gained experience with several types of
+services, particularly e-mail services, file services, LDAP, and HTTP. There, I
+learned Puppet, configuration management, version control, and lots of other
+things, which launched me into a new phase of my career - 'DevOps'.
 
 ```ascii-art-right
     ______
@@ -72,7 +85,8 @@ code.
 I spend most of my day in a code editor and command-line, bouncing across
 several projects. The type of code I am typically working with is Terraform,
 Python, Ansible, Puppet, Shell, YAML and JSON, and an assortment of others on
-occassion. I work with AWS, Docker, and GitLab a lot.
+occassion. I work with AWS, Docker, and GitLab a lot. See my [uses page](/uses/)
+for more information about what I use day-to-day.
 
 See [my resume](/resume/) for more details about my professional experience.
 
