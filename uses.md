@@ -17,8 +17,8 @@ This is my [uses page](https://uses.tech/).
 
 ### Computers
 
-* MacBook Pro (2013). Runs macOS.
-* MacBook Pro (2021) (Work). Runs macOS.
+* MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS.
+* MacBook Pro (2021) 16" i9 2.3GHz/16GB (Work). Runs macOS.
 * MacBook Air (2012). Runs macOS.
 * Apple Magic Keyboard (2022). I've used many mechanicals and other styles over
   the years but can't find anything I like more than this. I love the low
@@ -59,6 +59,8 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 * A password manager
 * [Lagrange](https://gmi.skyjake.fi/lagrange/): Gemini, Gopher, and Finger browser. See [Small Internet](/site/small.html)
 * [Marked 2](https://marked2app.com/) for Markdown reading outside VS Code
+* GIMP
+* Adobe Creative Suite (Lightroom, Photoshop)
 * Finance: [YNAB](https://www.youneedabudget.com/)
 
 ### Browser Extensions
