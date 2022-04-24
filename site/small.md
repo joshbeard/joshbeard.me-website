@@ -29,7 +29,8 @@ GitHub for a list of things related to Gemini.
 
 ### Deployment
 
-I'm using Ansible to deploy these services to an LXC container to my Homelab.
+I'm using Ansible to deploy these services to a [Rocky Linux](https://rockylinux.org/)
+virtual machine on my Homelab.
 
 See <https://github.com/joshbeard/homelab-service-smolstack> for my Ansible
 playbook for the whole stack.
@@ -38,6 +39,8 @@ playbook for the whole stack.
 
 The [Gopher](https://en.wikipedia.org/wiki/Gopher_(protocol)) protocol predates the web but still has an active
 community of enthusiasts.
+
+I'm using [Gophernicus](https://gophernicus.org/) to serve my Gopher hole.
 
 __Gopher__: <a href="gopher://jbeard.co">gopher://jbeard.co</a>
 
@@ -53,6 +56,9 @@ A newer protocol that was introduced only a few years ago is
 [Gemini](https://gemini.circumlunar.space/). This is somewhere between
 Gopher and the Web/HTTP - probably closer to the Gopher side.
 
+I am using [JetForce](https://github.com/michael-lazar/jetforce) for my
+Gemini service and have also used [Agate](https://github.com/mbrubeck/agate).
+
 __Gemini__: <a href="gemini://jbeard.co">gemini://jbeard.co</a>
 
 Gemini response using [Netcat](https://www.varonis.com/blog/netcat-commands):
@@ -64,6 +70,9 @@ echo "gemini://jbeard.co/" | ncat -C --ssl jbeard.co 1965
 ### Finger
 
 Another service is [Finger](https://en.wikipedia.org/wiki/Finger_%28protocol%29).
+
+I am using [Finger2020](https://github.com/michael-lazar/finger2020) for my
+Finger service.
 
 To "finger" me, you can use a simple command, which is common across Linux, macOS, and Windows:
 
