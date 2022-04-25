@@ -5,37 +5,4 @@
             </div>
         </div>
     </body>
-    <script type="text/javascript">
-        function cookieTheme() {
-            return document.cookie.match(/theme=light/i) != null;
-        }
-        function setThemeFromCookie() {
-            var el1 = document.getElementById("css_style_light"),
-                el2 = document.getElementById("css_syntax_light");
-            if( cookieTheme() ) {
-                el1.disabled = undefined;
-                el2.disabled = undefined;
-            } else {
-                el1.disabled = "disabled";
-                el2.disabled = "disabled";
-            }
-        }
-        function toggle() {
-            var el1 = document.getElementById("css_style_light"),
-                el2 = document.getElementById("css_syntax_light");
-            if( el1.disabled == true || el1.disabled == "disabled") {
-                el1.disabled = undefined;
-                el2.disabled = undefined;
-                document.cookie = 'theme=light; path=/';
-            } else {
-                el1.disabled = "disabled";
-                el2.disabled = "disabled";
-                document.cookie = 'theme=dark; path=/';
-            }
-        }
-        function loadTheme() {
-            setThemeFromCookie();
-        }
-        loadTheme()
-    </script>
 </html>
