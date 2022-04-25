@@ -1,0 +1,14 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+# The imported files are located at /_scss/ and will be merged under
+# this directory into a single file when built.
+---
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "style",
+        "dark",
+        "light",
+        "font",
+        "syntax-dark",
+        "syntax-light"
+;

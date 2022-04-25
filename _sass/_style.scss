@@ -1,6 +1,11 @@
 /*
   ==== Common Defaults
 */
+:root {
+    /* font-size: calc(1rem + ((1vw - 0.48em) * 0.6944)); */
+    /* font-size: 62.5%; */
+    min-height: 0vw;
+}
 html,
 body {
     height: 100%;
@@ -9,14 +14,9 @@ body {
 }
 
 body {
-    font-size: calc(26px + (26 - 12) * ((100vw - 300px) / (1600 - 300)));
+    /* font-size: calc(26px + (26 - 12) * ((100vw - 300px) / (1600 - 300))); */
     margin: 0;
     padding: 0;
-    background: #1f1f1f;
-}
-
-a {
-    color: #77CBE9;
 }
 
 a.ext:after {
@@ -37,32 +37,22 @@ h1 {
 }
 
 h1 a {
-    color: #71B8ED;
     text-decoration: none;
 }
 
-h1 a:hover {
-    color: #5AF2F0;
-}
-
-
 h2 {
     letter-spacing: 4px;
-    color: #71B8ED;
 }
 
 blockquote {
-    border-left: 3px solid #7EB758;
     padding: 2px 0 2px 8px;
     margin: 10px 0 10px 0;
     font-style: italic;
-    color: #EDF7FF;
 }
 
 hr {
     margin-top: 40px;
     margin-bottom: 20px;
-    border: 1px solid #393939;
     border-radius: 5px;
 }
 
@@ -80,14 +70,13 @@ hr {
 #header {
     text-align: center;
     padding: 6px;
-    background: #282835;
-    border-bottom: 1px solid #207A4C;
+    font-size: 1.7em;
 }
 
 #content {
     flex-grow: 1;
-    color: #fff;
     margin: 0 auto;
+    /* font-size: .9em; */
 }
 
 #header,
@@ -96,39 +85,13 @@ hr {
     flex-shrink: 0;
 }
 
-#theme_toggle {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-
-#theme_button {
-    color: #7E738F;
-    font-size: .6em;
-    background: none;
-    border: none;
-}
-
-#theme_button:hover {
-    color: #B989B2;
-    cursor: pointer;
-}
-
-
 /*
   ==== Home Page
 */
 li.home_link a,
 a.bottom_link,
 #error a {
-    color: #AE93DD;
     text-decoration: none;
-}
-
-li.home_link a:hover,
-a.bottom_link:hover,
-#error a:hover {
-    color: #71EDBE;
 }
 
 li.home_link a.ext:after {
@@ -140,10 +103,10 @@ li.home_link a.ext:after {
 div.home_links {
     margin: 20px auto 20px auto;
     display: table;
+    font-size: 1.7em;
 }
 
 ul.home_links {
-    color: #fff;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -169,13 +132,12 @@ div#home {
 }
 
 #error {
-    color: #fff;
     margin: 16px 20px 16px 20px;
     text-align: center;
 }
 
 #error span.error_return {
-    font-size: 0.6em;
+    font-size: 0.9em;
 }
 
 
@@ -185,56 +147,49 @@ div#home {
 div#page {
     margin: 0 80px 0 80px;
     font-family: "Ubuntu";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variant: none;
     word-spacing: 0;
     font-weight: normal;
     letter-spacing: 0;
-    font-size: 18px;
-}
-
-div#page a:hover {
-    color: #77E9A4;
 }
 
 div#page h2 {
     text-align: center;
     font-family: "Play";
-    color: #8FCF63;
     letter-spacing: 4px;
-    font-size: 42px;
+    /* font-size: 42px; */
 }
 
 div#page h3 {
-    color: #9663C3;
     font-family: "Play";
     margin-top: 40px;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-size: 1.5em;
 }
 
-h4 {
-    font-size: 20px;
-    color: #9663C3;
+div#page h4 {
+    /* font-size: 20px; */
     font-family: "Play";
+    font-size: 1.3em;
 }
 
 div#page h3 a {
-    color: #71B8ED;
     text-decoration: none;
 }
 
 div#page h3.subsubtitle {
     text-align: center;
-    font-size: 18px;
-    color: #7EB758;
+    /* font-size: 18px; */
     margin-top: 0;
     letter-spacing: 1px;
 }
 
 div#page p {
     margin-bottom: 12px;
-    line-height: 1.3;
+    line-height: 1.5;
     text-align: justify;
 }
 
@@ -254,7 +209,7 @@ div.image-page img.img_full {
 }
 
 div#page ul {
-    font-size: 18px;
+    /* font-size: 18px; */
     margin-left: 20px;
     line-height: 1.5;
     margin-bottom: 12px;
@@ -262,14 +217,13 @@ div#page ul {
 
 #page .centered_text {
     text-align: center;
-    font-size: 22px;
+    /* font-size: 22px; */
 }
 
 #page_content pre {
     font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
     font-size: .8em;
-    background-color: #262E33;
-    border: 1px solid #245E77;
     border-radius: 2px;
     padding: 8px 8px 8px 8px;
     margin: 16px 0 16px 0;
@@ -281,30 +235,26 @@ div#page ul {
 span.bottom_text {
     text-align: center;
     display: block;
-    font-size: .4em;
+    font-size: .7em;
     margin: 0 auto;
-    color: #CACACA;
     font-family: "Play", sans;
     margin-top: 20px;
 }
 
 span.finger {
     font-family: "Ubuntu Mono", monospace;
+    font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
     margin-top: 2px;
 }
 
 .site_version {
     font-family: "Ubuntu Mono", monospace;
+    font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
     font-size: .9em;
-    color: #909090;
     padding-top: 10px;
     margin-top: 30px;
     text-align: center;
     /* border-top: 1px solid #909090; */
-}
-
-a.version_sha {
-    color: #4F889C;
 }
 
 /*
@@ -316,9 +266,7 @@ div#last_modified {
     margin-top: 40px;
     margin-bottom: 20px;
     padding-top: 10px;
-    border-top: 1px solid #393939;
-    color: #9F9F9F;
-    font-size: .7em;
+    font-size: .8em;
     text-align: center;
 }
 
@@ -333,7 +281,6 @@ div#last_modified {
 }
 
 #footer span {
-    color: #656565;
     letter-spacing: 1px;
     word-spacing: 2px;
     font-weight: normal;
@@ -343,24 +290,18 @@ div#last_modified {
 }
 
 #footer a {
-    color: #7E748F;
-    color: #9E92B3;
     text-decoration: none;
 }
 
 #footer a:hover {
     text-decoration: underline;
-    color: #71EDBE;
 }
 
 /*
   ==== Menu
 */
 div#menu_bar {
-    color: #fff;
-    background: #242831;
-    border-bottom: 1px solid #207A4C;
-    font-size: .7em;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -375,18 +316,12 @@ div#menu_bar ul li {
     padding: 0 12px 0 12px;
     margin: 0 auto;
     font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
     text-align: center;
     font-family: "Play", sans;
 }
 
-div#menu_bar ul li:first-child {}
-
-div#menu_bar ul li:hover {
-    background: #555D71;
-}
-
 div#menu_bar ul li a {
-    color: #fff;
     text-decoration: none;
 }
 
@@ -395,10 +330,6 @@ div#menu_bar ul li a {
 */
 div#page h3.post_title {
     margin-bottom: 0;
-}
-
-div.post_date {
-    color: #AFAFAF;
 }
 
 div.post_content {
@@ -410,18 +341,15 @@ div.post_content p {
     margin-top: 8px;
 }
 
-.post_page_footer {
-    background: #1F1F1F;
-}
-
 div.post-nav {
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px 0 20px 0;
     width: 100%;
     flex-shrink: 0;
-    font-size: .5em;
+    font-size: .8em;
     font-family: "Ubuntu", Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div.post-nav div {
@@ -439,12 +367,10 @@ div.post-nav-next {
 }
 
 div.post-nav a {
-    color: #71EDBE;
     text-decoration: none;
 }
 
 div.post-nav a:hover {
-    color: #71EDBE;
     text-decoration: underline;
 }
 
@@ -462,8 +388,6 @@ code.language-ascii-art {
     border: 0;
     padding: 2px;
     font-size: .9em;
-    color: #4F726A;
-    color: #72A499;
 }
 
 code.language-ascii-art-small {
@@ -484,7 +408,6 @@ nav {
     margin: 0 auto;
     text-align: center;
     padding-bottom: 18px;
-    border-bottom: 1px solid #393939;
 }
 
 nav#submenu ul {
@@ -538,11 +461,6 @@ nav#submenu li {
     margin: 0 6px 20px 6px;
 }
 
-/* the image for the album in the root list */
-.album-in-list-image img {
-    box-shadow: 3px 3px #686868;
-}
-
 /* the title for the album in the root list */
 .album-in-list-title {
     text-align: center;
@@ -570,7 +488,6 @@ nav#submenu li {
 #album-description {
     text-align: center;
     font-size: .8em;
-    color: #e5e5e5;
     margin-bottom: 8px;
 }
 
@@ -655,8 +572,6 @@ a.nav button {
     height: 100%;
     background: transparent;
     border: none;
-    color: #ffffff;
-    background: #000;
     opacity: 0.2;
     width: 30px;
     transition: width 0.5s, text-align 0.5s;
@@ -667,8 +582,6 @@ a.nav button {
 
 a.nav button:hover {
     cursor: pointer;
-    background: #525252;
-    color: #5AF2F0;
     opacity: 0.6;
     width: 60px;
     text-align: center;
@@ -691,13 +604,11 @@ a.nav button:hover {
 .image-description {
     margin-top: 20px;
     text-align: center;
-    color: #b5b5b5;
 }
 
 .image-foot {
     text-align: center;
     margin-top: 20px;
-    color: #b6b6b6;
     font-size: .9em;
 }
 
@@ -763,9 +674,5 @@ a.nav button:hover {
 
     div#page_content {
         margin-top: 0;
-    }
-
-    #theme_toggle {
-        display: none;
     }
 }

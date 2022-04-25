@@ -50,6 +50,10 @@ exclude:
   - .deploy/
 markdown: kramdown
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 kramdown:
   input: GFM
   auto_ids: true
@@ -60,6 +64,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-sitemap
   - jekyll-git_metadata
+  - jekyll-sass-converter
 
 target-blank:
   add_css_classes: ext

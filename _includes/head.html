@@ -31,11 +31,7 @@
             {% endif %}
         </title>
 
-        <link href="{{ "/assets/css/style.css" | relative_url | bust_cache }}" rel="stylesheet" />
-        <link id="css_style_light" href="{{ "/assets/css/light.css" | relative_url | bust_cache }}" rel="stylesheet" disabled="disabled"/>
-        <link href="{{ "/assets/css/syntax.css" | relative_url | bust_cache }}" rel="stylesheet" />
-        <link id="css_syntax_light" href="{{ "/assets/css/syntax-light.css" | relative_url | bust_cache }}" rel="stylesheet" disabled="disabled" />
-        <link href="{{ "/assets/css/font.css" | relative_url | bust_cache }}" rel="stylesheet" />
+        <link href="{{ "/assets/css/main.css" | relative_url | bust_cache }}" rel="stylesheet" />
         <link href="{{ "/assets/fa/css/all.min.css" | relative_url | bust_cache }}" rel="stylesheet" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -48,6 +44,5 @@
     <body>
         <div id="container">
             <div id="header">
-                <div id="theme_toggle"><button id="theme_button" onClick="toggle()" title="Toggle light and dark mode"><i class="fa-solid fa-circle-half-stroke" title="Toggle light/dark"></i></button></div>
                 <h1><a href="/">Josh Beard</a></h1>
             </div>

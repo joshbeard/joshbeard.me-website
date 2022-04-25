@@ -1,0 +1,231 @@
+@media (prefers-color-scheme: dark) {
+/*
+  ==== Common Defaults
+*/
+body {
+    background: #1f1f1f;
+}
+
+a {
+    color: #77CBE9;
+}
+
+h1 a {
+    color: #71B8ED;
+}
+
+h1 a:hover {
+    color: #5AF2F0;
+}
+
+
+h2 {
+    color: #71B8ED;
+}
+
+blockquote {
+    border-left: 3px solid #7EB758;
+    color: #EDF7FF;
+}
+
+hr {
+    border: 1px solid #393939;
+}
+
+/*
+  ==== Common Containers
+*/
+#header {
+    background: #282835;
+    border-bottom: 1px solid #207A4C;
+}
+
+#content {
+    color: #E1E1E1;
+}
+
+/*
+  ==== Home Page
+*/
+li.home_link a,
+a.bottom_link,
+#error a {
+    color: #AE93DD;
+}
+
+li.home_link a:hover,
+a.bottom_link:hover,
+#error a:hover {
+    color: #71EDBE;
+}
+
+ul.home_links {
+    color: #fff;
+}
+
+#error {
+    color: #fff;
+}
+
+/*
+  ==== Pages
+*/
+div#page a:visited:hover,
+div#page a:hover {
+    color: #77E9A4;
+}
+
+div#page a:visited {
+    color: #7143C4;
+    color: #947AC4;
+}
+
+div#page h2 {
+    color: #8FCF63;
+}
+
+div#page h3,
+div#page h4 {
+    color: #9663C3;
+}
+
+h4 {
+    color: #9663C3;
+}
+
+div#page h3 a {
+    color: #71B8ED;
+}
+
+div#page h3.subsubtitle {
+    color: #7EB758;
+}
+
+#page_content pre {
+    background-color: #262E33;
+    border: 1px solid #245E77;
+}
+
+/*
+  ==== Bottom Text
+*/
+span.bottom_text {
+    color: #CACACA;
+}
+
+.site_version {
+    color: #909090;
+}
+
+a.version_sha {
+    color: #4F889C;
+}
+
+/*
+  ==== Last Modified
+*/
+div#last_modified {
+    border-top: 1px solid #393939;
+    color: #9F9F9F;
+}
+
+
+/*
+  ==== Footer
+*/
+#footer span {
+    color: #656565;
+}
+
+#footer a {
+    color: #7E748F;
+    color: #9E92B3;
+}
+
+#footer a:hover {
+    color: #71EDBE;
+}
+
+/*
+  ==== Menu
+*/
+div#menu_bar {
+    color: #fff;
+    background: #242831;
+    border-bottom: 1px solid #207A4C;
+}
+
+div#menu_bar ul li:hover {
+    background: #555D71;
+}
+
+div#menu_bar ul li a {
+    color: #fff;
+}
+
+/*
+  ==== Posts
+*/
+div.post_date {
+    color: #AFAFAF;
+}
+
+.post_page_footer {
+    background: #1F1F1F;
+}
+
+div.post-nav a {
+    color: #71EDBE;
+}
+
+div.post-nav a:hover {
+    color: #71EDBE;
+}
+
+code.language-ascii-art-small,
+code.language-ascii-art-right,
+code.language-ascii-art-left,
+code.language-ascii-art {
+    background-color: transparent;
+    color: #72A499;
+}
+
+nav {
+    border-bottom: 1px solid #393939;
+}
+
+/*
+  === Photo Albums
+*/
+
+/* the image for the album in the root list */
+.album-in-list-image img {
+    box-shadow: 3px 3px #686868;
+}
+
+#album-description {
+    color: #e5e5e5;
+}
+
+a.nav button {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    background: #000;
+    opacity: 0.2;
+}
+
+a.nav button:hover {
+    background: #525252;
+    color: #5AF2F0;
+    opacity: 0.6;
+}
+
+.image-description {
+    color: #b5b5b5;
+}
+
+.image-foot {
+    color: #b6b6b6;
+}
+}

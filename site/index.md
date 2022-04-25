@@ -21,14 +21,6 @@ and layout. Being Jekyll, it's completely static.
 
 The site should be mobile friendly.
 
-#### JavaScript and Cookies
-
-A "light" (colors) CSS theme for my site can be toggled using
-the icon in the top right of the page. A cookie is used called `theme` to
-remember the style between pages. No cookie is created until the theme is
-toggled. JavaScript is used to toggle the CSS and to set the cookie, which
-expires after the browser session.
-
 The site does not require JavaScript or Cookies.
 
 #### Fonts

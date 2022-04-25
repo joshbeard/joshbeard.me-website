@@ -3,6 +3,7 @@
 /_site
 /Gemfile.lock
 /dist/
+/.sass-cache
 
 /photos/**/*.jpg
 /photos/**/*.jpeg

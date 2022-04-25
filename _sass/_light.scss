@@ -1,8 +1,10 @@
+@media (prefers-color-scheme: light) {
 /*
   ==== Common Defaults
 */
+
 body {
-    background: #F2F2F2;
+    background: #FFF7F0;
 }
 
 a {
@@ -49,14 +51,7 @@ nav {
 }
 
 #content {
-    color: #1f1f1f;
-}
-
-#theme_button {
-    color: #68B891;
-}
-#theme_button:hover {
-    color: #305543;
+    color: #242424;
 }
 
 /*
@@ -82,16 +77,21 @@ a.bottom_link:hover,
 /*
   ==== Pages
 */
+div#page a:visited:hover,
 div#page a:hover {
+    color: #830000;
+}
+
+div#page a:visited {
     color: #7143C4;
-    color: #279D3E;
 }
 
 div#page h2 {
     color: #418464;
 }
 
-div#page h3 {
+div#page h3,
+div#page h4 {
     color: #9663C3;
 }
 
@@ -105,6 +105,7 @@ div#page h3.subsubtitle {
 
 #page_content pre {
     background-color: #fff;
+    background-color: #FFE7D2;
     border: 1px solid #79B153;
 }
 
@@ -231,29 +232,4 @@ a.nav button:hover {
     color: #525252;
 }
 
-/*
-  ==== Media Overrides
-*/
-@media (max-width: 480px) {
-    div#page,
-    div#portfolio{
-       margin: 0 20px 0 20px;
-    }
-    #page_content pre {
-        white-space: pre-wrap;       /* css-3 */
-        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-        white-space: -pre-wrap;      /* Opera 4-6 */
-        white-space: -o-pre-wrap;    /* Opera 7 */
-        word-wrap: break-word;       /* Internet Explorer 5.5+ */
-   }
-}
-
-@media (max-width: 440px) {
-    div#page,
-    div#portfolio{
-       margin: 0 10px 0 10px;
-    }
-    div#menu_bar ul li {
-        padding: 4px 10px 4px 10px;
-    }
 }
