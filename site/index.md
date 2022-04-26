@@ -11,13 +11,14 @@ keywords: ['jekyll sites', 'personal sites', 'indie web', 'personal site aws', '
 
 {% include submenu.html %}
 
-See my [Small Internet Stack](small.html) page for information about
-alternatives to HTTP/WWW for this site.
+<div class="site_version">
+Site version <a href="https://github.com/joshbeard/joshbeard.me-website/commit/{{ site.git['last_commit']['long_sha'] }}" class="version_sha">{{ site.git['last_commit']['short_sha'] }}</a>
+<span class="version_timestamp">{{ site.git['last_commit']['commit_date'] }}</span>
+</div>
 
 ### Framework
 
-This is a [Jekyll](https://jekyllrb.com/) site with a completely custom theme
-and layout. Being Jekyll, it's completely static.
+This is a [Jekyll](https://jekyllrb.com/) site with a custom theme and layout.
 
 The site should be mobile friendly.
 
@@ -94,7 +95,7 @@ ejm97         `
 I deploy my [photos](/photos/) to their own S3 bucket from my workstation. I use
 a customized Jekyll plugin to generate the HTML pages for these photo albums.
 
-<div class="site_version">
-Site version <a href="https://github.com/joshbeard/joshbeard.me-website/commit/{{ site.git['last_commit']['long_sha'] }}" class="version_sha">{{ site.git['last_commit']['short_sha'] }}</a>
-<span class="version_timestamp">{{ site.git['last_commit']['commit_date'] }}</span>
-</div>
+### Small Internet
+
+See my [Small Internet Stack](small.html) page for information about
+a few of my _other_ landing pages on the Internet, including Gopher and Gemini.
