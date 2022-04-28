@@ -21,9 +21,21 @@
 #   --------------------
 #     album_info.yml
 #       This file may contain metadata about the album using the following keys:
-#       * description: A description of the album
-#       * photo_descriptions: A hash of key/value pairs where the key is a filename
-#                             and the value is a description for an image.
+#       description : str, optional
+#           A description of the album (string)
+#       photo_descriptions : dict, optional
+#           A hash of key/value pairs where the key is a filename and the value is
+#           a description for an image.
+#       key_image : str, optional
+#           An optional filename of an image to use for the album
+#           thumbnail. If none is specified, the first image is used.
+#       keywords : list, optional
+#           A list of keywords to add to the HTML page meta
+#       file_list : boolean, optional
+#           If true, the plugin will not parse the photos from the directory but
+#           instead from a "file_list.txt" file in the album directory. This is
+#           so the Jekyll build can run without the image files present - they
+#           are not in Git.
 #
 # This was adapted from https://github.com/kylemarsh/jekyll-gallery-generator
 #
