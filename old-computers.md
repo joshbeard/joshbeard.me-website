@@ -34,7 +34,7 @@ jgs `"""""""""""""`  '-'
 
 * ~1996: [Commodore PC Compatible](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems). Ran MS-DOS. Played basic games, joined BBS.
 * 1996-2000: [Packard Bell Pentium II 133MHz](http://pbplanet.info/wiki/index.php/Multimedia_D136). Hung out on a [BBS,](https://en.wikipedia.org/wiki/Bulletin_board_system) Played games like [Duke Nukem 3D](https://en.wikipedia.org/wiki/Duke_Nukem_3D) and [Sim City 2000.](https://en.wikipedia.org/wiki/SimCity_2000) Windows 95, 98, 2000. Later installed [Red Hat Linux 5.2](https://www.redhat.com/en/about/press-releases/press-redhatlinux52), bought off a shelf at  a Wal-Mart, and tested other Linux distributions.
-* 1997-1999: [Zenith SupersPort 286](https://oldcrap.org/2020/10/30/zenith-supersport-286e/). Mostly used MS-DOS and kept a journal on it. Windows 3.0 installed.
+* 1997-1999: [Zenith SupersPort 286](https://oldcrap.org/2020/10/30/zenith-supersport-286e/). Mostly used MS-DOS and kept a journal on it. Windows 3.0 installed. Learned some BASIC on this.
 * 1997-2006: Several no-name [386](https://en.wikipedia.org/wiki/I386) and [486s](https://en.wikipedia.org/wiki/I486). Ran DOS, Linux, and FreeBSD. Installed Windows 95 from floppy on a 486.
 * 1999-2006: Several no-name [Pentiums](https://en.wikipedia.org/wiki/Pentium_(original)) and [AMD K5/K6/Athalon](https://en.wikipedia.org/wiki/Advanced_Micro_Devices#CPUs_and_APUs). Ran Linux (RedHat, CentOS, Ubuntu, Debian, Gentoo, countless others) and FreeBSD.
 * 2006-2011: [Dell Inspiron 1750](https://rmromero.blogspot.com/2010/04/dell-inspiron-17-1750-specifications.html)(?) Laptop. Mostly Linux (Ubuntu). Briefly Windows XP and FreeBSD.
