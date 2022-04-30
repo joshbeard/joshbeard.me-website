@@ -105,6 +105,11 @@ ejm97         `
 I deploy my [photos](/photos/) to their own S3 bucket from my workstation. I use
 a customized Jekyll plugin to generate the HTML pages for these photo albums.
 
+### Performance
+
+* __100%__ on [GTmetrix](https://gtmetrix.com/reports/joshbeard.me/lC97jd4Z/)
+* __100%__ on [Pingdom](https://tools.pingdom.com/#601dfb4687400000)
+
 ### Small Internet
 
 See my [Small Internet Stack](small.html) page for information about

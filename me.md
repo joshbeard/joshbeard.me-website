@@ -127,3 +127,7 @@ See the [My Old Computers page](/old-computers.html)
 #### Home Servers
 
 See [my Home Lab page](/homelab/) for information about my servers at home.
+
+### In Memory
+
+🐓 A rooster in memory of my mom.
