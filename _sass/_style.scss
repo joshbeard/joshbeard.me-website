@@ -36,6 +36,10 @@ h1 {
     font-family: "Play", sans;
 }
 
+.header_page h1 {
+    margin: 0;
+}
+
 h1 a {
     text-decoration: none;
 }
@@ -71,6 +75,10 @@ hr {
     text-align: center;
     padding: 6px;
     font-size: 1.7em;
+}
+
+#header.header_page {
+    font-size: 1em;
 }
 
 #content {
