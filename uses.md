@@ -15,6 +15,9 @@ This is my [uses page](https://uses.tech/).
 
 [My resume](/resume/) describes more of what I use professionally as a systems/devops engineer.
 
+It nags at my security conscience to publish information about software and
+equipment I use but in the spirit of community, here it is.
+
 ### Computers
 
 * MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS.
