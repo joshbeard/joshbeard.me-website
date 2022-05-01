@@ -4,9 +4,11 @@
 /Gemfile.lock
 /dist/
 /.sass-cache
+.env-local
 
 /photos/**/*.jpg
 /photos/**/*.jpeg
 /photos/**/*.png
 /photos/**/*.gif
 /photos/**/*.gmi
+/photos/**/gophermap
