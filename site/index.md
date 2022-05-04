@@ -16,6 +16,14 @@ Site version <a href="https://github.com/joshbeard/joshbeard.me-website/commit/{
 <span class="version_timestamp">{{ site.git['last_commit']['commit_date'] }}</span>
 </div>
 
+### Other Protocols
+
+* __Gemini__: <a href="gemini://jbeard.co">gemini://jbeard.co</a>
+* __Gopher__: <a href="gopher://jbeard.co">gopher://jbeard.co</a>
+
+See my [Small Internet Stack](small.html) page for information about this and
+more.
+
 ### Status
 
 See <https://joshbeard.github.io/jbeard-upptime/> for a status page of my personal websites. Who cares, right?
@@ -109,8 +117,3 @@ a customized Jekyll plugin to generate the HTML pages for these photo albums.
 
 * __100%__ on [GTmetrix](https://gtmetrix.com/reports/joshbeard.me/lC97jd4Z/)
 * __100%__ on [Pingdom](https://tools.pingdom.com/#601dfb4687400000)
-
-### Small Internet
-
-See my [Small Internet Stack](small.html) page for information about
-a few of my _other_ landing pages on the Internet, including Gopher and Gemini.
