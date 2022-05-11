@@ -16,10 +16,7 @@ jobs:
           ref: ${{ github.ref }}
 
       - name: Workspace permissions
-        run: git config --global --add safe.directory "$GITHUB_WORKSPACE" && chmod -R a+w "$GITHUB_WORKSPACE"
-
-      - name: More Workspace permissions
-        run: git config --global --add safe.directory "/__w/" && chmod -R a+w "/__w/"
+        run: git config --global --add safe.directory "/__w/joshbeard.me-website/joshbeard.me-website" && chmod -R a+w "/__w/joshbeard.me-website/joshbeard.me-website"
 
       - name: Build
         run: jekyll build --trace
