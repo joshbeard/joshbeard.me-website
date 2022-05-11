@@ -3,7 +3,7 @@ title: About This Site
 meta_title: About This Site
 description: Information about this website
 layout: page
-permalink: /site/
+permalink: /site
 class: ascii-art
 keywords: ['jekyll sites', 'personal sites', 'indie web', 'personal site aws', 'landing page', 's3 site', 'cloudfront site']
 ---
@@ -110,7 +110,7 @@ ejm97         `
 
 ### Photos
 
-I deploy my [photos](/photos/) to their own S3 bucket from my workstation. I use
+I deploy my [photos](/photos) to their own S3 bucket from my workstation. I use
 a customized Jekyll plugin to generate the HTML pages for these photo albums.
 
 ### Performance

@@ -3,7 +3,7 @@ title: My Home Lab
 meta_title: My Home Lab
 description: Information about my Home Lab servers
 layout: page
-permalink: /homelab/
+permalink: /homelab
 class: ascii-art
 keywords: ['homelab', 'home lab', 'homelabs', 'proxmox', 'home server']
 ---

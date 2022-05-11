@@ -13,7 +13,7 @@ This will start a local server available at <http://localhost:4000/>
 
 ## Photo Albums
 
-My [photos](https://joshbeard.me/photos/) are hosted on S3 and the HTML pages
+My [photos](https://joshbeard.me/photos) are hosted on S3 and the HTML pages
 are generated using a bundled [custom plugin](_plugins/gallery_generator.rb),
 adapted from the original plugin at <https://github.com/kylemarsh/jekyll-gallery-generator>.
 

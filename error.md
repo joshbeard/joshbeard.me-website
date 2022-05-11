@@ -7,4 +7,4 @@ sitemap: false
 ---
 ## Error - Not Found
 
-&laquo;&nbsp;[Return Home](/)
+[Return Home](/)

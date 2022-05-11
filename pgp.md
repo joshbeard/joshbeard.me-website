@@ -4,7 +4,7 @@ meta_title: PGP Keys
 description: My PGP Keys and Related Resources
 keywords: ['gpg', 'gpg keys','gpg-keys', 'pgp', 'pgp keys', 'pgp-keys', 'josh beard pgp', 'josh beard gpg', 'joshbeard pubkey']
 layout: page
-permalink: /pgp/
+permalink: /pgp
 ---
 ## My PGP Keys
 

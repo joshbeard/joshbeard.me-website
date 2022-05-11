@@ -4,7 +4,7 @@ meta_title: Josh Beard Uses This
 description: Josh Beard's uses page describing the equipment and software used
 keywords: ['uses','uses.tech']
 layout: page
-permalink: /uses/
+permalink: /uses
 class: ascii-art
 ---
 ## What I Use
@@ -13,7 +13,7 @@ class: ascii-art
 
 This is my [uses page](https://uses.tech/).
 
-[My resume](/resume/) describes more of what I use professionally as a systems/devops engineer.
+[My resume](/resume) describes more of what I use professionally as a systems/devops engineer.
 
 It nags at my security conscience to publish information about software and
 equipment I use but in the spirit of community, here it is.

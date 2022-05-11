@@ -4,14 +4,14 @@ meta_title: About Me
 description: About Josh Beard
 keywords: ['josh beard bio', 'computer geeks']
 layout: page
-permalink: /me/
+permalink: /me
 class: ascii-art
 ---
 ## About Josh Beard
 
 {% include submenu.html %}
 
-See my [now page](/now/) for a summary of what I'm up to lately.
+See my [now page](/now) for a summary of what I'm up to lately.
 
 ### Personal
 
@@ -86,10 +86,10 @@ code.
 I spend most of my day in a code editor and command-line, bouncing across
 several projects. The type of code I am typically working with is Terraform,
 Python, Ansible, Puppet, Shell, YAML and JSON, and an assortment of others on
-occassion. I work with AWS, Docker, and GitLab a lot. See my [uses page](/uses/)
+occassion. I work with AWS, Docker, and GitLab a lot. See my [uses page](/uses)
 for more information about what I use day-to-day.
 
-See [my resume](/resume/) for more details about my professional experience.
+See [my resume](/resume) for more details about my professional experience.
 
 ### The Good ol' Days
 
@@ -126,7 +126,7 @@ See the [My Old Computers page](/old-computers.html)
 
 #### Home Servers
 
-See [my Home Lab page](/homelab/) for information about my servers at home.
+See [my Home Lab page](/homelab) for information about my servers at home.
 
 ### In Memory
 
