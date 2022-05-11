@@ -16,6 +16,7 @@ jobs:
 
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE" && /entrypoint.sh
 
       - uses: actions/upload-artifact@master
         with:
