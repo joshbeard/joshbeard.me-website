@@ -8,15 +8,18 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: jerryjvl/jekyll-build-action@v1
+    container: jekyll/builder:4
 
     steps:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.ref }}
 
+      - name: Workspace permissions
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE" && chmod -R a+w "$GITHUB_WORKSPACE"
+
       - name: Build
-        run: git config --global --add safe.directory "$GITHUB_WORKSPACE" && /entrypoint.sh
+        run: jekyll build --trace
 
       - uses: actions/upload-artifact@master
         with:
