@@ -8,7 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: jekyll/builder:4
 
     steps:
       - uses: actions/checkout@v3
@@ -16,14 +15,9 @@ jobs:
           ref: ${{ github.ref }}
 
       - name: Build
-        run: |
-          git --version
-          echo $GITHUB_WORKSPACE
-          git config --global --add safe.directory /__w/joshbeard.me-website/joshbeard.me-website
-          chmod -R a+w /__w/joshbeard.me-website/joshbeard.me-website
-          jekyll build --trace
+        uses: joshbeard/jekyll-build-action@joshbeard
         env:
-          GIT_CEILING_DIRECTORIES: /__w
+          GIT_CEILING_DIRECTORIES: $GITHUB_WORKSPACE
 
       - uses: actions/upload-artifact@master
         with:
