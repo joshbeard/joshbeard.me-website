@@ -2,7 +2,8 @@
 <ul class="sub-menu">
 {% for item in site.data.about_menu %}
     <li class="menu-item-{{ loop.index }}">
-        {% if page.url == item.url %}
+        {% assign slashed = item.url | append: "/" %}
+        {% if (page.url == item.url) or (page.url == slashed) %}
             {{ item.title }}
         {% else %}
             <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
