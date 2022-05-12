@@ -17,9 +17,12 @@ jobs:
 
       - name: Build
         run: |
+          git --version
           git config --global --add safe.directory /__w/joshbeard.me-website/joshbeard.me-website
           chmod -R a+w /__w/joshbeard.me-website/joshbeard.me-website
           jekyll build --trace
+        env:
+          GIT_CEILING_DIRECTORIES: /__w
 
       - uses: actions/upload-artifact@master
         with:
