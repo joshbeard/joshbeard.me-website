@@ -4,7 +4,7 @@ meta_title: Josh Beard Uses This
 description: Josh Beard's uses page describing the equipment and software used
 keywords: ['uses','uses.tech']
 layout: page
-permalink: /uses
+permalink: /uses/
 class: ascii-art
 ---
 ## What I Use

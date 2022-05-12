@@ -1,7 +1,7 @@
 ---
 title: About
 layout: page
-permalink: /about
+permalink: /about/
 class: about-page
 description: About Josh Beard and This Site
 ---

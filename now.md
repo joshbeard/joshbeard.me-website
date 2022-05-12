@@ -4,7 +4,7 @@ meta_title: What I'm Up To Now
 description: What I'm Up To Now
 keywords: ['now page', 'status update']
 layout: page
-permalink: /now
+permalink: /now/
 class: ascii-art
 ---
 ## What I'm Up To Now

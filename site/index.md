@@ -3,7 +3,7 @@ title: About This Site
 meta_title: About This Site
 description: Information about this website
 layout: page
-permalink: /site
+permalink: /site/
 class: ascii-art
 keywords: ['jekyll sites', 'personal sites', 'indie web', 'personal site aws', 'landing page', 's3 site', 'cloudfront site']
 ---
