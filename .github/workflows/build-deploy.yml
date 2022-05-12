@@ -18,6 +18,7 @@ jobs:
       - name: Build
         run: |
           git --version
+          echo $GITHUB_WORKSPACE
           git config --global --add safe.directory /__w/joshbeard.me-website/joshbeard.me-website
           chmod -R a+w /__w/joshbeard.me-website/joshbeard.me-website
           jekyll build --trace
