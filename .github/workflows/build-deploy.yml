@@ -15,11 +15,8 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
-      - name: Workspace permissions
-        run: git config --global --add safe.directory "/__w/joshbeard.me-website/joshbeard.me-website" && chmod -R a+w "/__w/joshbeard.me-website/joshbeard.me-website"
-
       - name: Build
-        run: jekyll build --trace
+        run: git config --global --add safe.directory "/__w/joshbeard.me-website/joshbeard.me-website" && chmod -R a+w "/__w/joshbeard.me-website/joshbeard.me-website" && jekyll build --trace
 
       - uses: actions/upload-artifact@master
         with:
