@@ -64,7 +64,7 @@ kramdown:
 plugins:
   - jekyll-target-blank
   - jekyll-sitemap
-  - jekyll-git_metadata
+  #- jekyll-git_metadata
   - jekyll-sass-converter
 
 target-blank:

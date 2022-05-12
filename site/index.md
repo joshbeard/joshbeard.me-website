@@ -11,11 +11,6 @@ keywords: ['jekyll sites', 'personal sites', 'indie web', 'personal site aws', '
 
 {% include submenu.html %}
 
-<div class="site_version">
-Site version <a href="https://github.com/joshbeard/joshbeard.me-website/commit/{{ site.git['last_commit']['long_sha'] }}" class="version_sha">{{ site.git['last_commit']['short_sha'] }}</a>
-<span class="version_timestamp">{{ site.git['last_commit']['commit_date'] }}</span>
-</div>
-
 ### Other Protocols
 
 * __Gemini__: <a href="gemini://jbeard.co">gemini://jbeard.co</a>
