@@ -21,7 +21,6 @@ equipment I use but in the spirit of community, here it is.
 ### Computers
 
 * MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS.
-* MacBook Pro (2021) 16" i9 2.3GHz/16GB (Work). Runs macOS.
 * MacBook Air (2012). Runs macOS.
 * Apple Magic Keyboard (2022). I've used many mechanicals and other styles over
   the years but can't find anything I like more than this. I love the low
