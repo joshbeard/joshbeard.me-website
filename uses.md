@@ -20,13 +20,14 @@ equipment I use but in the spirit of community, here it is.
 
 ### Computers
 
-* MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS.
+* MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS. Daily driver.
 * MacBook Air (2012). Runs macOS.
+* Dell Precision (2022) (work). Runs Windows 11.
 * Apple Magic Keyboard (2022). I've used many mechanicals and other styles over
   the years but can't find anything I like more than this. I love the low
   profile and the feel.
 * HP Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton).
-* Home server: Dell PowerEdge T410 (Runs Proxmox on Debian)
+* Home server: Dell PowerEdge T410 (Runs Proxmox on Debian); containers and VMs of different flavors.
 
 The [My Old Computers](/old-computers.html) page lists some older computers I've had.
 
@@ -53,15 +54,14 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 ### Software
 
 * Workstation OS: macOS
-* Server OS: Linux (CentOS, Rocky, Ubuntu, Debian, Alpine), FreeBSD
-* Browsers: [Brave Browser](https://brave.com/) and [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* Server OS: Linux (Rocky, Ubuntu, Debian, RHEL, CentOS, Alpine), FreeBSD
+* Browsers: Mostly [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/). Sometimes [Brave](https://brave.com).
 * Shell: ZSH with [zprezto](https://github.com/sorin-ionescu/prezto)
 * Music: Spotify
 * Notes: [Bear](https://bear.app/) and [Obsidian](https://obsidian.md/)
 * A password manager
 * [Lagrange](https://gmi.skyjake.fi/lagrange/): Gemini, Gopher, and Finger browser. See [Small Internet](/site/small.html)
 * [Marked 2](https://marked2app.com/) for Markdown reading outside VS Code
-* GIMP
 * Adobe Creative Suite (Lightroom, Photoshop)
 * Finance: [YNAB](https://www.youneedabudget.com/)
 
@@ -74,7 +74,7 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 
 * Hosting: AWS
 * E-Mail: [Migadu](https://www.migadu.com/)
-* Git Repo and CI/CD: [GitHub](https://github.com/joshbeard/) for personal public things (ugh) and GitLab at work and private things.
+* Git Repo and CI/CD: [GitHub](https://github.com/joshbeard/) for personal public things and GitLab at work.
 
 ### Development and Work
 
