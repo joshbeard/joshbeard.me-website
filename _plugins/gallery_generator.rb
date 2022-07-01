@@ -23,6 +23,8 @@
 #       This file may contain metadata about the album using the following keys:
 #       description : str, optional
 #           A description of the album (string)
+#       meta_description : str, optional
+#           A description of the album to use in the page headers and metadata (string)
 #       photo_descriptions : dict, optional
 #           A hash of key/value pairs where the key is a filename and the value is
 #           a description for an image.
@@ -114,10 +116,11 @@ module Jekyll
 			self.process(@name)
 			self.read_yaml(File.join(@base, '_layouts'), 'album_index.html')
 
-			self.data['title'] = "#{dir}"
+			self.data['title'] = @album_metadata['meta_title'] || dir
 			self.data['images'] = []
 			self.data['albums'] = []
 			self.data['description'] = @album_metadata['description']
+			self.data['meta_description'] = @album_metadata['meta_description'] || False
             self.data['photo_descriptions'] = @album_metadata['photo_descriptions']
 			self.data['hidden'] = true if @album_metadata['hidden']
 			self.data['keywords'] = @album_metadata['keywords'] || []
