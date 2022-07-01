@@ -2,7 +2,7 @@
 title: My Old Computers
 layout: page
 meta_title: My Old Computers
-description: Description of some technology items I've owned over the years
+description: Description of some technology items I've owned and used over the years
 keywords:
   - classic computers
   - 90s computers

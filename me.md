@@ -1,7 +1,7 @@
 ---
 title: About Josh Beard
 meta_title: About Me
-description: About Josh Beard
+description: A brief bio
 keywords: ['josh beard bio', 'computer geeks']
 layout: page
 permalink: /me/

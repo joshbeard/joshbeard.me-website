@@ -1,7 +1,7 @@
 ---
 title: "Small Internet Stack"
 meta_title: "Small Internet Stack"
-description: My Small Internet Stack
+description: My "Small Internet Stack" and alternative protocols
 layout: page
 permalink: /site/small.html
 keywords: ['smol web', 'smol internet', 'small internet', 'small web', 'gopher', 'gemini', 'gopher hole', 'gemini capsule', 'gopher site', 'gemini site', 'finger', 'alternative web', 'indie web', 'finger protocol', 'finger user']

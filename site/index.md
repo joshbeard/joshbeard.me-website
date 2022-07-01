@@ -1,7 +1,7 @@
 ---
 title: About This Site
 meta_title: About This Site
-description: Information about this website
+description: Information about this website and the tools used to build and host it
 layout: page
 permalink: /site/
 class: ascii-art
