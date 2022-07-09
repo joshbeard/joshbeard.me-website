@@ -24,6 +24,7 @@ equipment I use but in the spirit of community, here it is.
 * 2x Dell Precision (work). Runs Windows + WSL2.
 * Keyboard: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
 * Keyboard: Apple Magic Keyboard (2022).
+* Monitors: Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p
 * MacBook Air (2012). Runs macOS.
 * HP Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton). Not used much.
 * Home server: Dell PowerEdge T410 (Runs Proxmox on Debian); containers and VMs of different flavors.
