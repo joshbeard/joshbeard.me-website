@@ -21,12 +21,11 @@ equipment I use but in the spirit of community, here it is.
 ### Computers
 
 * MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS. Daily driver.
+* 2x Dell Precision (work). Runs Windows + WSL2.
+* Keyboard: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
+* Keyboard: Apple Magic Keyboard (2022).
 * MacBook Air (2012). Runs macOS.
-* Dell Precision (2022) (work). Runs Windows 11.
-* Apple Magic Keyboard (2022). I've used many mechanicals and other styles over
-  the years but can't find anything I like more than this. I love the low
-  profile and the feel.
-* HP Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton).
+* HP Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton). Not used much.
 * Home server: Dell PowerEdge T410 (Runs Proxmox on Debian); containers and VMs of different flavors.
 
 The [My Old Computers](/old-computers.html) page lists some older computers I've had.
@@ -53,10 +52,9 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 
 ### Software
 
-* Workstation OS: macOS
 * Server OS: Linux (Rocky, Ubuntu, Debian, RHEL, CentOS, Alpine), FreeBSD
 * Browsers: Mostly [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/). Sometimes [Brave](https://brave.com).
-* Shell: ZSH with [zprezto](https://github.com/sorin-ionescu/prezto)
+* Shell: zsh with [zprezto](https://github.com/sorin-ionescu/prezto)
 * Music: Spotify
 * Notes: [Bear](https://bear.app/) and [Obsidian](https://obsidian.md/)
 * A password manager
@@ -74,12 +72,13 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 
 * Hosting: AWS
 * E-Mail: [Migadu](https://www.migadu.com/)
-* Git Repo and CI/CD: [GitHub](https://github.com/joshbeard/) for personal public things and GitLab at work.
+* Git Repo and CI/CD: [GitHub](https://github.com/joshbeard/) for personal
+  public things and mainly [GitLab](https://about.gitlab.com/) at work.
 
 ### Development and Work
 
 * [Visual Studio Code](https://code.visualstudio.com/) is what I've been using for the last couple of years after being a long-time Vim user. I do have the Vi plugin enabled for familiar keybindings. An assortment of extensions.
-* Docker - invaluable part of my workflow for using things like Terraform and Ansible, especially for things that will run _somewhere else_.
+* [Docker](https://docker.io) - invaluable part of my workflow for using things like Terraform and Ansible, especially for things that will run _somewhere else_.
 * Ansible
 * Python
 * Terraform
@@ -102,6 +101,11 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 * [Amphetimine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12): keep-awake utility for macOS
 * [Bartender](https://www.macbartender.com/): menu bar management for macOS
 * [Homebrew](https://brew.sh/): package manager for macOS
+
+### Homelab
+
+See my [Homelab](/homelab/) page for information about my home servers using
+[Proxmox](https://www.proxmox.com/) as a platform.
 
 ---
 
