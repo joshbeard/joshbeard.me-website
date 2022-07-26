@@ -207,7 +207,8 @@ nav {
     color: #e5e5e5;
 }
 
-a.nav button {
+a.prev-button,
+a.next-button {
     background: transparent;
     border: none;
     color: #ffffff;
@@ -215,7 +216,8 @@ a.nav button {
     opacity: 0.2;
 }
 
-a.nav button:hover {
+a.prev-button:hover,
+a.next-button:hover {
     background: #525252;
     color: #5AF2F0;
     opacity: 0.6;

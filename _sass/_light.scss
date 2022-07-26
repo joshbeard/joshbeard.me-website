@@ -212,13 +212,15 @@ div.post-nav a:hover {
     color: #525252;
 }
 
-a.nav button {
+a.prev-button,
+a.next-button {
     color: #ffffff;
     background: #000;
     opacity: 0.2;
 }
 
-a.nav button:hover {
+a.prev-button:hover,
+a.next-button:hover {
     background: #525252;
     color: #5AF2F0;
     opacity: 0.6;

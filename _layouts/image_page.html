@@ -6,15 +6,15 @@ class: image-page
 <div class='image-page'>
 	<div class='image-nav image-nav-prev'>
 		{% if page.prev_url %}
-		<a class="nav prev-button" href="{{ page.prev_url }}"><button><i class="fas fa-fw fa-circle-left"></i></button></a>
+		<a class="nav prev-button" href="{{ page.prev_url }}"><i class="fas fa-fw fa-circle-left"></i></a>
 		{% endif %}
 	</div>
 	<div class="image-container">
-		<a href="/{{ page.img_src }}"><img src="/{{page.img_src}}" class="img_full" /></a>
+		<a href="/{{ page.img_src }}"><img src="/{{page.img_src}}" class="img_full" alt="{{ page.album_name }} - {{ page.description }}" /></a>
     </div>
 	<div class='image-nav image-nav-next'>
 		{% if page.next_url %}
-		<a class="nav next-button" href="{{ page.next_url }}"><button><i class="fas fa-fw fa-circle-right"></i></button></a>
+		<a class="nav next-button" href="{{ page.next_url }}"><i class="fas fa-fw fa-circle-right"></i></a>
 		{% endif %}
 	</div>
 </div>

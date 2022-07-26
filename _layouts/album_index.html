@@ -25,7 +25,7 @@ class: album-index
 	<div id="album-images">
 	{% for image in page.images %}
 		<div class="image-in-album">
-			<a href="{{ image.rel_link }}"><img src="/{{image.thumb}}" class="img_thumb" /></a>
+			<a href="{{ image.rel_link }}"><img src="/{{image.thumb}}" class="img_thumb" alt="{{ image.description }}" /></a>
 		</div>
 	{% endfor %}
 	</div>
