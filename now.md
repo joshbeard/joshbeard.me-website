@@ -1,7 +1,7 @@
 ---
 title: What I'm Up To Now
 meta_title: What I'm Up To Now
-description: My "now" page is a short summary of what I'm doing
+description: My now page is a short summary of what I'm doing
 keywords: ['now page', 'status update']
 layout: page
 permalink: /now/

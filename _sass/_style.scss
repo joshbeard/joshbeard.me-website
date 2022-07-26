@@ -568,16 +568,11 @@ a.nav {
     text-align: right;
 }
 
-.image-nav-prev button {
-    text-align: left;
-}
-
-.image-nav-next button {
-    text-align: right;
-}
-
-a.nav button {
+a.prev-button,
+a.next-button {
     height: 100%;
+    display: flex;
+    align-items: center;
     background: transparent;
     border: none;
     opacity: 0.2;
@@ -588,13 +583,18 @@ a.nav button {
     margin: 0;
 }
 
-a.nav button:hover {
+a.prev-button:hover,
+a.next-button:hover {
     cursor: pointer;
     opacity: 0.6;
     width: 60px;
     text-align: center;
 }
 
+a.prev-button i,
+a.next-button i {
+    margin: 0 auto;
+}
 .image-wrap {
     display: flex;
     justify-content: center;
