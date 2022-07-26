@@ -56,7 +56,7 @@ jobs:
       - name: HTML5Validator
         uses: Cyb3r-Jak3/html5validator-action@v7.1.1
         with:
-          root: src/
+          root: .
 
   deploy:
     runs-on: ubuntu-latest
