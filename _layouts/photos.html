@@ -13,9 +13,9 @@ class: album-list
                 {% if page.images %}
                 {{ page.key_image }}
                     {% if page.key_image_data %}
-                        <a href="{{ page.url }}"><img src="/{{ page.key_image_data.thumb }}" class="img-thumb" /></a>
+                        <a href="{{ page.url }}"><img src="/{{ page.key_image_data.thumb }}" class="img-thumb" alt="{{ page.description }}" /></a>
                     {% else %}
-                        <a href="{{ page.url }}"><img src="/{{ page.images[0].thumb }}" class="img-thumb" /></a>
+                        <a href="{{ page.url }}"><img src="/{{ page.images[0].thumb }}" class="img-thumb" alt="{{ page.description }}" /></a>
                     {% endif %}
                 {% endif %}
                 </div>
