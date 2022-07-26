@@ -1,5 +1,7 @@
 # joshbeard.me
 
+[![Build](https://github.com/joshbeard/joshbeard.me-website/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/joshbeard/joshbeard.me-website/actions/workflows/build-deploy.yml)
+
 A [Jekyll](https://jekyllrb.com/) site for my personal landing page,
 [joshbeard.me](https://joshbeard.me).
 
