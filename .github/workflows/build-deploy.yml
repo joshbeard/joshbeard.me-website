@@ -49,14 +49,19 @@ jobs:
     runs-on: ubuntu-latest
     needs: minify
     steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+
       - uses: actions/download-artifact@master
         with:
           name: src
+          path: _site
 
       - name: HTML5Validator
         uses: Cyb3r-Jak3/html5validator-action@v7.1.1
         with:
-          root: .
+          root: _site/
 
   deploy:
     runs-on: ubuntu-latest
