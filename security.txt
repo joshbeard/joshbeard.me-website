@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:hello@joshbeard.me
+Expires: 2023-07-25T06:00:00.000Z
+Encryption: https://joshbeard.me/files/joshbeard-public.asc.txt
+Encryption: https://keys.openpgp.org/search?q=0xCA96989D4A3F7869F5DEB38DF9BE548EC3641B41
+Preferred-Languages: en
+Canonical: https://joshbeard.me/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEypaYnUo/eGn13rON+b5UjsNkG0EFAmLfbxwACgkQ+b5UjsNk
+G0EFORAAhCRw61teF4iiTZSdfUfmAAeV84JN4BXBCVzQHxAO7bjE+tPYmigvnV55
+fOIp3ZEe9k/S+A6rlyt2R4i7JImbaSf5xVhZ8Q/Z283KNhSGAkhruLUZ5GWAuP18
+HOQ3MFtxNxIMx3/AnzrrflN+5z/b4mr9N0BMfLUiAN+EA+9/EcMp58YKP8vGk+pz
+GsWrA/Ymc7so21hHDStt0/EQvGERM7LNPJtiZVIckWJUAh+rOpHw+93Aec2lUYCr
+e5pD0UNPBufvflQpvWLWSPt7yLk7RxncZPeEyUv5p2Sn8371/nD6v+sXhHtyn6b3
+L3rgGKQWLfcK6Nj57dWoumTofBh5xBuKs3EKuoifY1/JA3Wd0S1D7h4zt9ZVV2Bu
+0ngw1Qri4yB8gAp3+0ZbxGDsQyvHKlaCMsg7dKAXH02TTYE83aTRFwFtNpkTlam9
+RhiwdVzu36zyjysfoIx9yOG6fhegAdbsld94yuo0C38vp0GWI30jw3yyoJiB1iH1
+ru/HSkV1FtMdnNzmYdrqPVdm87jkU8aRrKCIGd5QBlMzhpnlj6cOe+pYEIr8D5yE
+YBDglILC1u/wm2jwJJdbB5KX+Z2fdPY2bbPr/70sZtcvXIj78oTXsFnYkLwyehh3
+pvqIdfePpLasB1pAHWDjVHe3gZ1I+1+spo9LcCR0GURYdO6nbIY=
+=NOO2
+-----END PGP SIGNATURE-----
