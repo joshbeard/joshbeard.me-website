@@ -13,7 +13,8 @@ class: ascii-art
 
 This is my [uses page](https://uses.tech/).
 
-[My resume](/resume) describes more of what I use professionally as a systems/devops engineer.
+[My resume](/resume) describes more of what I use professionally as a
+systems/devops/cloud engineer.
 
 It nags at my security conscience to publish information about software and
 equipment I use but in the spirit of community, here it is.
