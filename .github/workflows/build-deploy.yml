@@ -6,8 +6,29 @@ on:
       - plugins
 
 jobs:
-  build:
+  # NOTE: This spell checker only checks the changes *in a commit*. It won't
+  # scan the whole repo or even a whole file - just what's changed.
+  # See https://github.com/TypoCI/spellcheck-action
+  # Another option: https://github.com/check-spelling/check-spelling
+  spellcheck:
+    name: Spell Check
     runs-on: ubuntu-latest
+    timeout-minutes: 4
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.ref }}
+
+      - name: TypoCheck
+        uses: typoci/spellcheck-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  build:
+    name: Build Jekyll Site
+    runs-on: ubuntu-latest
+    needs: spellcheck
 
     steps:
       - uses: actions/checkout@v3
@@ -25,6 +46,7 @@ jobs:
           path: _site/
 
   minify:
+    name: Minify
     runs-on: ubuntu-latest
     container: thekevjames/minify:2.5.2
     needs: build
@@ -46,6 +68,7 @@ jobs:
           path: .
 
   validate:
+    name: HTML Validation
     runs-on: ubuntu-latest
     needs: minify
     steps:
@@ -64,6 +87,7 @@ jobs:
           root: _site/
 
   deploy:
+    name: Deploy Website
     runs-on: ubuntu-latest
     needs: validate
 
