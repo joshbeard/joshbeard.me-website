@@ -74,7 +74,7 @@ def create_album_thumbnails(path):
 
         if not os.path.isfile(os.path.join(thumb_dir, image)):
             try:
-                subprocess.run(['mogrify', '-path', thumb_dir, '-resize', str(THUMB_WIDTH), photo])
+                subprocess.run(['/usr/bin/env', 'mogrify', '-path', thumb_dir, '-resize', str(THUMB_WIDTH), photo])
             except:
                 print("    ▹ [thumbnails] Error generating thumbnail for %s" % photo)
 
@@ -94,7 +94,7 @@ def check_image_exif(photo):
         Boolean specifying whether an image has EXIF data or not
     """
     try:
-        subprocess.run(['exiv2', 'pr', photo], check=True, capture_output=True)
+        subprocess.run(['/usr/bin/env', 'exiv2', 'pr', photo], check=True, capture_output=True)
         return True
     except subprocess.CalledProcessError as e:
         return False
@@ -118,7 +118,7 @@ def remove_image_exif(path):
         photo = os.path.join(path, image)
         try:
             if check_image_exif(photo):
-                subprocess.run(['exiv2', 'rm', photo])
+                subprocess.run(['/usr/bin/env', 'exiv2', 'rm', photo])
             else:
                 print("    ▹ [exif] Skipping %s - no exif data found" % photo)
         except:
@@ -250,6 +250,7 @@ def exists_in_s3(path):
         A boolean specifying whether a file exists in the S3 bucket.
     """
     ls = subprocess.run([
+        '/usr/bin/env',
         'aws', 's3', 'ls',
         's3://' + S3_BUCKET + '/' + path
     ])
@@ -267,6 +268,7 @@ def copy_to_s3(path):
     """
     print(" ▸ [s3-sync] Syncing %s to S3" % path)
     sync = subprocess.run([
+        '/usr/bin/env',
         'aws', 's3', 'sync', path,
         's3://' + S3_BUCKET + '/' + path,
         '--delete',
@@ -291,6 +293,7 @@ def set_s3_object_cache(path, maxage=15552000):
         image_file = str(os.path.join(path, image))
         print("  ▸ [s3-cache] Setting S3 object cache control for %s" % image_file)
         subprocess.run([
+            '/usr/bin/env',
             'aws', 's3', 'cp',
             's3://' + S3_BUCKET + '/' + image_file,
             's3://' + S3_BUCKET + '/' + image_file,
