@@ -127,8 +127,8 @@ module Jekyll
 
 			files, directories = list_album_contents
 
-			if @album_metadata['file_list'] || false
-				if File.exists?(File.join(@album_source, 'file_list.txt'))
+			if 'file_list' in @album_metadata && @album_metadata['file_list']
+				if File.exist?(File.join(@album_source, 'file_list.txt'))
 					files = File.readlines(File.join(@album_source, 'file_list.txt'), chomp: true)
 				end
 			end
@@ -173,7 +173,7 @@ module Jekyll
 			local_config = {}
 			['yml', 'yaml'].each do |ext|
 				config_file = File.join(@album_source, 'album_info.yml')
-				if File.exists? config_file
+				if File.exist? config_file
 					local_config = YAML.load_file(config_file)
 				end
 			end

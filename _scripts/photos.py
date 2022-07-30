@@ -75,7 +75,7 @@ def create_album_thumbnails(path):
         if not os.path.isfile(os.path.join(thumb_dir, image)):
             try:
                 subprocess.run(['/usr/bin/env', 'mogrify', '-path', thumb_dir, '-resize', str(THUMB_WIDTH), photo])
-            except:
+            except Exception:
                 print("    ▹ [thumbnails] Error generating thumbnail for %s" % photo)
 
 def check_image_exif(photo):
@@ -121,7 +121,7 @@ def remove_image_exif(path):
                 subprocess.run(['/usr/bin/env', 'exiv2', 'rm', photo])
             else:
                 print("    ▹ [exif] Skipping %s - no exif data found" % photo)
-        except:
+        except Exception:
             print("Error removing exif data for %s" % photo)
 
 def create_gemini_photo_pages(album, album_info):
