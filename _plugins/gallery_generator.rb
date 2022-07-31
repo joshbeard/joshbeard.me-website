@@ -127,7 +127,7 @@ module Jekyll
 
 			files, directories = list_album_contents
 
-			if @album_metadata.has_key? 'file_list' && @album_metadata['file_list']
+			if @album_metadata['file_list']
 				if File.exist?(File.join(@album_source, 'file_list.txt'))
 					files = File.readlines(File.join(@album_source, 'file_list.txt'), chomp: true)
 				end
