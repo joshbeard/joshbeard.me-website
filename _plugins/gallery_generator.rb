@@ -79,7 +79,7 @@ module Jekyll
 
 			self.process(@name)
 			self.read_yaml(File.join(@base, '_layouts'), 'image_page.html')
-			self.data['title'] = "#{File.basename(img_source)}"
+			self.data['title'] = File.basename(img_source).to_s()
 			self.data['img_src'] = img_source
 			self.data['thumb'] = thumb
 			self.data['prev_url'] = prev_name
@@ -109,7 +109,7 @@ module Jekyll
 			@album_source = File.join(site.config['album_dir'] || 'albums', dir)
 			@album_metadata = get_album_metadata
 
-            @album_name = "#{dir}"
+            @album_name = dir.to_s()
 
 			@thumbs_dir = site.config['album_thumbs_dir'] || 'thumbs'
 
@@ -211,8 +211,8 @@ module Jekyll
 			# Get info for the album page and make the image's page.
 
 			rel_link = image_page_url(filename)
-			img_source = "#{File.join(@album_source, filename)}"
-            thumb = "#{File.join(@album_source, @thumbs_dir, filename)}"
+			img_source = File.join(@album_source, filename).to_s()
+            thumb = File.join(@album_source, @thumbs_dir, filename).to_s()
 
             description = nil
             if descriptions.class == Hash
