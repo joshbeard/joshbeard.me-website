@@ -30,7 +30,6 @@
 #
 import os
 import sys
-from tkinter import W
 import yaml
 import subprocess
 from signal import signal, SIGINT
