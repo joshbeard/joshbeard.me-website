@@ -258,7 +258,7 @@ def exists_in_s3(path):
         'aws', 's3', 'ls',
         's3://' + S3_BUCKET + '/' + path
     ]
-    ls = subprocess.check_output(args, shell=False)
+    ls = subprocess.check_output(args)
     if ls.returncode == 0:
         return True
     return False
