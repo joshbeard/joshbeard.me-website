@@ -71,7 +71,7 @@
 module Jekyll
 	class ImagePage < Page
 		# An image page
-		def initialize(site, base, dir, outdir, img_source, thumb, album_name, name, prev_name, next_name, album_page, description)
+		def initialize(site, base, outdir, img_source, thumb, album_name, name, prev_name, next_name, album_page, description)
 			@site = site
 			@base = base
 			@dir = outdir
@@ -145,7 +145,7 @@ module Jekyll
 			if page == 0
 				directories.each do |subalbum|
 					albumpage = AlbumPage.new(site, site.source, File.join(dir, subalbum), @dir)
-					if !albumpage.data['hidden']
+					unless albumpage.data['hidden']
 						self.data['albums'] << { 'name' => subalbum, 'url' => albumpage.url }
 					end
 					site.pages << albumpage #FIXME: sub albums are getting included in my gallery index
@@ -171,11 +171,9 @@ module Jekyll
 		def get_album_metadata
 			site_metadata = @site.config['album_config'] || {}
 			local_config = {}
-			['yml', 'yaml'].each do |ext|
-				config_file = File.join(@album_source, 'album_info.yml')
-				if File.exist? config_file
-					local_config = YAML.load_file(config_file)
-				end
+			config_file = File.join(@album_source, 'album_info.yml')
+			if File.exist? config_file
+				local_config = YAML.load_file(config_file)
 			end
 			return DEFAULT_METADATA.merge(site_metadata).merge(local_config)
 		end
@@ -242,7 +240,7 @@ module Jekyll
 		end
 
 		def image_page_url(filename)
-			return nil if filename == nil
+			return nil if filename.nil?
 			ext = File.extname(filename)
 			return "#{File.basename(filename, ext)}_#{File.extname(filename)[1..-1]}.html"
 		end
