@@ -55,7 +55,7 @@ S3_BUCKET="joshbeard.me-photos"
 def handler(signal_received, frame):
     """Handle interruption"""
     print('SIGINT or CTRL-C received. Exiting.')
-    exit(0)
+    sys.exit(0)
 
 
 def create_album_thumbnails(path):
