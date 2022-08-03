@@ -30,6 +30,7 @@
 #
 import os
 import sys
+from tkinter import W
 import yaml
 import subprocess
 from signal import signal, SIGINT
@@ -50,10 +51,12 @@ THUMB_DIR="thumbs"
 S3_BUCKET="joshbeard.me-photos"
 # ======================================================================
 
+
 def handler(signal_received, frame):
     """Handle interruption"""
     print('SIGINT or CTRL-C received. Exiting.')
     exit(0)
+
 
 def create_album_thumbnails(path):
     """Create thumbnails for images in an album directory
@@ -79,6 +82,7 @@ def create_album_thumbnails(path):
             except Exception:
                 print("    ▹ [thumbnails] Error generating thumbnail for %s" % photo)
 
+
 def check_image_exif(photo):
     """Check for EXIF data in an image
 
@@ -100,6 +104,7 @@ def check_image_exif(photo):
         return True
     except subprocess.CalledProcessError:
         return False
+
 
 def remove_image_exif(path):
     """Remove EXIF data from images in an album
@@ -127,6 +132,7 @@ def remove_image_exif(path):
         except Exception as e:
             print("Error removing exif data for %s" % photo)
             print(e)
+
 
 def create_gemini_photo_pages(album, album_info):
     """Create a Gemini index page for each album
@@ -175,6 +181,7 @@ def create_gemini_photo_pages(album, album_info):
 
     return "\n".join(album_index)
 
+
 def create_file_list(path):
     """Write a list of images in an album directory to a file
 
@@ -197,6 +204,7 @@ def create_file_list(path):
     print("  ▸ [file_list] Wrote file list to %s" % filename)
     file.close()
 
+
 def list_album_images(path):
     """Return list of photos in an album directory
 
@@ -216,6 +224,7 @@ def list_album_images(path):
             image_list.append(file)
     image_list.sort()
     return image_list
+
 
 def get_album_info(path):
     """Return album info
@@ -240,6 +249,7 @@ def get_album_info(path):
             except yaml.YAMLError as e:
                 print(e)
 
+
 def exists_in_s3(path):
     """Function to check whether an image exists in S3
 
@@ -263,6 +273,7 @@ def exists_in_s3(path):
         return True
     return False
 
+
 def copy_to_s3(path):
     """Synchronize a local album directory to S3
 
@@ -283,6 +294,7 @@ def copy_to_s3(path):
     ]
     sync = subprocess.check_output(args, shell=False)
     print(sync)
+
 
 def set_s3_object_cache(path, maxage=15552000):
     """Set the 'cache-control' on image objects in S3
@@ -310,6 +322,7 @@ def set_s3_object_cache(path, maxage=15552000):
         sync = subprocess.check_output(args, shell=False)
         print(sync)
 
+
 def parse_album(path):
     """Parse each album
 
@@ -336,6 +349,7 @@ def parse_album(path):
         print()
         print("--------------------------------------------------------------------------------")
         print()
+
 
 if __name__ == '__main__':
     # Prepare and deploy photo album directories
