@@ -2,6 +2,7 @@
 
 [![Build](https://github.com/joshbeard/joshbeard.me-website/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/joshbeard/joshbeard.me-website/actions/workflows/build-deploy.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/joshbeard/joshbeard.me-website/badge/master)](https://www.codefactor.io/repository/github/joshbeard/joshbeard.me-website/overview/master)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/joshbeard/joshbeard.me-website)
 
 A [Jekyll](https://jekyllrb.com/) site for my personal landing page,
 [joshbeard.me](https://joshbeard.me).
