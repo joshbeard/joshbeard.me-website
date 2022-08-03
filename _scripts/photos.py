@@ -74,7 +74,7 @@ def create_album_thumbnails(path):
 
         if not os.path.isfile(os.path.join(thumb_dir, image)):
             try:
-                subprocess.run(['/usr/bin/env', 'mogrify', '-path', thumb_dir, '-resize', str(THUMB_WIDTH), photo])
+                subprocess.check_output(['/usr/bin/env', 'mogrify', '-path', thumb_dir, '-resize', str(THUMB_WIDTH), photo], shell=False)
             except Exception:
                 print("    ▹ [thumbnails] Error generating thumbnail for %s" % photo)
 
@@ -94,9 +94,9 @@ def check_image_exif(photo):
         Boolean specifying whether an image has EXIF data or not
     """
     try:
-        subprocess.run(['/usr/bin/env', 'exiv2', 'pr', photo], check=True, capture_output=True)
+        subprocess.check_output(['/usr/bin/env', 'exiv2', 'pr', photo], shell=False)
         return True
-    except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError:
         return False
 
 def remove_image_exif(path):
@@ -118,11 +118,12 @@ def remove_image_exif(path):
         photo = os.path.join(path, image)
         try:
             if check_image_exif(photo):
-                subprocess.run(['/usr/bin/env', 'exiv2', 'rm', photo])
+                subprocess.check_output(['/usr/bin/env', 'exiv2', 'rm', photo], shell=False)
             else:
                 print("    ▹ [exif] Skipping %s - no exif data found" % photo)
-        except Exception:
+        except Exception as e:
             print("Error removing exif data for %s" % photo)
+            print(e)
 
 def create_gemini_photo_pages(album, album_info):
     """Create a Gemini index page for each album
@@ -249,11 +250,11 @@ def exists_in_s3(path):
     bool
         A boolean specifying whether a file exists in the S3 bucket.
     """
-    ls = subprocess.run([
+    ls = subprocess.check_output([
         '/usr/bin/env',
         'aws', 's3', 'ls',
         's3://' + S3_BUCKET + '/' + path
-    ])
+    ], shell=False)
     if ls.returncode == 0:
         return True
     return False
@@ -267,7 +268,7 @@ def copy_to_s3(path):
         The local path to an album directory
     """
     print(" ▸ [s3-sync] Syncing %s to S3" % path)
-    sync = subprocess.run([
+    sync = subprocess.check_output([
         '/usr/bin/env',
         'aws', 's3', 'sync', path,
         's3://' + S3_BUCKET + '/' + path,
@@ -275,7 +276,7 @@ def copy_to_s3(path):
         '--exclude', '*.html',
         '--exclude', '*.yml',
         '--exclude', '*.txt'
-    ])
+    ], shell=False)
     print(sync)
 
 def set_s3_object_cache(path, maxage=15552000):
@@ -292,7 +293,7 @@ def set_s3_object_cache(path, maxage=15552000):
     for image in image_list:
         image_file = str(os.path.join(path, image))
         print("  ▸ [s3-cache] Setting S3 object cache control for %s" % image_file)
-        subprocess.run([
+        subprocess.check_output([
             '/usr/bin/env',
             'aws', 's3', 'cp',
             's3://' + S3_BUCKET + '/' + image_file,
@@ -300,7 +301,7 @@ def set_s3_object_cache(path, maxage=15552000):
             '--recursive',
             '--acl', 'public-read',
             '--cache-control', 'max-age=' + str(maxage),
-        ])
+        ], shell=False)
 
 def parse_album(path):
     """Parse each album
@@ -330,11 +331,10 @@ def parse_album(path):
         print()
 
 if __name__ == '__main__':
-    """Prepare and deploy photo album directories
-
-    Iterate over each album directory specified as an argument. If non are
-    specified, parse the directories in the PHOTO_DIR.
-    """
+    # Prepare and deploy photo album directories
+    #
+    # Iterate over each album directory specified as an argument. If non are
+    # specified, parse the directories in the PHOTO_DIR.
     signal(SIGINT, handler)
     print("╔══════════════════════════════════════════════════════════════════════════════╗")
     print("                                 joshbeard.me")
