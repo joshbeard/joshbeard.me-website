@@ -235,7 +235,7 @@ module Jekyll
 			end
 
 			# Create image page
-			site.pages << ImagePage.new(@site, @base, dir, @dir, img_source, thumb, @album_name,
+			site.pages << ImagePage.new(@site, @base, @dir, img_source, thumb, @album_name,
 				rel_link, image_page_url(prev_file), image_page_url(next_file), album_page, description)
 		end
 
