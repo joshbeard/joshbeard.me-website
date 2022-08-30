@@ -28,7 +28,8 @@ equipment I use but in the spirit of community, here it is.
 * Monitors: Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p
 * MacBook Air (2012). Runs macOS.
 * HP Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton). Not used much.
-* Home server: Dell PowerEdge T410 (Runs Proxmox on Debian); containers and VMs of different flavors.
+* [Home Lab](/homelab): Dell PowerEdge T410 (Runs Proxmox on Debian) - LXC, VM, Docker with a mix of Linux distributions and BSD; other
+  hardware running Linux and BSD.
 
 The [My Old Computers](/old-computers.html) page lists some older computers I've had.
 
@@ -54,16 +55,15 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 
 ### Software
 
-* Server OS: Linux (Rocky, Ubuntu, Debian, RHEL, CentOS, Alpine), FreeBSD
+* Server OS: Linux (Rocky, Ubuntu, Debian, CentOS, Alpine), OpenBSD, FreeBSD
 * Browsers: Mostly [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/). Sometimes [Brave](https://brave.com).
 * Shell: zsh with [zprezto](https://github.com/sorin-ionescu/prezto)
 * Music: Spotify
-* Notes: [Bear](https://bear.app/) and [Obsidian](https://obsidian.md/)
+* Notes: [Bear](https://bear.app/) and Markdown+repo.
 * A password manager
 * [Lagrange](https://gmi.skyjake.fi/lagrange/): Gemini, Gopher, and Finger browser. See [Small Internet](/site/small.html)
 * [Marked 2](https://marked2app.com/) for Markdown reading outside VS Code
 * Adobe Creative Suite (Lightroom, Photoshop)
-* Finance: [YNAB](https://www.youneedabudget.com/)
 
 ### Browser Extensions
 
