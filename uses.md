@@ -22,14 +22,30 @@ equipment I use but in the spirit of community, here it is.
 ### Computers
 
 * MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS. Daily driver.
-* 2x Dell Precision (work). Runs Windows + WSL2.
+
+* 2x Dell Precision (work). Runs Windows :( + WSL2.
+
+* Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux (minimal gui with [PekWM](https://pekwm.se))
+
 * Keyboard: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
+
 * Keyboard: Apple Magic Keyboard (2022).
+
 * Monitors: Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p
+
 * MacBook Air (2012). Runs macOS.
+
 * HP Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton). Not used much.
-* [Home Lab](/homelab): Dell PowerEdge T410 (Runs Proxmox on Debian) - LXC, VM, Docker with a mix of Linux distributions and BSD; other
-  hardware running Linux and BSD.
+
+### Homelab
+
+See my [Home Lab](/homelab) page for more information.
+
+* Dell PowerEdge T410 (Runs Proxmox on Debian) - LXC, VM, Docker with a mix of Linux distributions and BSD. Mostly [Rocky
+  Linux](https://rockylinux.org/)
+* Shuttle DS87 (i3 3.6GHz/16GB) - [OPNSense](https://opnsense.org/)
+* Dell Wyse 3040 (Thin client - Atom x5/2GB) - [Pi-Hole](https://pi-hole.net/)
+* other hardware running Linux and BSD.
 
 The [My Old Computers](/old-computers.html) page lists some older computers I've had.
 
