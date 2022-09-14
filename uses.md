@@ -25,7 +25,7 @@ equipment I use but in the spirit of community, here it is.
 
 * 2x Dell Precision (work). Runs Windows :( + WSL2.
 
-* Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux (minimal gui with [PekWM](https://pekwm.se))
+* Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux (minimal gui with [PekWM](https://www.pekwm.se))
 
 * Keyboard: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
 
