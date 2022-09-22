@@ -13,7 +13,7 @@ class: ascii-art
 
 This is my [now page](https://nownownow.com/about).
 
-This is what I'm doing as of June 6, 2022:
+This is what I'm doing as of September 22, 2022:
 
 ```ascii-art-right
        ___
@@ -41,9 +41,11 @@ This is what I'm doing as of June 6, 2022:
 ```
 
 * Raising two daughters with my wife in [Colorado Springs, CO](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado).
-* Contracting at the [USGS](https://www.usgs.gov/)
-  for the last 7+ years - sysadmin, DevOps, automation, Cloud, containers, etc.
-* Started a new gig at a new company on a new project and team at the USGS in June 2022 doing similar work.
+* Contracted at the [USGS](https://www.usgs.gov/)
+  for the last 7+ years - sysadmin, DevOps, automation, Cloud, etc.
+* Starting something new in September 2022.
 * Learning guitar for the past few years.
 * Playing around with recording music (nothing yet).
-* Hiked around the Rockies in Colorado the past few years.
+* Hiked around the [Rockies in Colorado](/photos) the past few years.
+* Tinkering with a [homelab](/homelab) of servers and some "obsolete" computers.
+

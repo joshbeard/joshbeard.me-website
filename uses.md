@@ -19,14 +19,25 @@ systems/devops/cloud engineer.
 It nags at my security conscience to publish information about software and
 equipment I use but in the spirit of community, here it is.
 
+### Desk
+
+__TODO:__ Add photos here.
+
+I have two workspaces at home - a more 'formal' desk in my basement and a workbench in my garage. I use my garage workbench most of the
+time, weather permitting.
+
+I juggle several computers and monitors between work and personal tinkering and am still working out how to best arrange things between
+both workspaces for easy portability and maximum availability of equipment.
+
 ### Computers
 
 * MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS. Daily driver.
+* MacBook Pro (work). Runs macOS. Daily Driver.
+* Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux (minimal gui with [PekWM](https://www.pekwm.se)). Daily Driver.
 * 2x Dell Precision (work). Runs Windows :( + WSL2.
-* Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux (minimal gui with [PekWM](https://www.pekwm.se))
 * Keyboards: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html), other mechanical with
   brown switches.
-* Monitors: Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p
+* Monitors: Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p, 2x Viewsonic 24" IPS 1080p.
 * MacBook Air (2012). Runs macOS. Kid computer.
 
 ### Homelab
@@ -65,15 +76,16 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 
 * Server OS: Linux (Rocky, Ubuntu, Debian, CentOS, Alpine), OpenBSD, FreeBSD
 * Browsers: Mostly [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/). Chromium. Sometimes [Brave](https://brave.com).
-* Shell: zsh with [prezto](https://github.com/sorin-ionescu/prezto)
-* Music: Spotify
+* Shell: zsh with [prezto](https://github.com/sorin-ionescu/prezto). Occassionally bash.
+* Music: Spotify (with [spotify-tui](https://github.com/Rigellute/spotify-tui) on my modestly resourced computers).
 * Notes: [Bear](https://bear.app/), [vimwiki](https://vimwiki.github.io/), and Markdown+repo.
-* A password manager
-* [Lagrange](https://gmi.skyjake.fi/lagrange/): Gemini, Gopher, and Finger browser. See [Small Internet](/site/small.html)
 * [Marked 2](https://marked2app.com/) for occassionally reviewing Markdown
 * Adobe Creative Suite (Lightroom, Photoshop)
 * GIMP
-* [PekWM](https://www.pekwm.se/) on my Linux workstations.
+* [PekWM](https://www.pekwm.se/) on my Linux workstations. [Tint2](https://wiki.archlinux.org/title/Tint2) for a minimal panel and
+  [Dunst](https://dunst-project.org/) for notifications.
+* [Mutt](http://www.mutt.org/) for an e-mail client on my modestly resourced Linux workstations.
+* [urxvt](https://directory.fsf.org/wiki/Rxvt-unicode) on my Linux workstations.
 
 ### Browser Extensions
 
@@ -96,15 +108,15 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 * Ansible
 * Python
 * Terraform
-* Ruby (not much these days)
 * Shell
 * AWS
 * tmux
-* [draw.io](https://draw.io/)
+* [draw.io](https://draw.io/) for diagrams, flowcharts, etc.
 * [saml2aws](https://github.com/Versent/saml2aws) - AWS credentials with SAML
-* [ColorSlurp](https://colorslurp.com/)
+* [ColorSlurp](https://colorslurp.com/) for a simple color picker on Mac.
 * [google-webfonts-helper](https://colorslurp.com/) for downloading and serving Google web fonts locally
 * [Hack monospace font](https://sourcefoundry.org/hack/)
+* Ruby (not much these days)
 * See my [dotfiles](https://github.com/joshbeard/dotfiles)
 
 ### Desktop Utilities
@@ -120,6 +132,9 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 
 See my [Homelab](/homelab/) page for information about my home servers using
 [Proxmox](https://www.proxmox.com/) as a platform.
+
+Also see my [About this site](/site) and [Small Internet](/site/small.html) pages for other stuff I'm using for serving this site and
+related materials.
 
 ---
 

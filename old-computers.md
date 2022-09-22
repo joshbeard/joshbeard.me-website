@@ -37,10 +37,11 @@ jgs `"""""""""""""`  '-'
 * 1997-1999: [Zenith SupersPort 286](https://oldcrap.org/2020/10/30/zenith-supersport-286e/). Mostly used MS-DOS and kept a journal on it. Windows 3.0 installed. Learned some BASIC on this.
 * 1997-2006: Several no-name [386](https://en.wikipedia.org/wiki/I386) and [486s](https://en.wikipedia.org/wiki/I486). Ran DOS, Linux, and FreeBSD. Installed Windows 95 from floppy on a 486.
 * 1999-2006: Several no-name [Pentiums](https://en.wikipedia.org/wiki/Pentium_(original)) and [AMD K5/K6/Athalon](https://en.wikipedia.org/wiki/Advanced_Micro_Devices#CPUs_and_APUs). Ran Linux (RedHat, CentOS, Ubuntu, Debian, Gentoo, countless others) and FreeBSD.
-* 2006-2011: [Dell Inspiron 1750](https://rmromero.blogspot.com/2010/04/dell-inspiron-17-1750-specifications.html)(?) Laptop. Mostly Linux (Ubuntu). Briefly Windows XP and FreeBSD.
+* 2006-2011: [Dell Inspiron 1750](https://rmromero.blogspot.com/2010/04/dell-inspiron-17-1750-specifications.html)(?) Laptop. Mostly Linux
+  (Ubuntu). Briefly Windows XP and FreeBSD.
 * 2008-2012: Several Work-issued [iMacs](https://en.wikipedia.org/wiki/IMac) running macOS and Linux.
 * 2010-2012: [Asus Eee PC 900](https://en.wikipedia.org/wiki/Asus_Eee_PC#Eee_900_series). Ran Linux (Debian).
-* 2012-2013: Asus Netbook. Ran Linux (Ubuntu)
+* 2012-2013: Asus Netbook. Ran Linux (Ubuntu) _Now out of retirement and [used](/uses)_.
 * 2019: Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton). Mom's old computer. Not
   used much.
 * Since 2013: MacBook Pro (work, personal)
