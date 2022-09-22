@@ -41,6 +41,8 @@ jgs `"""""""""""""`  '-'
 * 2008-2012: Several Work-issued [iMacs](https://en.wikipedia.org/wiki/IMac) running macOS and Linux.
 * 2010-2012: [Asus Eee PC 900](https://en.wikipedia.org/wiki/Asus_Eee_PC#Eee_900_series). Ran Linux (Debian).
 * 2012-2013: Asus Netbook. Ran Linux (Ubuntu)
+* 2019: Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton). Mom's old computer. Not
+  used much.
 * Since 2013: MacBook Pro (work, personal)
 
 Many of these were used as home servers over the years. I ran my own e-mail

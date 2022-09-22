@@ -22,20 +22,12 @@ equipment I use but in the spirit of community, here it is.
 ### Computers
 
 * MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS. Daily driver.
-
 * 2x Dell Precision (work). Runs Windows :( + WSL2.
-
 * Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux (minimal gui with [PekWM](https://www.pekwm.se))
-
-* Keyboard: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
-
-* Keyboard: Apple Magic Keyboard (2022).
-
+* Keyboards: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html), other mechanical with
+  brown switches.
 * Monitors: Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p
-
-* MacBook Air (2012). Runs macOS.
-
-* HP Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton). Not used much.
+* MacBook Air (2012). Runs macOS. Kid computer.
 
 ### Homelab
 
@@ -72,14 +64,16 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 ### Software
 
 * Server OS: Linux (Rocky, Ubuntu, Debian, CentOS, Alpine), OpenBSD, FreeBSD
-* Browsers: Mostly [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/). Sometimes [Brave](https://brave.com).
-* Shell: zsh with [zprezto](https://github.com/sorin-ionescu/prezto)
+* Browsers: Mostly [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/). Chromium. Sometimes [Brave](https://brave.com).
+* Shell: zsh with [prezto](https://github.com/sorin-ionescu/prezto)
 * Music: Spotify
-* Notes: [Bear](https://bear.app/) and Markdown+repo.
+* Notes: [Bear](https://bear.app/), [vimwiki](https://vimwiki.github.io/), and Markdown+repo.
 * A password manager
 * [Lagrange](https://gmi.skyjake.fi/lagrange/): Gemini, Gopher, and Finger browser. See [Small Internet](/site/small.html)
-* [Marked 2](https://marked2app.com/) for Markdown reading outside VS Code
+* [Marked 2](https://marked2app.com/) for occassionally reviewing Markdown
 * Adobe Creative Suite (Lightroom, Photoshop)
+* GIMP
+* [PekWM](https://www.pekwm.se/) on my Linux workstations.
 
 ### Browser Extensions
 
@@ -95,7 +89,9 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 
 ### Development and Work
 
-* [Visual Studio Code](https://code.visualstudio.com/) is what I've been using for the last couple of years after being a long-time Vim user. I do have the Vi plugin enabled for familiar keybindings. An assortment of extensions.
+* VIM
+* [Visual Studio Code](https://code.visualstudio.com/) is what I've been using for the last couple of years after being a long-time Vim
+  user. I do have the Vi plugin enabled for familiar keybindings and an assortment of extensions.
 * [Docker](https://docker.io) - invaluable part of my workflow for using things like Terraform and Ansible, especially for things that will run _somewhere else_.
 * Ansible
 * Python
@@ -118,7 +114,7 @@ The [My Old Computers](/old-computers.html) page lists some older computers I've
 * [Magnet](https://magnet.crowdcafe.com/): window manager for macOS
 * [Amphetimine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12): keep-awake utility for macOS
 * [Bartender](https://www.macbartender.com/): menu bar management for macOS
-* [Homebrew](https://brew.sh/): package manager for macOS
+* [Homebrew](https://brew.sh/): package manager (I only use it on Mac)
 
 ### Homelab
 
@@ -135,3 +131,4 @@ See my [Homelab](/homelab/) page for information about my home servers using
         ) >     {_/,     /~)
 snd     |/
 ```
+
