@@ -31,9 +31,9 @@ both workspaces for easy portability and maximum availability of equipment.
 
 ### Computers
 
-* MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs macOS. Daily driver.
-* MacBook Pro (work). Runs macOS. Daily Driver.
-* Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux (minimal gui with [PekWM](https://www.pekwm.se)). Daily Driver.
+* MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Dual boot macOS and Arch Linux. Daily driver.
+* MacBook Pro M1 (work). Runs macOS. Daily Driver.
+* Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux (minimal gui with [PekWM](https://www.pekwm.se), or XFCE). Daily Driver.
 * 2x Dell Precision (work). Runs Windows :( + WSL2.
 * Keyboards: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html), other mechanical with
   brown switches.
