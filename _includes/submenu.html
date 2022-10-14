@@ -4,7 +4,7 @@
     <li class="menu-item-{{ loop.index }}">
         {% assign slashed = item.url | append: "/" %}
         {% if (page.url == item.url) or (page.url == slashed) %}
-            {{ item.title }}
+            <span class="sub-menu-current">{{ item.title }}</span>
         {% else %}
             <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
         {% endif %}
