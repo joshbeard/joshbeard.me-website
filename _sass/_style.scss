@@ -435,6 +435,10 @@ nav#submenu li {
     content: none;
 }
 
+span.sub-menu-current {
+    font-weight: bold;
+}
+
 .about-page nav {
     border-bottom: none;
 }

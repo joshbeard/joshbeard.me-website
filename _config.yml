@@ -67,6 +67,7 @@ plugins:
   - jekyll-sitemap
   #- jekyll-git_metadata
   - jekyll-sass-converter
+  - jekyll-navigation-tree
 
 target-blank:
   add_css_classes: ext
@@ -81,3 +82,13 @@ defaults:
 album_dir: photos
 album_out_dir: /photos
 album_thumbs_dir: thumbs
+
+nav_tree:
+  excludes:
+    - /sitemap.xml
+    - /photos/*/*jpg.html
+    - /photos/*/*jpeg.html
+    - /photos/*/*.yml
+    - /assets*
+    - /error.html
+    - /sitemap.xml
