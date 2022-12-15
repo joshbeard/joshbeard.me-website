@@ -19,10 +19,10 @@ I'm a somewhat private and introverted person, especially online, so having a
 personal website isn't something I expect to excel at. I'd prefer my name and
 "brand" be mostly professional and avoid particularly opinionated content,
 especially about politics, reglion, social issues, etc. There's enough people
-putting that front and center and often in an antagonistic way that's
-increasingly polarizing and divisive. I may try to write other content just to
-have something to call a _website_ - casual stuff, technical, or artsy, even if
-no one is looking. It's tradition and what has led me into my career.
+putting that front and center and often in an antagonistic and conformist way
+that's increasingly polarizing and divisive. I may try to write other content
+just to have something to call a _website_ - casual stuff, technical, or artsy,
+even if no one is looking. It's tradition and what has led me into my career.
 
 ```ascii-art
          ,,,
@@ -36,7 +36,7 @@ say [hello](mailto:hello@joshbeard.me)! It'd be really cool to exchange a
 
 I live in [Colorado Springs, Colorado](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado).
 I enjoy time with family, computers, outdoors (hiking, scenic drives), music
-([listening](https://www.last.fm/user/hewbert), watching, playing), food
+(listening ([last.fm](https://www.last.fm/user/joshbeard), [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab)), watching, playing), food
 (mostly just eating), games (card, party, board), and all sorts of other stuff.
 
 I consider [Rapid City, South Dakota](https://en.wikipedia.org/wiki/Rapid_City%2C_South_Dakota) my home.
