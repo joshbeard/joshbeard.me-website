@@ -48,7 +48,7 @@ jobs:
   minify:
     name: Minify
     runs-on: ubuntu-latest
-    container: thekevjames/minify:2.5.2
+    container: thekevjames/minify:2.10.0
     needs: build
     steps:
       - uses: actions/download-artifact@master
