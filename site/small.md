@@ -91,6 +91,8 @@ Finger response using [Netcat](https://www.varonis.com/blog/netcat-commands):
 echo "josh" | nc jbeard.co 79
 ```
 
+My resume is also available via finger - `resume@jbeard.co`
+
 ### Resources
 
 * [Poor Man's Web - The Small Web](https://zserge.com/posts/small-web/)

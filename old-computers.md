@@ -39,12 +39,13 @@ jgs `"""""""""""""`  '-'
 * 1999-2006: Several no-name [Pentiums](https://en.wikipedia.org/wiki/Pentium_(original)) and [AMD K5/K6/Athalon](https://en.wikipedia.org/wiki/Advanced_Micro_Devices#CPUs_and_APUs). Ran Linux (RedHat, CentOS, Ubuntu, Debian, Gentoo, countless others) and FreeBSD.
 * 2006-2011: [Dell Inspiron 1750](https://rmromero.blogspot.com/2010/04/dell-inspiron-17-1750-specifications.html)(?) Laptop. Mostly Linux
   (Ubuntu). Briefly Windows XP and FreeBSD.
-* 2008-2012: Several Work-issued [iMacs](https://en.wikipedia.org/wiki/IMac) running macOS and Linux.
+* 2008-2013: Several Work-issued [iMacs](https://en.wikipedia.org/wiki/IMac) running macOS and Linux.
 * 2010-2012: [Asus Eee PC 900](https://en.wikipedia.org/wiki/Asus_Eee_PC#Eee_900_series). Ran Linux (Debian).
 * 2012-2013: Asus Netbook. Ran Linux (Ubuntu) _Now out of retirement and [used](/uses)_.
 * 2019: Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton). Mom's old computer. Not
   used much.
-* Since 2013: MacBook Pro (work, personal)
+* Since 2013: MacBook Pros at work - macOS and Linux off and on.
+* Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux. Occasionally still used.
 
 Many of these were used as home servers over the years. I ran my own e-mail
 servers at home for several years, along with web servers and an assortment of

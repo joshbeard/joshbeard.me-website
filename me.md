@@ -19,7 +19,7 @@ I'm a somewhat private and introverted person, especially online, so having a
 personal website isn't something I expect to excel at. I'd prefer my name and
 "brand" be mostly professional and avoid particularly opinionated content,
 especially about politics, reglion, social issues, etc. There's enough people
-putting that front and center and often in an antagonistic and conformist way
+putting that front and center, usually in an antagonistic and conformist way
 that's increasingly polarizing and divisive. I may try to write other content
 just to have something to call a _website_ - casual stuff, technical, or artsy,
 even if no one is looking. It's tradition and what has led me into my career.

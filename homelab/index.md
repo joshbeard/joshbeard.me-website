@@ -25,7 +25,6 @@ Some services I run are [Pi-Hole](https://pi-hole.net/), [Plex Media Server](htt
 [GitLab](https://about.gitlab.com/),
 [Nginx](https://nginx.org/),
 [Docker Swarm](https://docs.docker.com/engine/swarm/),
-[K3s](https://k3s.io/),
 and some other odds and ends.
 
 I manage it all with code, mostly Ansible and Terraform, with automated image

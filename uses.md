@@ -20,8 +20,7 @@ equipment I use but in the spirit of community, here it is.
 
 __TODO:__ Add photos here.
 
-I have two workspaces at home - a more 'formal' desk in my basement and a workbench in my garage. I use my garage workbench most of the
-time, weather permitting.
+I have two workspaces at home - a proper office space and desk in my basement and a workbench in my garage. I use my garage workbench when the weather is decent enough.
 
 ### Computers
 
@@ -127,7 +126,7 @@ See my [Homelab](/homelab/) page for information about my home servers using
 Also see my [About this site](/site) and [Small Internet](/site/small.html) pages for other stuff I'm using for serving this site and
 related materials.
 
-## Used
+### Used
 
 Things I've used in the past that I want to note:
 
