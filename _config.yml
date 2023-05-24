@@ -1,7 +1,7 @@
 # Jekyll config for joshbeard.me
 ---
 name: Josh Beard
-source: .
+source: ./src
 url: https://joshbeard.me
 common_keywords:
   - joshua beard
@@ -75,11 +75,11 @@ target-blank:
 defaults:
   -
     scope:
-      path:            "assets/**/*"
+      path:            "site/assets/**/*"
     values:
       sitemap:         false
 
-album_dir: photos
+album_dir: src/photos
 album_out_dir: /photos
 album_thumbs_dir: thumbs
 
