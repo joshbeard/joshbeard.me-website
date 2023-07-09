@@ -48,7 +48,7 @@ exclude:
   - file_list.txt
   - album_info.yml
   - dist/
-  - _scripts/
+  - util/
   - .deploy/
 markdown: kramdown
 
