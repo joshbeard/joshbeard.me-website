@@ -1,6 +1,9 @@
 build:
 	docker run --rm -it -v $(PWD):/site -w /site -it jekyll/jekyll:4 jekyll build
 
+shell:
+	docker run --rm -it -v $(PWD):/site -w /site -it jekyll/jekyll:4 /bin/bash
+
 serve:
 	docker run --rm -it -v $(PWD):/site -w /site -p 4000:4000 -it jekyll/jekyll:4 jekyll serve --livereload
 
