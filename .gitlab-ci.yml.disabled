@@ -19,7 +19,7 @@ stages:
 build:
   stage: build
   image:
-    name: jekyll/jekyll
+    name: jekyll/jekyll:4
     entrypoint: ['']
   script:
     - jekyll build
