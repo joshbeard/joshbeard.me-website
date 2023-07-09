@@ -209,8 +209,11 @@ module Jekyll
 			# Get info for the album page and make the image's page.
 
 			rel_link = image_page_url(filename)
-			img_source = File.join(@album_source, filename).to_s()
-            thumb = File.join(@album_source, @thumbs_dir, filename).to_s()
+			#img_source = File.join(@album_source, filename).to_s()
+			img_source = File.join(@dir, filename).to_s()
+            #thumb = File.join(@album_source, @thumbs_dir, filename).to_s()
+            thumb = File.join(@dir, @thumbs_dir, filename).to_s()
+			#img_source = File.join(site.config['album_out_dir'] || 'albums', filename)
 
             description = nil
             if descriptions.class == Hash
