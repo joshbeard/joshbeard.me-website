@@ -69,199 +69,198 @@
 # SOFTWARE.
 #
 module Jekyll
-	class ImagePage < Page
-		# An image page
-		def initialize(site, base, outdir, img_source, thumb, album_name, name, prev_name, next_name, album_page, description)
-			@site = site
-			@base = base
-			@dir = outdir
-			@name = name # Name of the generated page
+  class ImagePage < Page
+    # An image page
+    def initialize(site, base, outdir, img_source, thumb, album_name, name, prev_name, next_name, album_page, description)
+      @site = site
+      @base = base
+      @dir = outdir
+      @name = File.basename(name) # Name of the generated page
 
-			self.process(@name)
-			self.read_yaml(File.join(@base, '_layouts'), 'image_page.html')
-			self.data['title'] = File.basename(img_source).to_s()
-			self.data['img_src'] = img_source
-			self.data['thumb'] = thumb
-			self.data['prev_url'] = prev_name
-			self.data['next_url'] = next_name
-			self.data['album_url'] = album_page
-            self.data['album_name'] = album_name
-            self.data['description'] = description
-		end
-	end
+      self.process(@name)
+      self.read_yaml(File.join(@base, '_layouts'), 'image_page.html')
+      self.data['title'] = File.basename(img_source).to_s()
+      self.data['img_src'] = img_source
+      self.data['thumb'] = thumb
+      self.data['prev_url'] = prev_name
+      self.data['next_url'] = next_name
+      self.data['album_url'] = album_page
+      self.data['album_name'] = album_name
+      self.data['description'] = description
+    end
+  end
 
-	class AlbumPage < Page
-		# An album page
+  class AlbumPage < Page
+    # An album page
 
-		DEFAULT_METADATA = {
-			'sort' => 'filename asc',
-			'paginate' => 50,
-		}
+    DEFAULT_METADATA = {
+      'sort' => 'filename asc',
+      'paginate' => 50,
+    }
 
-		def initialize(site, base, dir, outdir, page=0)
-			@site = site
-			@base = base # Absolute path to use to find files for generation
+    def initialize(site, base, dir, outdir, page=0)
+      @site = site
+      @base = base # Absolute path to use to find files for generation
 
-			# Page will be created at www.mysite.com/#{dir}/#{name}
-			@dir = File.join(site.config['album_out_dir'] || 'albums', outdir)
-			@name = album_name_from_page(page)
+      # Page will be created at www.mysite.com/#{dir}/#{name}
+      @dir = File.join(site.config['album_out_dir'] || 'albums', outdir)
+      @name = album_name_from_page(page)
 
-			@album_source = File.join(site.config['album_dir'] || 'albums', dir)
-			@album_metadata = get_album_metadata
+      @album_source = File.join(site.config['album_dir'] || 'albums', dir)
+      @album_metadata = get_album_metadata
 
-            @album_name = dir.to_s()
+      @album_name = dir.to_s()
 
-			@thumbs_dir = site.config['album_thumbs_dir'] || 'thumbs'
+      @thumbs_dir = site.config['album_thumbs_dir'] || 'thumbs'
 
-			self.process(@name)
-			self.read_yaml(File.join(@base, '_layouts'), 'album_index.html')
+      self.process(@name)
+      self.read_yaml(File.join(@base, '_layouts'), 'album_index.html')
 
-			self.data['title'] = @album_metadata['meta_title'] || dir
-			self.data['images'] = []
-			self.data['albums'] = []
-			self.data['description'] = @album_metadata['description']
-			self.data['meta_description'] = @album_metadata['meta_description'] || False
-            self.data['photo_descriptions'] = @album_metadata['photo_descriptions']
-			self.data['hidden'] = true if @album_metadata['hidden']
-			self.data['keywords'] = @album_metadata['keywords'] || []
+      self.data['title'] = @album_metadata['meta_title'] || dir
+      self.data['images'] = []
+      self.data['albums'] = []
+      self.data['description'] = @album_metadata['description']
+      self.data['meta_description'] = @album_metadata['meta_description'] || False
+      self.data['photo_descriptions'] = @album_metadata['photo_descriptions']
+      self.data['hidden'] = true if @album_metadata['hidden']
+      self.data['keywords'] = @album_metadata['keywords'] || []
 
-			files, directories = list_album_contents
+      files, directories = list_album_contents
 
-			if @album_metadata['file_list']
-				if File.exist?(File.join(@album_source, 'file_list.txt'))
-					files = File.readlines(File.join(@album_source, 'file_list.txt'), chomp: true)
-				end
-			end
+      if @album_metadata['file_list']
+        if File.exist?(File.join(@album_source, 'file_list.txt'))
+          files = File.readlines(File.join(@album_source, 'file_list.txt'), chomp: true)
+        end
+      end
 
-			#Pagination
-			num_images = @album_metadata['paginate']
-			if num_images
-				first = num_images * page
-				last = num_images * page + num_images
-				self.data['prev_url'] = album_name_from_page(page-1) if page > 0
-				self.data['next_url'] = album_name_from_page(page+1) if last < files.length
-			end
+      #Pagination
+      num_images = @album_metadata['paginate']
+      if num_images
+        first = num_images * page
+        last = num_images * page + num_images
+        self.data['prev_url'] = album_name_from_page(page-1) if page > 0
+        self.data['next_url'] = album_name_from_page(page+1) if last < files.length
+      end
 
-			if page == 0
-				directories.each do |subalbum|
-					albumpage = AlbumPage.new(site, site.source, File.join(dir, subalbum), @dir)
-					unless albumpage.data['hidden']
-						self.data['albums'] << { 'name' => subalbum, 'url' => albumpage.url }
-					end
-					site.pages << albumpage #FIXME: sub albums are getting included in my gallery index
-				end
-			end
+      if page == 0
+        directories.each do |subalbum|
+          albumpage = AlbumPage.new(site, site.source, File.join(dir, subalbum), @dir)
+          unless albumpage.data['hidden']
+            self.data['albums'] << { 'name' => subalbum, 'url' => albumpage.url }
+          end
+          site.pages << albumpage #FIXME: sub albums are getting included in my gallery index
+        end
+      end
 
-			files.each_with_index do |filename, idx|
-				if num_images
-					next if idx < first
-					if idx >= last
-						site.pages << AlbumPage.new(site, base, dir, @dir, page + 1)
-						break
-					end
-				end
-				prev_file = files[idx-1] unless idx == 0
-				next_file = files[idx+1] || nil
+      files.each_with_index do |filename, idx|
+        if num_images
+          next if idx < first
+          if idx >= last
+            site.pages << AlbumPage.new(site, base, dir, @dir, page + 1)
+            break
+          end
+        end
+        prev_file = files[idx-1] unless idx == 0
+        next_file = files[idx+1] || nil
 
-				album_page = "#{@dir}/#{album_name_from_page(page)}"
-				do_image(filename, prev_file, next_file, album_page, @album_metadata['photo_descriptions'])
-			end
-		end
+        album_page = "#{@dir}/#{album_name_from_page(page)}"
+          do_image(filename, prev_file, next_file, album_page, @album_metadata['photo_descriptions'])
+      end
+    end
 
-		def get_album_metadata
-			site_metadata = @site.config['album_config'] || {}
-			local_config = {}
-			config_file = File.join(@album_source, 'album_info.yml')
-			if File.exist? config_file
-				local_config = YAML.load_file(config_file)
-			end
-			return DEFAULT_METADATA.merge(site_metadata).merge(local_config)
-		end
+    def get_album_metadata
+      site_metadata = @site.config['album_config'] || {}
+      local_config = {}
+      config_file = File.join(@album_source, 'album_info.yml')
+      if File.exist? config_file
+        local_config = YAML.load_file(config_file)
+      end
+      return DEFAULT_METADATA.merge(site_metadata).merge(local_config)
+    end
 
-		def album_name_from_page(page)
-			return page == 0 ? 'index.html' : "index#{page + 1}.html"
-		end
+    def album_name_from_page(page)
+      return page == 0 ? 'index.html' : "index#{page + 1}.html"
+    end
 
-		def list_album_contents
-			entries = Dir.entries(@album_source)
-			entries.reject! { |x| x =~ /^(\.|#{@thumbs_dir})/ } # Filter out ., .., and dotfiles
+    def list_album_contents
+      entries = Dir.entries(@album_source)
+      entries.reject! { |x| x =~ /^(\.|#{@thumbs_dir})/ } # Filter out ., .., and dotfiles
 
-			files = entries.reject { |x| File.directory? File.join(@album_source, x) } # Filter out directories
-			directories = entries.select { |x| File.directory? File.join(@album_source, x) } # Filter out non-directories
+        files = entries.reject { |x| File.directory? File.join(@album_source, x) } # Filter out directories
+      directories = entries.select { |x| File.directory? File.join(@album_source, x) } # Filter out non-directories
 
-			files.select! { |x| ['.png', '.jpg', '.jpeg', '.gif'].include? File.extname(File.join(@album_source, x)) } # Filter out files that image-tag doesn't handle
+      files.select! { |x| ['.png', '.jpg', '.jpeg', '.gif'].include? File.extname(File.join(@album_source, x)) } # Filter out files that image-tag doesn't handle
 
-			# Sort images
-			def filename_sort(a, b, reverse)
-				if reverse =~ /^desc/
-					return b <=> a
-				end
-				return a <=> b
-			end
+      # Sort images
+      def filename_sort(a, b, reverse)
+        if reverse =~ /^desc/
+            return b <=> a
+        end
+        return a <=> b
+      end
 
-			sort_on, sort_direction = @album_metadata['sort'].split
-			files.sort! { |a, b| send("#{sort_on}_sort", a, b, sort_direction) }
+      sort_on, sort_direction = @album_metadata['sort'].split
+      files.sort! { |a, b| send("#{sort_on}_sort", a, b, sort_direction) }
 
-			return files, directories
-		end
+      return files, directories
+    end
 
-		def do_image(filename, prev_file, next_file, album_page, descriptions)
-			# Get info for the album page and make the image's page.
+    def do_image(filename, prev_file, next_file, album_page, descriptions)
+      # Get info for the album page and make the image's page.
 
-			rel_link = image_page_url(filename)
-			#img_source = File.join(@album_source, filename).to_s()
-			img_source = File.join(@dir, filename).to_s()
-            #thumb = File.join(@album_source, @thumbs_dir, filename).to_s()
-            thumb = File.join(@dir, @thumbs_dir, filename).to_s()
-			#img_source = File.join(site.config['album_out_dir'] || 'albums', filename)
+      page_link = image_page_url(filename)
+      page_link = File.join(@dir, page_link).to_s()
 
-            description = nil
-            if descriptions.class == Hash
-                if descriptions.key?(filename)
-                    description = descriptions[filename]
-                end
-            end
+      img_source = File.join(@dir, filename).to_s()
+      thumb = File.join(@dir, @thumbs_dir, filename).to_s()
 
-			image_data = {
-				'src' => img_source,
-				'rel_link' => rel_link,
-                'thumb' => thumb,
-                'description' => description
-			}
+      description = nil
+      if descriptions.class == Hash
+        if descriptions.key?(filename)
+          description = descriptions[filename]
+        end
+      end
 
-			self.data['images'] << image_data
+      image_data = {
+        'src' => img_source,
+        'rel_link' => page_link,
+        'thumb' => thumb,
+        'description' => description
+      }
 
-			if @album_metadata.key?('key_image')
-				if @album_metadata['key_image'] == filename
-					self.data['key_image_data'] = image_data
-				end
-			end
+      self.data['images'] << image_data
 
-			# Create image page
-			site.pages << ImagePage.new(@site, @base, @dir, img_source, thumb, @album_name,
-				rel_link, image_page_url(prev_file), image_page_url(next_file), album_page, description)
-		end
+      if @album_metadata.key?('key_image')
+        if @album_metadata['key_image'] == filename
+          self.data['key_image_data'] = image_data
+        end
+      end
 
-		def image_page_url(filename)
-			return nil if filename.nil?
-			ext = File.extname(filename)
-			return "#{File.basename(filename, ext)}_#{File.extname(filename)[1..-1]}.html"
-		end
-	end
+      # Create image page
+      site.pages << ImagePage.new(@site, @base, @dir, img_source, thumb, @album_name,
+                                  page_link, image_page_url(prev_file), image_page_url(next_file), album_page, description)
+    end
 
-	class GalleryGenerator < Generator
-		safe true
+    def image_page_url(filename)
+      return nil if filename.nil?
+      ext = File.extname(filename)
+      return "#{File.basename(filename, ext)}_#{File.extname(filename)[1..-1]}.html"
+    end
+  end
 
-		def generate(site)
-			if site.layouts.key? 'album_index'
-				base_album_path = site.config['album_dir'] || 'albums'
-				albums = Dir.entries(base_album_path)
-				albums.reject! { |x| x =~ /^\./ }
-				albums.select! { |x| File.directory? File.join(base_album_path, x) }
-				albums.each do |album|
-					site.pages << AlbumPage.new(site, site.source, album, album)
-				end
-			end
-		end
-	end
+  class GalleryGenerator < Generator
+    safe true
+
+    def generate(site)
+      if site.layouts.key? 'album_index'
+        base_album_path = site.config['album_dir'] || 'albums'
+        albums = Dir.entries(base_album_path)
+        albums.reject! { |x| x =~ /^\./ }
+        albums.select! { |x| File.directory? File.join(base_album_path, x) }
+        albums.each do |album|
+          site.pages << AlbumPage.new(site, site.source, album, album)
+        end
+      end
+    end
+  end
 end
