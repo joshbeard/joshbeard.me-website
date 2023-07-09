@@ -10,7 +10,7 @@ class: image-page
 		{% endif %}
 	</div>
 	<div class="image-container">
-		<a href="/{{ page.img_src }}"><img src="/{{page.img_src}}" class="img_full" alt="{{ page.album_name }} - {{ page.description }}" /></a>
+		<a href="{{ page.img_src }}"><img src="{{page.img_src}}" class="img_full" alt="{{ page.album_name }} - {{ page.description }}" /></a>
     </div>
 	<div class='image-nav image-nav-next'>
 		{% if page.next_url %}
@@ -23,5 +23,5 @@ class: image-page
 	{{ page.description }}
 </div>
 <div class="image-foot">
-	<a href="/photos">Photos</a>&nbsp;&raquo;&nbsp;<a href="{{ page.album_url }}">{{ page.album_name }}</a>&nbsp;&raquo;&nbsp;<a href="/{{ page.img_src }}">{{ page.title }}</a>
+	<a href="/photos">Photos</a>&nbsp;&raquo;&nbsp;<a href="{{ page.album_url }}">{{ page.album_name }}</a>&nbsp;&raquo;&nbsp;<a href="{{ page.img_src }}">{{ page.title }}</a>
 </div>
