@@ -10,34 +10,6 @@ keywords: ['smol web', 'smol internet', 'small internet', 'small web', 'gopher',
 
 {% include submenu.html %}
 
-I've taken an interest in what's been dubbed the [Smol Internet](https://thedorkweb.substack.com/p/gopher-gemini-and-the-smol-internet?s=r),
-"small Internet", or "the Dork web". In this context, it refers to simpler
-protocols, sometimes old ones, in contemporary use. This also has cross over with the "indie web" communities.
-I've deployed my own stack and content for some of these services for fun.
-
-### Apps
-
-* [Lagrange](https://gmi.skyjake.fi/lagrange/) is a nice cross-platform browser that supports each of these protocols (desktop).
-* [Amfora](https://github.com/makeworld-the-better-one/amfora) cross-platform terminal browser for Gemini.
-* [Lynx](https://en.wikipedia.org/wiki/Lynx_(web_browser)) can browse Gopher.
-* [Elaho](https://apps.apple.com/us/app/elaho/id1514950389) is an iOS app for browsing Gemini.
-* [deedum](https://github.com/snoe/deedum) is a Gemini browser for [iOS](https://apps.apple.com/to/app/deedum/id1546810946) and
-  [Android](https://play.google.com/store/apps/details?id=ca.snoe.deedum).
-* [Gopher Client for iOS](https://apps.apple.com/us/app/gopher-client/id1235310088).
-* [Ariane](https://play.google.com/store/apps/details?id=oppen.gemini.ariane) is an Android app for browsing Gemini.
-* [DiggieDog](https://play.google.com/store/apps/details?id=com.afewroosloose.gopher) is a Gopher client for Android.
-
-See the [awesome-gemini](https://github.com/kr1sp1n/awesome-gemini) repo on
-GitHub for a list of things related to Gemini.
-
-### Deployment
-
-I'm using Ansible to deploy these services to a [Rocky Linux](https://rockylinux.org/)
-[LXC]() on my Homelab.
-
-See <https://github.com/joshbeard/homelab-service-smolstack> for my Ansible
-playbook for the whole stack.
-
 ### Gopher
 
 The [Gopher](https://en.wikipedia.org/wiki/Gopher_(protocol)) protocol predates the web but still has an active
@@ -96,3 +68,12 @@ My resume is also available via finger - `resume@jbeard.co`
 ### Resources
 
 * [Poor Man's Web - The Small Web](https://zserge.com/posts/small-web/)
+
+### Deployment
+
+I'm using Ansible to deploy these services to a [Rocky Linux](https://rockylinux.org/)
+[LXC]() on my Homelab.
+
+See <https://github.com/joshbeard/homelab-service-smolstack> for my Ansible
+playbook for the whole stack.
+
