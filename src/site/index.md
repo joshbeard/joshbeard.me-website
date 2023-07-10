@@ -105,6 +105,6 @@ a customized Jekyll plugin to generate the HTML pages for these photo albums. Th
 
 ### Performance
 
-* __100%__ on [GTmetrix](https://gtmetrix.com/reports/joshbeard.me/lC97jd4Z/)
-* __100%__ on [Pingdom](https://tools.pingdom.com/#601dfb4687400000)
+* __100%__ on [GTmetrix](https://gtmetrix.com/)
+* __100%__ on [Pingdom](https://tools.pingdom.com/)
 
