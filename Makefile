@@ -9,3 +9,6 @@ serve:
 
 nginx:
 	docker run --rm -it -v $(PWD)/_site:/usr/share/nginx/html:ro -p 8080:80 nginx
+
+security.txt:
+	./util/security-txt-gen.sh
