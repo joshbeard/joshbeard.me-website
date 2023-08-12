@@ -11,13 +11,16 @@ keywords: ['jekyll sites', 'personal sites', 'indie web', 'personal site aws', '
 
 {% include submenu.html %}
 
+I like the now "retro" web of the 90's and early 2000's before mass conformity
+set in.
+
 ### Other Protocols
 
 * __Gemini__: <a href="gemini://jbeard.co">gemini://jbeard.co</a>
 * __Gopher__: <a href="gopher://jbeard.co">gopher://jbeard.co</a>
 
-See my [Small Internet Stack](/site/small.html) page for information about this and
-more.
+See my [Small Internet Stack](/site/small.html) page for information about this
+and more.
 
 ### Status
 
@@ -57,10 +60,9 @@ The ASCII art is credited with the artists's "tag" or initials. Most is taken fr
 
 ### Hosting
 
-I've hosted my website(s) all sorts of ways over the years - most commonly on servers at home,
-sometimes on VPS instances, various static web hosts, and currently on AWS S3 with AWS
-CloudFront. It's resonably inexpensive for what I've got and keeps it consistent
-with other projects I have.
+I've hosted my website(s) all sorts of ways over the years - most commonly on
+servers at home, sometimes on VPS instances, various static web hosts, and
+currently on AWS S3 with AWS CloudFront.
 
 ### Build and Deployment
 
@@ -79,7 +81,8 @@ and deploying the website, which consists of:
 
 To deploy the AWS resources, I use Terraform in the [joshbeard/joshbeard.me-tf-aws](https://github.com/joshbeard/joshbeard.me-tf-aws)
 repository. This uses my common [tf-aws-site](https://github.com/joshbeard/tf-aws-site)
-Terraform module to deploy, which manages a common AWS stack for my static websites.
+Terraform module to deploy, which manages a common, simple AWS stack for my
+static websites.
 
 ```ascii-art
           &&& &&  & &&
@@ -99,9 +102,11 @@ ejm97         `
 
 ### Photos
 
-I deploy my [photos](/photos) to their own S3 bucket from my workstation instead of storing them all in Git. I use
-a customized Jekyll plugin to generate the HTML pages for these photo albums. These photos are also mounted and available to my
-[Gopher](/site/small.html) and [Gemini](/site/small.html) deployments.
+I deploy my [photos](/photos) to their own S3 bucket from my workstation
+instead of storing them all in Git. I use a customized Jekyll plugin to
+generate the HTML pages for these photo albums. These photos are also mounted
+and available to my [Gopher](/site/small.html) and [Gemini](/site/small.html)
+deployments.
 
 ### Performance
 

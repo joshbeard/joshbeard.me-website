@@ -15,14 +15,7 @@ See my [now page](/now) for a summary of what I'm up to lately.
 
 ### Personal
 
-I'm a somewhat private and introverted person, especially online, so having a
-personal website isn't something I expect to excel at. I'd prefer my name and
-"brand" be mostly professional and avoid particularly opinionated content,
-especially about politics, reglion, social issues, etc. There's enough people
-putting that front and center, usually in an antagonistic and conformist way
-that's increasingly polarizing and divisive. I may try to write other content
-just to have something to call a _website_ - casual stuff, technical, or artsy,
-even if no one is looking. It's tradition and what has led me into my career.
+Old soul.
 
 ```ascii-art
          ,,,
@@ -78,16 +71,11 @@ things, which launched me into a new phase of my career - 'DevOps'.
       \/
 ```
 
-These days I work in a "DevOps and Sysadmin" role - I provide and maintain the
-IT platform for dozens of applications and product teams as well as the build and
-deployment process for those applications and services, using automation and
-code.
+These days, my title is something about "DevOps" and I work on software
+engineering teams to support and help make software.
 
-I spend most of my day in a code editor and command-line, bouncing across
-several projects. The type of code I am typically working with is Terraform,
-Python, Ansible, Puppet, Shell, YAML and JSON, and an assortment of others on
-occassion. I work with AWS, Docker, and GitLab a lot. See my [uses page](/uses)
-for more information about what I use day-to-day.
+I spend most of my day in a code editor and shell, bouncing across several
+projects.
 
 See [my resume](/resume) for more details about my professional experience.
 
@@ -113,12 +101,12 @@ became particuarily interested in setting up and administering servers and
 websites. I've continued to use Linux every day, both professionally and as a
 hobbiest.
 
-In the early 2000's, I started using FreeBSD more and ran it for several years
-on my desktop and home servers, eventually using it professionally at one of my
-previous jobs.
+In the early 2000's, I started using FreeBSD to experience another UNIXy systems
+and ran it for several years on my desktop and home servers, eventually using
+it for core services at a previous job.
 
-I owe my career to Free and Open Source Software and the ecosystem
-built around Linux and UNIX.
+I owe my career to Free and Open Source Software and the ecosystem built around
+Linux and UNIX.
 
 ### Computers Over The Years
 

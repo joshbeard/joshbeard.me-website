@@ -10,12 +10,15 @@ keywords: ['smol web', 'smol internet', 'small internet', 'small web', 'gopher',
 
 {% include submenu.html %}
 
+I once thought it'd be fun to serve up some content on some esoteric (at least
+these days) protocols, so here they are.
+
 ### Gopher
 
-The [Gopher](https://en.wikipedia.org/wiki/Gopher_(protocol)) protocol predates the web but still has an active
-community of enthusiasts.
+The [Gopher](https://en.wikipedia.org/wiki/Gopher_(protocol)) protocol predates
+the web but still has an active community of enthusiasts.
 
-I'm using [Gophernicus](https://gophernicus.org/) to serve my Gopher hole.
+I'm using [Gophernicus](https://gophernicus.org/) to serve my Gopher "hole".
 
 __Gopher__: <a href="gopher://jbeard.co">gopher://jbeard.co</a>
 
@@ -64,10 +67,6 @@ echo "josh" | nc jbeard.co 79
 ```
 
 My resume is also available via finger - `resume@jbeard.co`
-
-### Resources
-
-* [Poor Man's Web - The Small Web](https://zserge.com/posts/small-web/)
 
 ### Deployment
 
