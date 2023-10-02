@@ -34,7 +34,8 @@ great.
 
 ### Computers
 
-* MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Dual boot Arch Linux and macOS.
+* MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Arch Linux full time, but dual
+  boot macOS.
   Daily driver. I've always ran on older, used computers.
 * MacBook Pro M1 (work). Runs macOS. Daily Driver.
 * Keyboard: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
@@ -54,6 +55,7 @@ See my [Home Lab](/homelab) page for more information.
 * Dell Wyse 3040 (Thin client - Atom x5/2GB) - [Pi-Hole](https://pi-hole.net/)
   * Love this little thing.
 * other hardware running Linux and BSD.
+* Homelab OS: Linux (Rocky, Ubuntu, Debian, Alpine), OpenBSD, FreeBSD
 
 The [My Old Computers](/old-computers.html) page lists some older computers
 I've had.
@@ -80,15 +82,12 @@ I've had.
 
 ### Software
 
-* Homelab OS: Linux (Rocky, Ubuntu, Debian, Alpine), OpenBSD, FreeBSD
 * Browsers: Mostly [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/).
   Sometimes [Brave](https://brave.com). Not excited about all the Chrome
   browsers.
 * Shell: zsh with [prezto](https://github.com/sorin-ionescu/prezto).
 * Music: Spotify
-* Notes: [Inkdrop](https://www.inkdrop.app/) lately.
-  I like [Bear](https://bear.app/) on Mac, but stopped using it due to lack of
-  platform availability and Apple lock-in.
+* Notes: [Inkdrop](https://www.inkdrop.app/)
 * [Mutt](http://www.mutt.org/) for an e-mail client.
 * I've been using [kitty](https://sw.kovidgoyal.net/kitty/) and
   [Alacritty](https://alacritty.org/) for terminal emulators over the last
@@ -119,9 +118,7 @@ I've had.
 
 ### Desktop Utilities
 
-* linux: [Hyprland](https://hyprland.org/) with [eww](https://github.com/elkowar/eww)
-  since 2023. PekWM, Gnome, XFCE, i3, *box, etc over the years.
-
+* Linux: using i3, i3status, i3bar
 * mac: [itsycal](https://www.mowglii.com/itsycal/): tiny menu bar calendar for macOS
 * mac: [Contexts](https://contexts.co/): window and task switcher for macOS
 * mac: [Magnet](https://magnet.crowdcafe.com/): window manager for macOS
