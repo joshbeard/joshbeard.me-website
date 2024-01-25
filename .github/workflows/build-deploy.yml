@@ -64,7 +64,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@master
         with:
-          name: src
+          name: minify
           path: .
 
   validate:
@@ -78,7 +78,7 @@ jobs:
 
       - uses: actions/download-artifact@master
         with:
-          name: src
+          name: minify
           path: _site
 
       - name: HTML5Validator
