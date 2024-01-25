@@ -10,5 +10,8 @@ serve:
 nginx:
 	docker run --rm -it -v $(PWD)/_site:/usr/share/nginx/html:ro -p 8080:80 nginx
 
+upload-shots:
+	./util/upload-shots.sh
+
 security.txt:
 	./util/security-txt-gen.sh

@@ -12,3 +12,5 @@
 /src/photos/**/*.gif
 /src/photos/**/*.gmi
 /src/photos/**/gophermap
+/src/screenshots/**/*.jp?g
+/src/screenshots/**/*.png
