@@ -494,6 +494,11 @@ span.sub-menu-current {
     z-index: 1;
 }
 
+img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
 #album-description {
     text-align: center;
     font-size: .8em;

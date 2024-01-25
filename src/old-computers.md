@@ -38,16 +38,16 @@ jgs `"""""""""""""`  '-'
 * 1997-2006: Several no-name [386](https://en.wikipedia.org/wiki/I386) and [486s](https://en.wikipedia.org/wiki/I486). Ran DOS, Linux, and FreeBSD. Installed Windows 95 from floppy on a 486.
 * 1999-2006: Several no-name [Pentiums](https://en.wikipedia.org/wiki/Pentium_(original)) and [AMD K5/K6/Athalon](https://en.wikipedia.org/wiki/Advanced_Micro_Devices#CPUs_and_APUs). Ran Linux (RedHat, CentOS, Ubuntu, Debian, Gentoo, countless others) and FreeBSD.
 
-<a href="/screenshots/old/2005-02-04.png"><img src="/screenshots/old/2005-02-04-th.png" alt="Screenshot from 2005-02-04" /></a>
+<a href="/screenshots/old/2005-02-04.png"><img class="responsive" src="/screenshots/old/2005-02-04-th.png" alt="Screenshot from 2005-02-04" /></a>
 
-<a href="/screenshots/old/2005-11-27.jpg"><img src="/screenshots/old/2005-11-27-th.jpg" alt="Screenshot from 2005-11-27" /></a>
+<a href="/screenshots/old/2005-11-27.jpg"><img class="responsive" src="/screenshots/old/2005-11-27-th.jpg" alt="Screenshot from 2005-11-27" /></a>
 
-<a href="/screenshots/old/2006-02-11.jpg"><img src="/screenshots/old/2006-02-11-th.jpg" alt="Screenshot from 2006-02-11" /></a>
+<a href="/screenshots/old/2006-02-11.jpg"><img class="responsive" src="/screenshots/old/2006-02-11-th.jpg" alt="Screenshot from 2006-02-11" /></a>
 
 * 2006-2011: [Dell Inspiron 1750](https://rmromero.blogspot.com/2010/04/dell-inspiron-17-1750-specifications.html)(?) Laptop. Mostly Linux
   (Ubuntu). Briefly Windows XP and FreeBSD.
 
-<a href="/screenshots/old/2008-10-11.png"><img src="/screenshots/old/2008-10-11-th.png" alt="Screenshot from 2008-10-11" /></a>
+<a href="/screenshots/old/2008-10-11.png"><img class="responsive" src="/screenshots/old/2008-10-11-th.png" alt="Screenshot from 2008-10-11" /></a>
 
 * 2008-2013: Several Work-issued [iMacs](https://en.wikipedia.org/wiki/IMac) running macOS and Linux.
 * 2010-2012: [Asus Eee PC 900](https://en.wikipedia.org/wiki/Asus_Eee_PC#Eee_900_series). Ran Linux (Debian).
