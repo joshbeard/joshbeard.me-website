@@ -15,7 +15,8 @@ This is my [uses page](https://uses.tech/).
 
 It nags at my security conscience to publish information about software and
 equipment I use but in the spirit of community, here it is. It ain't like
-there's super unique config going on here.
+there's super unique config going on here. Almost seems like it should be a
+"useless" page.
 
 ### Desk
 
@@ -34,9 +35,17 @@ great.
 
 ### Computers
 
+I've always ran on older, used computers. I bought a brand new computer once in
+my life.
+
+I've been a Linux user since 1999 or so, with a few years of running FreeBSD.
+I've used macOS a lot at work since 2008, along with an occassional Linux
+workstation. Briefly got stuck using Windows 11 at work and hated it. Ads built
+into the desktop? Insane anyone puts up with that crap, but WSL2 wasn't bad.
+
 * MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Arch Linux full time, but dual
-  boot macOS.
-  Daily driver. I've always ran on older, used computers.
+  boot macOS. A little quriky, but it's a workhorse.
+  Daily driver.
 * MacBook Pro M1 (work). Runs macOS. Daily Driver.
 * Keyboard: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
   * I've had this for well over a year now and am still pretty pleased with it.
@@ -80,45 +89,49 @@ I've had.
           \/ZZZZZZZZZZZZZZZZZ/
 ```
 
+### Music
+
+* [last.fm](https://www.last.fm/user/joshbeard)
+* [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab)
+
 ### Software
 
-* Browsers: Mostly [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/).
-  Sometimes [Brave](https://brave.com). Not excited about all the Chrome
-  browsers.
+* Browsers: [Firefox](https://www.mozilla.org/en-US/firefox/new/) and
+  [Brave](https://brave.com).
 * Shell: zsh with [prezto](https://github.com/sorin-ionescu/prezto).
-* Music: Spotify
 * Notes: [Inkdrop](https://www.inkdrop.app/)
 * [Mutt](http://www.mutt.org/) for an e-mail client.
-* I've been using [kitty](https://sw.kovidgoyal.net/kitty/) and
-  [Alacritty](https://alacritty.org/) for terminal emulators over the last
-  year. I've tried most of 'em over the years and really don't mind any of them
-  with a decent config and color scheme.
+* [kitty](https://sw.kovidgoyal.net/kitty/) and
+  [Alacritty](https://alacritty.org/). I've tried many terminals over the years
+  and really don't mind any of them with a decent config and color scheme.
 
 ### Development and Work
 
-* [neovim](https://neovim.io/). Used VIM from 2000-2019, then, for some reason,
-  started using [Visual Studio Code](https://code.visualstudio.com/)
-  (with the VIM plugin, of course) for a couple of years. In 2023, I've started
-  using [neovim](https://neovim.io/), and really feel more at home.
+* I generally prefer and will defend 80 character width. It's much more
+  readable, you can fit more documents on screen without wrapping, and sort of
+  keeps you in check on whether a block of code is getting wild. I've recently
+  started using 100 character width more, but feel dirty.
+* [neovim](https://neovim.io/). Long-time VIM user from 2000-2019. Used
+  [Visual Studio Code](https://code.visualstudio.com/)
+  (with the VIM plugin, of course) for a couple of years at work.
 * [Docker](https://docker.io). [Dev Containers](https://containers.dev/) at
   work.
 * Terraform
 * Go
 * AWS
 * Shell
-* Ansible
+* Ansible (previous gigs and at home)
 * Python
 * Lots of GitLab CI and GitHub workflows
 * tmux
 * [draw.io](https://draw.io/) for diagrams, flowcharts, etc.
-* [ColorSlurp](https://colorslurp.com/) for a simple color picker on Mac.
 * [google-webfonts-helper](https://colorslurp.com/) for downloading and serving Google web fonts locally
 * [Hack monospace font](https://sourcefoundry.org/hack/)
 * See my [dotfiles](https://github.com/joshbeard/dotfiles)
 
 ### Desktop Utilities
 
-* Linux: using i3, i3status, i3bar
+* Linux: using i3, i3status, i3bar.
 * mac: [itsycal](https://www.mowglii.com/itsycal/): tiny menu bar calendar for macOS
 * mac: [Contexts](https://contexts.co/): window and task switcher for macOS
 * mac: [Magnet](https://magnet.crowdcafe.com/): window manager for macOS

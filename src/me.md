@@ -15,7 +15,7 @@ See my [now page](/now) for a summary of what I'm up to lately.
 
 ### Personal
 
-Old soul.
+I'm from the 80's.
 
 ```ascii-art
          ,,,
@@ -27,17 +27,55 @@ If you are looking at this and dig personal websites and that sort of thing,
 say [hello](mailto:hello@joshbeard.me)! It'd be really cool to exchange a
 "postcard" of sorts with people in e-mail.
 
-I live in [Colorado Springs, Colorado](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado).
-I enjoy time with family, computers, outdoors (hiking, scenic drives), music
-(listening ([last.fm](https://www.last.fm/user/joshbeard), [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab)), watching, playing), food
-(mostly just eating), games (card, party, board), and all sorts of other stuff.
+As tempting as it is at times to share my opinions on political or social
+topics, I generally refrain from doing so. There seems to be a dichotomy
+between fashionable or approved opinions and all others. Politically and
+socially, I align closest with libertarian principles. My belief is that
+government is often not a benefactor, and the best authorities over my life are
+those closest to me, like my family and myself. Despite living in what is
+claimed to be an increasingly diverse and inclusive culture, I find myself
+disenchanted by the pervasive uniformity, be it in website designs, fashion
+trends, or social platitudes. At the same time, I place high value on tradition
+and etiquette. As someone who is introverted and reserved, I avoid discussing
+politics and similar topics in mixed company.
 
-I consider [Rapid City, South Dakota](https://en.wikipedia.org/wiki/Rapid_City%2C_South_Dakota) my home.
-I was born in and have family and roots in [Northeasten Arkansas](https://en.wikipedia.org/wiki/Arkansas_Delta),
-with most of my parents, grandparents, and great-grandparents generations around
-Southeast Missouri, and Tennessee.  I hardly know anything about my family
-history or ancestry. I've lived in Arkansas, Colorado, Georgia, Kansas,
-Missouri, and South Dakota.
+### The Good ol' Days
+
+I've been a computer hobbyist since I was a kid/teen in the mid-late 90's, starting with
+our [obsolete family computer](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems)
+bought from a garage sale, the next family computer, and several other outdated
+computers I collected from people back then.
+
+
+```ascii-art-left
+ _____________
+|[]|       |  |
+|  |  jwb  |  |
+|  |_______|  |
+|   _______   |
+|  |     | |  |
+\__|_____|_|__|
+```
+
+I took an interest in Linux and Free and Open Source Software around 1999 and
+became particuarily interested in setting up and administering servers and
+websites. I've continued to use Linux every day, both professionally and as a
+hobbiest.
+
+In the early 2000's, I started using FreeBSD to experience another UNIXy systems
+and ran it for several years on my desktop and home servers, eventually using
+it for core services at a previous job.
+
+I owe my career to Free and Open Source Software and the ecosystem built around
+Linux and UNIX.
+
+### Computers Over The Years
+
+See the [My Old Computers page](/old-computers.html)
+
+#### Home Servers
+
+See [my Home Lab page](/homelab) for information about my servers at home.
 
 ### Professional Life
 
@@ -78,43 +116,6 @@ I spend most of my day in a code editor and shell, bouncing across several
 projects.
 
 See [my resume](/resume) for more details about my professional experience.
-
-### The Good ol' Days
-
-```ascii-art-left
- _____________
-|[]|       |  |
-|  |  jwb  |  |
-|  |_______|  |
-|   _______   |
-|  |     | |  |
-\__|_____|_|__|
-```
-
-I've been a computer hobbyist since I was a kid/teen in the mid-late 90's, starting with
-our [obsolete family computer](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems)
-bought from a garage sale, the next family computer, and several other outdated
-computers I collected from people back then.
-
-I took an interest in Linux and Free and Open Source Software around 1999 and
-became particuarily interested in setting up and administering servers and
-websites. I've continued to use Linux every day, both professionally and as a
-hobbiest.
-
-In the early 2000's, I started using FreeBSD to experience another UNIXy systems
-and ran it for several years on my desktop and home servers, eventually using
-it for core services at a previous job.
-
-I owe my career to Free and Open Source Software and the ecosystem built around
-Linux and UNIX.
-
-### Computers Over The Years
-
-See the [My Old Computers page](/old-computers.html)
-
-#### Home Servers
-
-See [my Home Lab page](/homelab) for information about my servers at home.
 
 ### In Memory
 

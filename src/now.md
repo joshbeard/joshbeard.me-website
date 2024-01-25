@@ -13,7 +13,7 @@ class: ascii-art
 
 This is my [now page](https://nownownow.com/about).
 
-This is what I'm doing as of August 11, 2023:
+This is what I'm doing as of January 2024:
 
 ```ascii-art-right
  ███████   ██████  ███     ██
@@ -25,7 +25,7 @@ This is what I'm doing as of August 11, 2023:
 ```
 
 * Raising two daughters with my wife in [Colorado Springs, CO](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado).
-* Started a new job in September 2022 after 7+ years contracting at USGS.
+* Working on some home improvement projects.
 * Tinkering with [Go](https://go.dev/) for work and fun.
   * Developed a [Terraform provider](https://github.com/LiveOakLabs/terraform-provider-readme)
     and [API client](https://github.com/LiveOakLabs/readme-api-go-client) in Go.
