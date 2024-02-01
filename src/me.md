@@ -108,7 +108,7 @@ projects.
 
 See [my resume](/resume) for more details about my professional experience.
 
-## Politics and Culture
+### Politics and Culture
 
 Although I occasionally feel the urge to express my opinions on political or
 social issues, I typically hold back, confining such discussions to my family
