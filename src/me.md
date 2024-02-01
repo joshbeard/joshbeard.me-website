@@ -27,17 +27,8 @@ If you are looking at this and dig personal websites and that sort of thing,
 say [hello](mailto:hello@joshbeard.me)! It'd be really cool to exchange a
 "postcard" of sorts with people in e-mail.
 
-As tempting as it is at times to share my opinions on political or social
-topics, I generally refrain from doing so. There seems to be a dichotomy
-between fashionable or approved opinions and all others. Politically and
-socially, I align closest with libertarian principles. My belief is that
-government is often not a benefactor, and the best authorities over my life are
-those closest to me, like my family and myself. Despite living in what is
-claimed to be an increasingly diverse and inclusive culture, I find myself
-disenchanted by the pervasive uniformity, be it in website designs, fashion
-trends, or social platitudes. At the same time, I place high value on tradition
-and etiquette. As someone who is introverted and reserved, I avoid discussing
-politics and similar topics in mixed company.
+I'm not interested in blogging here, and I don't maintain any social media
+presence. I prefer to keep more quiet online these days.
 
 ### The Good ol' Days
 
@@ -116,6 +107,28 @@ I spend most of my day in a code editor and shell, bouncing across several
 projects.
 
 See [my resume](/resume) for more details about my professional experience.
+
+## Politics and Culture
+
+Although I occasionally feel the urge to express my opinions on political or
+social issues, I typically hold back, confining such discussions to my family
+or closest friends. I was more flippant online 20 years ago, when things
+seemed a bit less consequential. My stance has increasingly become contrarian
+against dominant social, cultural, and political issues, trends, and
+ideologies, which I've observed growing more authoritarian and dogmatic in
+recent years. Concurrently, my own viewpoints have evolved significantly.
+
+In terms of my political and social alignment, I resonate most with libertarian
+principles, but it really depends on specific issues. I'm generally skeptical
+of broad, centralized authority and collectivism. As for government, I'm wary
+of oppression, _actual_ authoritarianism, and _actual_ totalitarianism. I have
+a preference for authorities in my life to be as proximate as possible —
+myself, my family, or local entities. Despite living in a society that
+professes increasing diversity and inclusivity, I find myself disenchanted by
+the widespread uniformity, whether it's the platitude of the week in political
+rhetoric, social norms, or even in areas like website design and fashion
+trends. Nevertheless, I place a high value on tradition and etiquette.
+I strongly believe in the right to either withhold or not form an opinion.
 
 ### In Memory
 
