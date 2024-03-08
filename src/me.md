@@ -135,8 +135,6 @@ rhetoric, social norms, or even in areas like website design and fashion
 trends. Nevertheless, I place a high value on tradition and etiquette.
 I strongly believe in the right to either withhold or not form an opinion.
 
-I've also become annoyed with the "safety culture" that has permeated society.
-
 ### In Memory
 
 🐓 A rooster in memory of my mom.

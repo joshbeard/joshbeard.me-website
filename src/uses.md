@@ -36,14 +36,14 @@ my life.
 
 I've been a Linux user since 1999 or so, with a few years of running FreeBSD,
 starting around 2004. I've used macOS a lot at work since 2008, along with an
-occassional Linux workstation. Briefly got stuck using Windows 11 at work and
+occasional Linux workstation. Briefly got stuck using Windows 11 at work and
 hated it. Ads built into the desktop? Insane anyone puts up with that crap, but
 WSL2 wasn't bad. My opinion of Microsoft has and will always be low - I was
 a Linux geek in the early 2000s and they were overtly hostile to Linux and
 open source.
 
 * MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Arch Linux full time, but dual
-  boot macOS for LogicPro sometimes. A little quriky, but it's a workhorse and
+  boot macOS for LogicPro sometimes. A little quirky, but it's a workhorse and
   outperforms my newer M1 running macOS most days.
 * MacBook Pro M1 (work). Runs macOS. Daily Driver. I've started to dislike
   macOS quite a bit for getting work done, after using it over the last 14
@@ -53,9 +53,9 @@ open source.
 * Keyboard: I've been using the [NuPhy Air75](https://nuphy.com/products/air75)
   since February 2024 and now have a couple of them with different switches.
   I was using a [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
-  previously, which I wasn't complely happy with after a while. A required
+  previously, which I wasn't completely happy with after a while. A required
   feature for me is multi-device support and a USB receiver - I don't use
-  Bluethooth on my Linux box (battery sucks enough as it is).
+  Bluetooth on my Linux box (battery sucks enough as it is).
 * Monitors: Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p, 2x
   Viewsonic 24" IPS 1080p.
 
