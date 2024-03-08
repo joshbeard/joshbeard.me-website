@@ -28,7 +28,8 @@ say [hello](mailto:hello@joshbeard.me)! It'd be really cool to exchange a
 "postcard" of sorts with people in e-mail.
 
 I'm not interested in blogging here, and I don't maintain any social media
-presence. I prefer to keep more quiet online these days.
+presence. I prefer to keep more quiet online these days, but I'll be verbose on
+this site.
 
 ### The Good ol' Days
 
@@ -71,19 +72,22 @@ See [my Home Lab page](/homelab) for information about my servers at home.
 ### Professional Life
 
 I was doing hobbyist stuff with servers and web apps in virtually all of my free
-time prior to getting a career doing it. I joined the Army and did some level of
-IT administration as part of my duties, but not so much traditional systems
+time prior to getting a career doing it. I didn't go to college; in fact, I
+dropped out of high school and got a GED. I joined the Army and did some level
+of IT administration as part of my duties, but not so much traditional systems
 administration or development. I later worked for Apple doing support and loved
-any opportunity to use the UNIX underpinnings of their platform.
+any opportunity to use the UNIX/BSD side of their platform.
 
-I got my real professional "foot in the door" of systems administration at a
-school district several years ago. At that point, I had already been running
-common services on Linux and FreeBSD for years for all sorts of things and had
-some coding experience - at least shell, PHP, and web stuff. In that role, I
-really honed my coding skills and gained experience with several types of
-services, particularly e-mail services, file services, LDAP, and HTTP. There, I
-learned Puppet, configuration management, version control, and lots of other
-things, which launched me into a new phase of my career - 'DevOps'.
+I got my formal start in systems administration at a school district several
+years ago, sort of forcing my way into it as an eager young man. At that point,
+I had already been running common services on Linux and FreeBSD for years for
+all sorts of things and had some coding experience - at least shell, PHP, and
+web stuff. In that role, I really honed my coding skills (by sysadmin standards)
+and gained experience with several types of services, particularly
+e-mail services, file services, LDAP, and HTTP. There, I learned Puppet,
+configuration management, version control, and lots of other things, which
+launched me into a new phase of my
+career - 'DevOps'.
 
 ```ascii-art-right
     ______
@@ -101,7 +105,8 @@ things, which launched me into a new phase of my career - 'DevOps'.
 ```
 
 These days, my title is something about "DevOps" and I work on software
-engineering teams to support and help make software.
+engineering teams to support and help make software. Some previous titles were
+Systems Administrator, Systems Engineer, Help Desk, and computer guy.
 
 I spend most of my day in a code editor and shell, bouncing across several
 projects.
@@ -129,6 +134,8 @@ the widespread uniformity, whether it's the platitude of the week in political
 rhetoric, social norms, or even in areas like website design and fashion
 trends. Nevertheless, I place a high value on tradition and etiquette.
 I strongly believe in the right to either withhold or not form an opinion.
+
+I've also become annoyed with the "safety culture" that has permeated society.
 
 ### In Memory
 

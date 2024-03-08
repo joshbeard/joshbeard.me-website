@@ -11,9 +11,10 @@ class: ascii-art
 
 {% include submenu.html %}
 
-This is my [now page](https://nownownow.com/about).
+This is my [now page](https://nownownow.com/about). I'll try to update it every
+few months.
 
-This is what I'm doing as of January 2024:
+This is what I'm doing as of March 2024:
 
 ```ascii-art-right
  ███████   ██████  ███     ██
@@ -26,8 +27,8 @@ This is what I'm doing as of January 2024:
 
 * Raising two daughters with my wife in [Colorado Springs, CO](https://en.wikipedia.org/wiki/Colorado_Springs%2C_Colorado).
 * Working on some home improvement projects.
+* Getting into shape after years of neglect.
+* I've been at my current job since September 2022. Was at my previous job for
+  about 7 years.
 * Tinkering with [Go](https://go.dev/) for work and fun.
-  * Developed a [Terraform provider](https://github.com/LiveOakLabs/terraform-provider-readme)
-    and [API client](https://github.com/LiveOakLabs/readme-api-go-client) in Go.
-  * Developed a few small utilities.
   * Currently working on a couple of TUI apps in spare time.

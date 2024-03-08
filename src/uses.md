@@ -22,39 +22,54 @@ there's super unique config going on here. Almost seems like it should be a
 
 __TODO:__ Add photos here.
 
-I have a dedicated humble office space and a workbench in my garage. I don't
-always keep it tidy, I don't have a bunch of cool, coordinated gear. I bought
-my desk used from an online ad - it's one of the good ol' SteelCase office
-desks. I severely injured my toe hauling that thing into my basement and think
-it's now permanently down there.
-
-I mostly use a shop workbench in my garage with the door wide open when the
-weather is decent enough. Working like this has been fantastic for wellbeing,
-although the height of the workbench and the availability of good seating isn't
-great.
+I have a dedicated humble office space and a workbench in my garage that I
+float between, depending on the weather. I don't always keep it tidy, I don't
+have a bunch of cool, coordinated gear. I bought my desk used from an online ad
+- it's one of the good ol' SteelCase office desks. I severely injured my toe
+  hauling that thing into my basement and think it's now permanently down
+  there.
 
 ### Computers
 
 I've always ran on older, used computers. I bought a brand new computer once in
 my life.
 
-I've been a Linux user since 1999 or so, with a few years of running FreeBSD.
-I've used macOS a lot at work since 2008, along with an occassional Linux
-workstation. Briefly got stuck using Windows 11 at work and hated it. Ads built
-into the desktop? Insane anyone puts up with that crap, but WSL2 wasn't bad.
+I've been a Linux user since 1999 or so, with a few years of running FreeBSD,
+starting around 2004. I've used macOS a lot at work since 2008, along with an
+occassional Linux workstation. Briefly got stuck using Windows 11 at work and
+hated it. Ads built into the desktop? Insane anyone puts up with that crap, but
+WSL2 wasn't bad. My opinion of Microsoft has and will always be low - I was
+a Linux geek in the early 2000s and they were overtly hostile to Linux and
+open source.
 
 * MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Arch Linux full time, but dual
-  boot macOS. A little quriky, but it's a workhorse.
-  Daily driver.
-* MacBook Pro M1 (work). Runs macOS. Daily Driver.
-* Keyboard: [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
-  * I've had this for well over a year now and am still pretty pleased with it.
+  boot macOS for LogicPro sometimes. A little quriky, but it's a workhorse and
+  outperforms my newer M1 running macOS most days.
+* MacBook Pro M1 (work). Runs macOS. Daily Driver. I've started to dislike
+  macOS quite a bit for getting work done, after using it over the last 14
+  years. I still pine for the day I can actually use Linux on my workstation at
+  work. I've administered thousands of Linux servers across jobs, but for some
+  reason it's never blessed for the desktop :(
+* Keyboard: I've been using the [NuPhy Air75](https://nuphy.com/products/air75)
+  since February 2024 and now have a couple of them with different switches.
+  I was using a [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
+  previously, which I wasn't complely happy with after a while. A required
+  feature for me is multi-device support and a USB receiver - I don't use
+  Bluethooth on my Linux box (battery sucks enough as it is).
 * Monitors: Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p, 2x
   Viewsonic 24" IPS 1080p.
 
-### Homelab
+Checkout my [Old Computers page](/old-computers.html) for past computers I've
+had since the 1990s.
 
-See my [Home Lab](/homelab) page for more information.
+### Desktop
+
+* [Arch Linux](https://archlinux.org/), btw.
+* [Hyprland](https://hyprland.org/). Previously used i3.
+* [rofi](https://github.com/davatorium/rofi).
+* [Waybar](https://github.com/Alexays/Waybar).
+
+### Homelab
 
 * Dell PowerEdge T410 (Runs Proxmox on Debian) - LXC, VM, Docker with a mix of Linux distributions and BSD. Mostly [Rocky
   Linux](https://rockylinux.org/)
@@ -66,8 +81,7 @@ See my [Home Lab](/homelab) page for more information.
 * other hardware running Linux and BSD.
 * Homelab OS: Linux (Rocky, Ubuntu, Debian, Alpine), OpenBSD, FreeBSD
 
-The [My Old Computers](/old-computers.html) page lists some older computers
-I've had.
+See my [Home Lab](/homelab) page for more information.
 
 ```ascii-art-right
        __________________
@@ -96,13 +110,12 @@ I've had.
 
 ### Software
 
-* Browsers: [Firefox](https://www.mozilla.org/en-US/firefox/new/) and
-  [Brave](https://brave.com).
+* Browsers: [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/firefox/new/).
+  Kind of sick of the Chrome-based browser monopoly.
 * Shell: zsh with [prezto](https://github.com/sorin-ionescu/prezto).
-* Notes: [Inkdrop](https://www.inkdrop.app/)
-* [Mutt](http://www.mutt.org/) for an e-mail client.
-* [kitty](https://sw.kovidgoyal.net/kitty/) and
-  [Alacritty](https://alacritty.org/). I've tried many terminals over the years
+* Notes: [Obsidian](https://obsidian.md/)
+* [Mutt](https://mutt.org) and [NeoMutt](http://www.neomutt.org/) for an e-mail client.
+* [Alacritty](https://alacritty.org/). I've tried many terminals over the years
   and really don't mind any of them with a decent config and color scheme.
 
 ### Development and Work
@@ -128,30 +141,6 @@ I've had.
 * [google-webfonts-helper](https://colorslurp.com/) for downloading and serving Google web fonts locally
 * [Hack monospace font](https://sourcefoundry.org/hack/)
 * See my [dotfiles](https://github.com/joshbeard/dotfiles)
-
-### Desktop Utilities
-
-* Linux: using i3, i3status, i3bar.
-* mac: [itsycal](https://www.mowglii.com/itsycal/): tiny menu bar calendar for macOS
-* mac: [Contexts](https://contexts.co/): window and task switcher for macOS
-* mac: [Magnet](https://magnet.crowdcafe.com/): window manager for macOS
-* mac: [Amphetimine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12): keep-awake utility for macOS
-* mac: [Bartender](https://www.macbartender.com/): menu bar management for macOS
-* mac: [Homebrew](https://brew.sh/): package manager (I only use it on Mac)
-
-### Homelab
-
-See my [Homelab](/homelab/) page for information about my home servers using
-[Proxmox](https://www.proxmox.com/) as a platform.
-
-Also see my [About this site](/site) and [Small Internet](/site/small.html) pages for other stuff I'm using for serving this site and
-related materials.
-
-### Used
-
-Things I've used in the past that I want to note:
-
-* [saml2aws](https://github.com/Versent/saml2aws) - AWS credentials with SAML
 
 ---
 
