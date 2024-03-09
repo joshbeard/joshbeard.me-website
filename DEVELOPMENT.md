@@ -89,3 +89,22 @@ pages for the photo albums and individual photos.
 
   Helper script for preparing and deploying my images.
 
+## Screenshots
+
+Screenshots aren't committed to the repository. Instead, they are uploaded
+directly to S3 and referenced in the Markdown files.
+
+Use the [`util/upload-shots.sh`](util/upload-shots.sh) script to upload
+screenshots from [`src/screenshots/`](src/screenshots/) to S3.
+
+```shell
+./util/upload-shots.sh
+```
+
+## `security.txt`
+
+To update the [`src/security.txt`](src/security.txt) file, run the following:
+
+```shell
+./util/security-txt-gen.sh
+```
