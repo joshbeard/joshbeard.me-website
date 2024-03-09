@@ -14,74 +14,23 @@ class: ascii-art
 This is my [uses page](https://uses.tech/).
 
 It nags at my security conscience to publish information about software and
-equipment I use but in the spirit of community, here it is. It ain't like
-there's super unique config going on here. Almost seems like it should be a
-"useless" page.
-
-### Desk
-
-__TODO:__ Add photos here.
-
-I have a dedicated humble office space and a workbench in my garage that I
-float between, depending on the weather. I don't always keep it tidy, I don't
-have a bunch of cool, coordinated gear. I bought my desk used from an online ad
-- it's one of the good ol' SteelCase office desks. I severely injured my toe
-  hauling that thing into my basement and think it's now permanently down
-  there.
+equipment I use but in the spirit of community and tradition, here it is.
 
 ### Computers
 
-I've always ran on older, used computers. I bought a brand new computer once in
-my life.
-
-I've been a Linux user since 1999 or so, with a few years of running FreeBSD,
-starting around 2004. I've used macOS a lot at work since 2008, along with an
-occasional Linux workstation. Briefly got stuck using Windows 11 at work and
-hated it. Ads built into the desktop? Insane anyone puts up with that crap, but
-WSL2 wasn't bad. My opinion of Microsoft has and will always be low - I was
-a Linux geek in the early 2000s and they were overtly hostile to Linux and
-open source.
-
-* MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Arch Linux full time, but dual
-  boot macOS for LogicPro sometimes. A little quirky, but it's a workhorse and
-  outperforms my newer M1 running macOS most days.
-* MacBook Pro M1 (work). Runs macOS. Daily Driver. I've started to dislike
-  macOS quite a bit for getting work done, after using it over the last 14
-  years. I still pine for the day I can actually use Linux on my workstation at
-  work. I've administered thousands of Linux servers across jobs, but for some
-  reason it's never blessed for the desktop :(
-* Keyboard: I've been using the [NuPhy Air75](https://nuphy.com/products/air75)
-  since February 2024 and now have a couple of them with different switches.
-  I was using a [Logitech MX Mechanical Mini](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
-  previously, which I wasn't completely happy with after a while. A required
-  feature for me is multi-device support and a USB receiver - I don't use
-  Bluetooth on my Linux box (battery sucks enough as it is).
-* Monitors: Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p, 2x
+* __Primary:__ MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs Linux
+  full-time. Rarely boot macOS for [LogicPro](https://www.apple.com/logic-pro/).
+* __Work Provided:__ MacBook Pro M1 (work)/macOS.
+* __Keyboards:__ 2x [NuPhy Air75](https://nuphy.com/products/air75) since
+  February 2024. Previous [Logitech MX Keys Mechanical](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
+* __Mouse:__ Logitech MX Master 3
+* __Monitors:__ Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p, 2x
   Viewsonic 24" IPS 1080p.
 
-Checkout my [Old Computers page](/old-computers.html) for past computers I've
-had since the 1990s.
+Checkout my [Old Computers page](/old-computers.html) for previous computers
+I've had since the 1990s.
 
 ### Desktop
-
-* [Arch Linux](https://archlinux.org/), btw.
-* [Hyprland](https://hyprland.org/). Previously used i3.
-* [rofi](https://github.com/davatorium/rofi).
-* [Waybar](https://github.com/Alexays/Waybar).
-
-### Homelab
-
-* Dell PowerEdge T410 (Runs Proxmox on Debian) - LXC, VM, Docker with a mix of Linux distributions and BSD. Mostly [Rocky
-  Linux](https://rockylinux.org/)
-* Shuttle DS87 (i3 3.6GHz/16GB) - Not used yet, but plan to use [OPNSense](https://opnsense.org/)
-  * Over a year later and it's still sitting in the basement with assorted
-    cables stacked on top.
-* Dell Wyse 3040 (Thin client - Atom x5/2GB) - [Pi-Hole](https://pi-hole.net/)
-  * Love this little thing.
-* other hardware running Linux and BSD.
-* Homelab OS: Linux (Rocky, Ubuntu, Debian, Alpine), OpenBSD, FreeBSD
-
-See my [Home Lab](/homelab) page for more information.
 
 ```ascii-art-right
        __________________
@@ -103,53 +52,79 @@ See my [Home Lab](/homelab) page for more information.
           \/ZZZZZZZZZZZZZZZZZ/
 ```
 
-### Music
+* __OS:__ [Arch Linux](https://archlinux.org/), btw
+* __WM:__ [Hyprland](https://hyprland.org/). Previously used i3
+* __Launcher:__ [rofi](https://github.com/davatorium/rofi)
+* __Status:__ [Waybar](https://github.com/Alexays/Waybar)
+* __Launcher:__ [fzf](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
+* __Terminal:__ [Alacritty](https://alacritty.org/) with [tmux](https://github.com/tmux/tmux)
+* __Editor:__ [neovim](https://neovim.io/). VIM user since 2001
+* __Fonts:__ [Hack monospace font](https://sourcefoundry.org/hack/)
+* __Shell:__ zsh with [prezto](https://github.com/sorin-ionescu/prezto)
+* __Browsers:__ [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* __Browser Plugins:__ [Vimium-C](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html),
+  [Dark Reader](https://darkreader.org/).
+* __Notes:__ [Obsidian](https://obsidian.md/)
+* __Mail:__ [Mutt](https://mutt.org) and [NeoMutt](http://www.neomutt.org/)
+* __Music:__ [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab) and [last.fm](https://www.last.fm/user/joshbeard)
 
-* [last.fm](https://www.last.fm/user/joshbeard)
-* [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab)
-
-### Software
-
-* Browsers: [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/firefox/new/).
-  Kind of sick of the Chrome-based browser monopoly.
-* Shell: zsh with [prezto](https://github.com/sorin-ionescu/prezto).
-* Notes: [Obsidian](https://obsidian.md/)
-* [Mutt](https://mutt.org) and [NeoMutt](http://www.neomutt.org/) for an e-mail client.
-* [Alacritty](https://alacritty.org/). I've tried many terminals over the years
-  and really don't mind any of them with a decent config and color scheme.
+See my [dotfiles](https://github.com/joshbeard/dotfiles)
 
 ### Development and Work
 
-* I generally prefer and will defend 80 character width. It's much more
-  readable, you can fit more documents on screen without wrapping, and sort of
-  keeps you in check on whether a block of code is getting wild. I've recently
-  started using 100 character width more, but feel dirty.
-* [neovim](https://neovim.io/). Long-time VIM user from 2000-2019. Used
-  [Visual Studio Code](https://code.visualstudio.com/)
-  (with the VIM plugin, of course) for a couple of years at work.
-* [Docker](https://docker.io). [Dev Containers](https://containers.dev/) at
-  work.
-* Terraform
-* Go
-* AWS
-* Shell
-* Ansible (previous gigs and at home)
-* Python
-* Lots of GitLab CI and GitHub workflows
-* tmux
-* [draw.io](https://draw.io/) for diagrams, flowcharts, etc.
-* [google-webfonts-helper](https://colorslurp.com/) for downloading and serving Google web fonts locally
-* [Hack monospace font](https://sourcefoundry.org/hack/)
-* See my [dotfiles](https://github.com/joshbeard/dotfiles)
+* __Languages:__ Go, Python, Shell
+* __Cloud:__ AWS, DigitalOcean
+* __CfgMgmt/IaC:__ Ansible, Terraform
+* __Git/CI/CD:__ GitLab and GitHub
+* __Diagrams:__ [draw.io](https://draw.io/)
+* __Web Fonts:__ [google-webfonts-helper](https://colorslurp.com/) for downloading and serving Google web fonts locally
+* __Mail Provider:__ [Migadu](https://www.migadu.com/) is outstanding
 
----
+### Homelab
 
-```ascii-art
-        _,--',   _._.--._____
- .--.--';_'-.', ";_      _.,-'
-.'--'.  _.'    {`'-;_ .-.>.'
-      '-:_      )  / `' '=.
-        ) >     {_/,     /~)
-snd     |/
-```
+See my [Home Lab](/homelab) page for more information.
 
+### Keyboard-Driven Workflow
+
+I started using VIM and learning its keybindings over 20 years ago and it has
+been an invaluable part of my workflow ever since.
+
+I've made my workflow as keyboard-driven as possible, at least on Linux.
+This has made for a very fast and efficient workflow. I've been using tiling
+window managers for a long time, which works well in this regard.
+
+A few things to highlight that lend to keyboard-driven efficiency:
+
+* VIM-like keybindings where I can
+* Window manager with good keybindings and programmability (Hyprland)
+* Terminal multiplexer (tmux)
+* Fuzzy finder (fzf) and fuzzy finding in general
+* Launcher (rofi)
+* Editor (neovim)
+* Shell with predictive typing (zsh)
+
+For my most common tasks, I can press a quick keystroke to pop up a menu to
+launch applications, open a dedicated tmux session for a project, switch and
+move around workspaces, etc.
+
+* Launching apps: I press `CMD+Space` to open rofi, type a few letters of the
+  app, and press `Enter` to launch.
+* tmux sessions for projects: `CMD+Shift+Space` launches [`tmux-sessionizer`](https://github.com/joshbeard/dotfiles/blob/master/home/bin/tmux-sessionizer.sh),
+  a script adapted from [ThePrimeagen](https://www.youtube.com/c/ThePrimeagen)
+  that uses [`fzf`](https://github.com/junegunn/fzf) to select a project and
+  either create a new tmux session or attach to an existing one. From there,
+  I launch my editor and/or other shells within that project. I can also press
+  `Ctrl-A Space` within tmux itself to switch between sessions.
+* Within NeoVim, I'm using [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+  for fuzzy finding files, buffers, and grepping.
+* In the browser, I'm using [Vimium-C](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
+  for keyboard-driven navigation (as much as a browser can be).
+* I run [`neomutt`](http://www.neomutt.org/) in a tmux session as well, which
+  uses [1password](https://1password.com/)'s CLI to retrieve passwords for the
+  session. This has a dedicated workspace with a quick `CMD+M` to switch to it,
+  either launching it or attaching to an existing session. This also has an
+  icon in my Waybar status bar to show unread mail count.
+
+My workflow's not as smooth on macOS, which I've been stuck with at work over
+the years. At least it's not Windows, but I'm adaptable when it comes to
+getting paid.

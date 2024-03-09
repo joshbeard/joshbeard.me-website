@@ -123,6 +123,15 @@ against dominant social, cultural, and political issues, trends, and
 ideologies, which I've observed growing more authoritarian and dogmatic in
 recent years. Concurrently, my own viewpoints have evolved significantly.
 
+```ascii-art-left
+        _,--',   _._.--._____
+ .--.--';_'-.', ";_      _.,-'
+.'--'.  _.'    {`'-;_ .-.>.'
+      '-:_      )  / `' '=.
+        ) >     {_/,     /~)
+snd     |/
+```
+
 In terms of my political and social alignment, I resonate most with libertarian
 principles, but it really depends on specific issues. I'm generally skeptical
 of broad, centralized authority and collectivism. As for government, I'm wary

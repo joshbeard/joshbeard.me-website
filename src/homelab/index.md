@@ -11,6 +11,15 @@ keywords: ['homelab', 'home lab', 'homelabs', 'proxmox', 'home server']
 
 {% include submenu.html %}
 
+* Dell PowerEdge T410 (Runs [Proxmox](https://www.proxmox.com/en/)) - LXC, VM,
+  Docker with a mix of Linux distributions and BSD. Mostly [Rocky Linux](https://rockylinux.org/)
+* Dell Wyse 3040 (Thin client - Atom x5/2GB) - [Pi-Hole](https://pi-hole.net/)
+  * Love this little thing.
+* Not currently used: Shuttle DS87 (i3 3.6GHz/16GB) - Not used yet, but plan to
+  use [OPNSense](https://opnsense.org/)
+* Other hardware running Linux and BSD.
+* Homelab OS: Linux (Rocky, Ubuntu, Debian, Alpine), OpenBSD, FreeBSD
+
 I'm working on publishing the codebase for my Home Lab to my
 [GitHub profile](https://github.com/joshbeard?tab=repositories&q=homelab&type=&language=&sort=).
 Eventually, I hope to provide some more content and code about my Homelab.
@@ -19,9 +28,6 @@ __2024 Update:__ I'm lagging behind on this, but still maintaining my Home Lab
 internally with the same basic tools. It's a fairly well-oiled machine at this
 point. I'm planning a storage upgrade soon.
 
-My current home server is a Dell PowerEdge T410, bought off eBay for $250 a few
-years ago. I'm running [Proxmox](https://www.proxmox.com/en/) on it with
-several virtual machines and [LXC](https://en.wikipedia.org/wiki/LXC) containers.
 
 Some services I run are [Pi-Hole](https://pi-hole.net/), [Plex Media Server](https://www.plex.tv/),
 [Transmission BitTorrent](https://transmissionbt.com/),
