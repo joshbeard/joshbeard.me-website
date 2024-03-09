@@ -3,7 +3,7 @@ title: Mutt with 1Password
 meta_title: Mutt with 1Password
 show_meta_title: false
 description: Using Mutt and Neomutt with 1Password
-keywords: ['now page', 'status update']
+keywords: ['mutt', 'neomutt', '1password', 'email', 'tmux']
 layout: page
 permalink: /tips/mutt-1password/
 ---
