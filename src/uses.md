@@ -32,6 +32,24 @@ I've had since the 1990s.
 
 ### Desktop
 
+* __OS:__ [Arch Linux](https://archlinux.org/), btw
+* __WM:__ [Hyprland](https://hyprland.org/). Previously used i3
+* __Launcher:__ [rofi](https://github.com/davatorium/rofi)
+* __Status:__ [Waybar](https://github.com/Alexays/Waybar)
+* __Launcher:__ [fzf](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
+* __Terminal:__ [Alacritty](https://alacritty.org/) with [tmux](https://github.com/tmux/tmux)
+* __Editor:__ [neovim](https://neovim.io/). VIM user since 2001
+* __Fonts:__ [Hack monospace font](https://sourcefoundry.org/hack/)
+* __Shell:__ zsh with [prezto](https://github.com/sorin-ionescu/prezto)
+* __Browsers:__ [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* __Browser Plugins:__ [Vimium-C](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html),
+  [Dark Reader](https://darkreader.org/).
+* __Notes:__ [Obsidian](https://obsidian.md/)
+* __Mail:__ [Mutt](https://mutt.org) and [NeoMutt](http://www.neomutt.org/)
+* __Music:__ [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab) and [last.fm](https://www.last.fm/user/joshbeard)
+
+See my [dotfiles](https://github.com/joshbeard/dotfiles)
+
 ```ascii-art-right
        __________________
       /\  ______________ \
@@ -51,24 +69,6 @@ I've had since the 1990s.
          \::/Z/_______itz__\/Z/
           \/ZZZZZZZZZZZZZZZZZ/
 ```
-
-* __OS:__ [Arch Linux](https://archlinux.org/), btw
-* __WM:__ [Hyprland](https://hyprland.org/). Previously used i3
-* __Launcher:__ [rofi](https://github.com/davatorium/rofi)
-* __Status:__ [Waybar](https://github.com/Alexays/Waybar)
-* __Launcher:__ [fzf](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
-* __Terminal:__ [Alacritty](https://alacritty.org/) with [tmux](https://github.com/tmux/tmux)
-* __Editor:__ [neovim](https://neovim.io/). VIM user since 2001
-* __Fonts:__ [Hack monospace font](https://sourcefoundry.org/hack/)
-* __Shell:__ zsh with [prezto](https://github.com/sorin-ionescu/prezto)
-* __Browsers:__ [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-* __Browser Plugins:__ [Vimium-C](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html),
-  [Dark Reader](https://darkreader.org/).
-* __Notes:__ [Obsidian](https://obsidian.md/)
-* __Mail:__ [Mutt](https://mutt.org) and [NeoMutt](http://www.neomutt.org/)
-* __Music:__ [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab) and [last.fm](https://www.last.fm/user/joshbeard)
-
-See my [dotfiles](https://github.com/joshbeard/dotfiles)
 
 ### Development and Work
 

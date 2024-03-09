@@ -189,6 +189,13 @@ code.language-ascii-art {
     color: #72A499;
 }
 
+// FIXME: This isn't working
+code.highlighter-rogue {
+    background-color: #ffffff;
+    color: #72A499;
+    font-size: 60px;
+}
+
 nav {
     border-bottom: 1px solid #393939;
 }

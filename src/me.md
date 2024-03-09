@@ -23,7 +23,7 @@ I'm from the 80's. My primary hobby interests are computers and music.
 ----oOO--( )--OOo----
 ```
 
-I live in Colorado with my wife and kids.
+I live in Colorado with my beautiful wife and kids.
 [Rapid City, South Dakota](https://en.wikipedia.org/wiki/Rapid_City,_South_Dakota)
 is our hometown, though I was born in
 [North Eastern Arkansas](https://en.wikipedia.org/wiki/Arkansas_Delta)
