@@ -15,7 +15,7 @@ See my [now page](/now) for a summary of what I'm up to lately.
 
 ### Personal
 
-I'm from the 80's.
+I'm from the 80's. My primary hobby interests are computers and music.
 
 ```ascii-art
          ,,,
@@ -23,18 +23,31 @@ I'm from the 80's.
 ----oOO--( )--OOo----
 ```
 
-If you are looking at this and dig personal websites and that sort of thing,
-say [hello](mailto:hello@joshbeard.me)! It'd be really cool to exchange a
-"postcard" of sorts with people in e-mail.
+I live in Colorado with my wife and kids.
+[Rapid City, South Dakota](https://en.wikipedia.org/wiki/Rapid_City,_South_Dakota)
+is our hometown, though I was born in
+[North Eastern Arkansas](https://en.wikipedia.org/wiki/Arkansas_Delta)
+with roots in that area and the
+[Missouri Bootheel](https://en.wikipedia.org/wiki/Missouri_Bootheel),
+growing up there until the age of 6. I lived in
+[Derby, Kansas](https://en.wikipedia.org/wiki/Derby,_Kansas)
+from ages 6-9 before moving to South Dakota. I also lived in [Western Missouri](https://en.wikipedia.org/wiki/Whiteman_Air_Force_Base)
+between 2000 and 2001. I've temporarily lived in a few other places over the
+years. I have a fondness for all of these places.
+
+If I travel for pleasure, I prefer driving over flying.
 
 I'm not interested in blogging here, and I don't maintain any social media
-presence. I prefer to keep more quiet online these days, but I'll be verbose on
-this site.
+presence. I prefer to keep more quiet online these days, but I'll be extra
+verbose on this site.
+
+If you are looking at this and dig personal websites and that sort of thing,
+say [hello](mailto:hello@joshbeard.me)!
 
 ### The Good ol' Days
 
-I've been a computer hobbyist since I was a kid/teen in the mid-late 90's, starting with
-our [obsolete family computer](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems)
+I've been a computer hobbyist since I was a kid/teen in the mid-late 90's,
+starting with our [obsolete family computer](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems)
 bought from a garage sale, the next family computer, and several other outdated
 computers I collected from people back then.
 
@@ -51,23 +64,18 @@ computers I collected from people back then.
 
 I took an interest in Linux and Free and Open Source Software around 1999 and
 became particuarily interested in setting up and administering servers and
-websites. I've continued to use Linux every day, both professionally and as a
-hobbiest.
+websites. I stayed up until dawn many nights learning and experimenting with
+this stuff and hanging out on IRC.
 
-In the early 2000's, I started using FreeBSD to experience another UNIXy systems
+Around 2003, I started using FreeBSD to experience another UNIX-derived system
 and ran it for several years on my desktop and home servers, eventually using
-it for core services at a previous job.
+it for core services at a previous job. Although I don't use it as much these
+days, I still love it and have a lot of respect for it and its community.
 
 I owe my career to Free and Open Source Software and the ecosystem built around
 Linux and UNIX.
 
-### Computers Over The Years
-
 See the [My Old Computers page](/old-computers.html)
-
-#### Home Servers
-
-See [my Home Lab page](/homelab) for information about my servers at home.
 
 ### Professional Life
 
