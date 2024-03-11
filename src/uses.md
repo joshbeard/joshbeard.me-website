@@ -22,7 +22,7 @@ equipment I use but in the spirit of community and tradition, here it is.
   full-time. Rarely boot macOS for [LogicPro](https://www.apple.com/logic-pro/).
 * __Work Provided:__ MacBook Pro M1 (work)/macOS.
 * __Keyboards:__ 2x [NuPhy Air75](https://nuphy.com/products/air75) since
-  February 2024. Previous [Logitech MX Keys Mechanical](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
+  February 2024. Aloe and Cowberry switches. Previously [Logitech MX Keys Mechanical](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
 * __Mouse:__ Logitech MX Master 3
 * __Monitors:__ Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p, 2x
   Viewsonic 24" IPS 1080p.

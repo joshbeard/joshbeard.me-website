@@ -44,7 +44,7 @@ verbose on this site.
 If you are looking at this and dig personal websites and that sort of thing,
 say [hello](mailto:hello@joshbeard.me)!
 
-### The Good ol' Days
+### Computers
 
 I've been a computer hobbyist since I was a kid/teen in the mid-late 90's,
 starting with our [obsolete family computer](https://en.wikipedia.org/wiki/Commodore_PC_compatible_systems)
@@ -121,6 +121,27 @@ projects.
 
 See [my resume](/resume) for more details about my professional experience.
 
+### Music
+
+Music has been a big part of my life for as long as I can remember. When I was
+younger, I dreamed of being a musician, but pragmatism set in and I ended up
+pursuing IT. I have several guitars, some little electronic gadgets, and an
+electronic drum set that I play with.
+
+I listen to a pretty diverse range of music, but rock and electronic are
+the dominant broad genres. I don't have a single favorite band - it depends on
+the mood. Some consistent favorites are Pink Floyd, Type O Negative, Tool,
+Puscifer, Nine Inch Nails, Depeche Mode, The Cure, and... I hate to try to
+enumerate them all. For electronic music, my favorite is probably Kruder &
+Dorfmeister. I also like Orbital, Prodigy, Lords Of Acid, LTJ Bukem, and many
+others. When it comes to country, I particularly like Waylon Jennings, Merle
+Haggard, George Jones, and generally classic country. I also like a lot of 80's
+and 90's country. I can't stand pop country or most modern pop music in
+general.
+
+Checkout my [last.fm](https://www.last.fm/user/joshbeard) profile for my music
+stats (with lots of gaps) dating back to 2005.
+
 ### Politics and Culture
 
 Although I occasionally feel the urge to express my opinions on political or
@@ -144,13 +165,23 @@ In terms of my political and social alignment, I resonate most with libertarian
 principles, but it really depends on specific issues. I'm generally skeptical
 of broad, centralized authority and collectivism. As for government, I'm wary
 of oppression, _actual_ authoritarianism, and _actual_ totalitarianism. I have
-a preference for authorities in my life to be as proximate as possible —
-myself, my family, or local entities. Despite living in a society that
-professes increasing diversity and inclusivity, I find myself disenchanted by
-the widespread uniformity, whether it's the platitude of the week in political
-rhetoric, social norms, or even in areas like website design and fashion
-trends. Nevertheless, I place a high value on tradition and etiquette.
-I strongly believe in the right to either withhold or not form an opinion.
+a preference for authorities in my life to be as proximate and de-centralized
+as possible.
+
+Despite living in a society that professes increasing diversity and
+inclusivity, I find myself disenchanted by the widespread uniformity, whether
+it's the platitude of the week in political rhetoric, social norms, or even in
+areas like website design and fashion trends. Nevertheless, I place a high
+value on tradition and etiquette. I strongly believe in the right to either
+withhold an opinion or not have one at all.
+
+I find the obsession some have with 'governence' and 'safety' to be overbearing
+and frustrating, whether in politics or day-to-day life (the lines are
+increasingly blurred). Almost invariably, those who tend to seek it so
+fervently are the last people who should be trusted with it. Especially when it
+comes to text - calling controversial or even hateful writing as "dangerous" is
+an overreach and eye-roll to me. We put up with so much patronizing stuff in
+the West, it's ridiculous.
 
 ### In Memory
 
