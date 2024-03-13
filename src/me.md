@@ -37,10 +37,6 @@ years. I have a fondness for all of these places.
 
 If I travel for pleasure, I prefer driving over flying.
 
-I'm not interested in blogging here, and I don't maintain any social media
-presence. I prefer to keep more quiet online these days, but I'll be extra
-verbose on this site.
-
 If you are looking at this and dig personal websites and that sort of thing,
 say [hello](mailto:hello@joshbeard.me)!
 

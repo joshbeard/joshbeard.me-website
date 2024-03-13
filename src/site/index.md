@@ -11,28 +11,13 @@ keywords: ['jekyll sites', 'personal sites', 'indie web', 'personal site aws', '
 
 {% include submenu.html %}
 
-I like the now "retro" web of the 90's and early 2000's before mass conformity
-set in.
-
-### Other Protocols
-
-* __Gemini__: <a href="gemini://jbeard.co">gemini://jbeard.co</a>
-* __Gopher__: <a href="gopher://jbeard.co">gopher://jbeard.co</a>
-
-See my [Small Internet Stack](/site/small.html) page for information about this
-and more.
-
-### Status
-
-I have an [UptimeRobot Status Page](https://stats.uptimerobot.com/V7ZMWilg5P).
-
 ### Framework
 
 This is a [Jekyll](https://jekyllrb.com/) site with a custom theme and layout.
 
 The site should be mobile friendly.
 
-The site does not require JavaScript or Cookies.
+The site does not use JavaScript or cookies.
 
 #### Fonts
 
@@ -70,19 +55,11 @@ I maintain the website itself from the [joshbeard/joshbeard.me-website](https://
 repository on GitHub.
 
 I'm using [GitHub Actions](https://github.com/joshbeard/joshbeard.me-website/blob/master/.github/workflows/build-deploy.yml) for building
-and deploying the website, which consists of:
+and deploying the website.
 
-* Jekyll build
-* Minify static assets
-* Create artifact
-* Deploy to S3
-* Set cache on objects in S3
-* Invalidate CloudFront distribution cache
-
-To deploy the AWS resources, I use Terraform in the [joshbeard/joshbeard.me-tf-aws](https://github.com/joshbeard/joshbeard.me-tf-aws)
-repository. This uses my common [tf-aws-site](https://github.com/joshbeard/tf-aws-site)
-Terraform module to deploy, which manages a common, simple AWS stack for my
-static websites.
+To deploy the AWS resources, I use Terraform in the
+[joshbeard/joshbeard.me-website](https://github.com/joshbeard/joshbeard.me-website)
+repository.
 
 ```ascii-art
           &&& &&  & &&
@@ -100,13 +77,25 @@ static websites.
 ejm97         `
 ```
 
+### Other Protocols
+
+* __Gemini__: <a href="gemini://jbeard.co">gemini://jbeard.co</a>
+* __Gopher__: <a href="gopher://jbeard.co">gopher://jbeard.co</a>
+
+See my [Small Internet Stack](/site/small.html) page for information about this
+and more.
+
+### Status
+
+I have an [UptimeRobot Status Page](https://stats.uptimerobot.com/V7ZMWilg5P).
+
 ### Photos
 
 I deploy my [photos](/photos) to their own S3 bucket from my workstation
 instead of storing them all in Git. I use a customized Jekyll plugin to
 generate the HTML pages for these photo albums. These photos are also mounted
 and available to my [Gopher](/site/small.html) and [Gemini](/site/small.html)
-deployments.
+sites (gopherhole and capsule, I guess).
 
 ### Performance
 
