@@ -165,19 +165,16 @@ a preference for authorities in my life to be as proximate and de-centralized
 as possible.
 
 Despite living in a society that professes increasing diversity and
-inclusivity, I find myself disenchanted by the widespread uniformity, whether
-it's the platitude of the week in political rhetoric, social norms, or even in
-areas like website design and fashion trends. Nevertheless, I place a high
-value on tradition and etiquette. I strongly believe in the right to either
-withhold an opinion or not have one at all.
+inclusivity, I find culture becoming more and more superficial, monolithic, and
+intolerant; less diverse and inclusive in practice. Group think and conformity
+are rampant.
 
-I find the obsession some have with 'governence' and 'safety' to be overbearing
-and frustrating, whether in politics or day-to-day life (the lines are
-increasingly blurred). Almost invariably, those who tend to seek it so
-fervently are the last people who should be trusted with it. Especially when it
-comes to text - calling controversial or even hateful writing as "dangerous" is
-an overreach and eye-roll to me. We put up with so much patronizing stuff in
-the West, it's ridiculous.
+I believe we're massively over-governed and that the contemporary obsession
+with "safety" is overbearing and frustrating when applied to every arbitrary
+aspect of life, especially in the context of "offensive" speech and expression.
+I strongly believe in the right to either withhold an opinion or not have one
+at all. I've had the privilege of knowing and working with people from all
+sorts of backgrounds and wildly different perspectives.
 
 ### In Memory
 
