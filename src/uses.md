@@ -18,9 +18,8 @@ equipment I use but in the spirit of community and tradition, here it is.
 
 ### Computers
 
-* __Primary:__ MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs Linux
-  full-time. Rarely boot macOS for [LogicPro](https://www.apple.com/logic-pro/).
-* __Work Provided:__ MacBook Pro M1 (work)/macOS.
+* __Primary:__ MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs Arch Linux.
+* __Work Provided:__ MacBook Pro M1 - macOS.
 * __Keyboards:__ 2x [NuPhy Air75](https://nuphy.com/products/air75) since
   February 2024. Aloe and Cowberry switches. Previously [Logitech MX Keys Mechanical](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
 * __Mouse:__ Logitech MX Master 3
@@ -33,20 +32,21 @@ I've had since the 1990s.
 ### Desktop
 
 * __OS:__ [Arch Linux](https://archlinux.org/), btw
-* __WM:__ [Hyprland](https://hyprland.org/). Previously used i3
+* __Desktop Environment:__ [Hyprland](https://hyprland.org/)
 * __Launcher:__ [rofi](https://github.com/davatorium/rofi)
 * __Status:__ [Waybar](https://github.com/Alexays/Waybar)
-* __Launcher:__ [fzf](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
+* __Launcher:__ [fzf](https://github.com/junegunn/fzf)
 * __Terminal:__ [Alacritty](https://alacritty.org/) with [tmux](https://github.com/tmux/tmux)
 * __Editor:__ [neovim](https://neovim.io/). VIM user since 2001
 * __Fonts:__ [Hack monospace font](https://sourcefoundry.org/hack/)
 * __Shell:__ zsh with [prezto](https://github.com/sorin-ionescu/prezto)
 * __Browsers:__ [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-* __Browser Plugins:__ [Vimium-C](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html),
+* __Browser Plugins:__ [Vimium-C](https://chromewebstore.google.com/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg)
   [Dark Reader](https://darkreader.org/).
 * __Notes:__ [Obsidian](https://obsidian.md/)
 * __Mail:__ [Mutt](https://mutt.org) and [NeoMutt](http://www.neomutt.org/)
 * __Music:__ [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab) and [last.fm](https://www.last.fm/user/joshbeard)
+* __Wallpapers:__ [walsh](https://github.com/joshbeard/walsh) is my own little wrapper tool for managing wallpapers
 
 See my [dotfiles](https://github.com/joshbeard/dotfiles)
 
