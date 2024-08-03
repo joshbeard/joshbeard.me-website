@@ -40,8 +40,8 @@ I've had since the 1990s.
 * __Editor:__ [neovim](https://neovim.io/). VIM user since 2001
 * __Fonts:__ [Hack monospace font](https://sourcefoundry.org/hack/)
 * __Shell:__ zsh with [prezto](https://github.com/sorin-ionescu/prezto)
-* __Browsers:__ [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-* __Browser Plugins:__ [Vimium-C](https://chromewebstore.google.com/detail/vimium-c-all-by-keyboard/hfjbmagddngcpeloejdejnfgbamkjaeg)
+* __Browsers:__ [LibreWolf](https://librewolf.net/), [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* __Browser Plugins:__ [Vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   [Dark Reader](https://darkreader.org/).
 * __Notes:__ [Obsidian](https://obsidian.md/)
 * __Mail:__ [Mutt](https://mutt.org) and [NeoMutt](http://www.neomutt.org/)
