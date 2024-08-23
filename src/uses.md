@@ -33,7 +33,7 @@ I've had since the 1990s.
 
 * __OS:__ [Arch Linux](https://archlinux.org/), btw
 * __Desktop Environment:__ [Hyprland](https://hyprland.org/)
-* __Launcher:__ [rofi](https://github.com/davatorium/rofi)
+* __Launcher:__ [wofi](https://sr.ht/~scoopta/wofi/)
 * __Status:__ [Waybar](https://github.com/Alexays/Waybar)
 * __Launcher:__ [fzf](https://github.com/junegunn/fzf)
 * __Terminal:__ [Alacritty](https://alacritty.org/) with [tmux](https://github.com/tmux/tmux)
@@ -44,7 +44,7 @@ I've had since the 1990s.
 * __Browser Plugins:__ [Vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   [Dark Reader](https://darkreader.org/).
 * __Notes:__ [Obsidian](https://obsidian.md/)
-* __Mail:__ [Mutt](https://mutt.org) and [NeoMutt](http://www.neomutt.org/)
+* __Mail:__ [NeoMutt](http://www.neomutt.org/)
 * __Music:__ [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab) and [last.fm](https://www.last.fm/user/joshbeard)
 * __Wallpapers:__ [walsh](https://github.com/joshbeard/walsh) is my own little wrapper tool for managing wallpapers
 
