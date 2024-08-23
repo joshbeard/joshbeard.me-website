@@ -117,7 +117,7 @@ move around workspaces, etc.
   `Ctrl-A Space` within tmux itself to switch between sessions.
 * Within NeoVim, I'm using [Telescope](https://github.com/nvim-telescope/telescope.nvim)
   for fuzzy finding files, buffers, and grepping.
-* In the browser, I'm using [Vimium-C](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html)
+* In the browser, I'm using [Vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   for keyboard-driven navigation (as much as a browser can be).
 * I run [`neomutt`](http://www.neomutt.org/) in a tmux session as well, which
   uses [1password](https://1password.com/)'s CLI to retrieve passwords for the
