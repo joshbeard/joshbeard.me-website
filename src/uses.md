@@ -20,8 +20,7 @@ equipment I use but in the spirit of community and tradition, here it is.
 
 * __Primary:__ MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs Arch Linux.
 * __Work Provided:__ MacBook Pro M1 - macOS.
-* __Keyboards:__ 2x [NuPhy Air75](https://nuphy.com/products/air75) since
-  February 2024. Aloe and Cowberry switches. Previously [Logitech MX Keys Mechanical](https://www.logitech.com/en-us/products/keyboards/mx-mechanical.html).
+* __Keyboards:__ [NuPhy Air75](https://nuphy.com/products/air75)
 * __Mouse:__ Logitech MX Master 3
 * __Monitors:__ Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p, 2x
   Viewsonic 24" IPS 1080p.
@@ -36,14 +35,14 @@ I've had since the 1990s.
 * __Launcher:__ [wofi](https://sr.ht/~scoopta/wofi/)
 * __Status:__ [Waybar](https://github.com/Alexays/Waybar)
 * __Launcher:__ [fzf](https://github.com/junegunn/fzf)
-* __Terminal:__ [Alacritty](https://alacritty.org/) with [tmux](https://github.com/tmux/tmux)
+* __Terminal:__ [Ghostty](https://ghostty.org/) recently or [Alacritty](https://alacritty.org/) with [tmux](https://github.com/tmux/tmux)
 * __Editor:__ [neovim](https://neovim.io/). VIM user since 2001
 * __Fonts:__ [Hack monospace font](https://sourcefoundry.org/hack/)
 * __Shell:__ zsh with [prezto](https://github.com/sorin-ionescu/prezto)
-* __Browsers:__ [LibreWolf](https://librewolf.net/), [Brave](https://brave.com) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* __Browsers:__ [Brave](https://brave.com)
 * __Browser Plugins:__ [Vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   [Dark Reader](https://darkreader.org/).
-* __Notes:__ [Obsidian](https://obsidian.md/)
+* __Notes:__ [Obsidian](https://obsidian.md/) + nvim
 * __Mail:__ [NeoMutt](http://www.neomutt.org/)
 * __Music:__ [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab) and [last.fm](https://www.last.fm/user/joshbeard)
 * __Wallpapers:__ [walsh](https://github.com/joshbeard/walsh) is my own little wrapper tool for managing wallpapers
@@ -70,21 +69,14 @@ See my [dotfiles](https://github.com/joshbeard/dotfiles)
           \/ZZZZZZZZZZZZZZZZZ/
 ```
 
-### Development and Work
-
-* __Languages:__ Go, Python, Shell
-* __Cloud:__ AWS, DigitalOcean
-* __CfgMgmt/IaC:__ Ansible, Terraform
-* __Git/CI/CD:__ GitLab and GitHub
-* __Diagrams:__ [draw.io](https://draw.io/)
-* __Web Fonts:__ [google-webfonts-helper](https://colorslurp.com/) for downloading and serving Google web fonts locally
-* __Mail Provider:__ [Migadu](https://www.migadu.com/) is outstanding
+I've mainly been using subscriptions to GitHub Copilot, ChatGPT, and Claude.ai
+for AI/LLM assistance.
 
 ### Homelab
 
 See my [Home Lab](/homelab) page for more information.
 
-### Keyboard-Driven Workflow
+### Keyboard-Driven Workflow and Fuzzy Finding
 
 I started using VIM and learning its keybindings over 20 years ago and it has
 been an invaluable part of my workflow ever since.
@@ -125,6 +117,5 @@ move around workspaces, etc.
   either launching it or attaching to an existing session. This also has an
   icon in my Waybar status bar to show unread mail count.
 
-My workflow's not as smooth on macOS, which I've been stuck with at work over
-the years. At least it's not Windows, but I'm adaptable when it comes to
-getting paid.
+My workflow's not as smooth on macOS, particularly corporate-provided
+workstations.
