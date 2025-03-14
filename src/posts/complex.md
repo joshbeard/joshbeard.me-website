@@ -5,6 +5,7 @@ description: Complexity is reality
 layout: post
 permalink: /complex/
 class: ascii-art
+date: 2025-03-14
 ---
 I keep seeing "complex" or "complicated" used as catch-alls for approaches
 people don't fully understand. It's an easy label - sometimes just a reflex
@@ -35,5 +36,4 @@ worse.
 These "complex" and "complicated" labels are vague nonsense half the time - not
 even measurable. People toss around that "genius admires simplicity, idiot
 admires complexity" line like it's some deep truth proving their smarts. It's
-not. It's a useless platitude. Words like that don't fix anything; they just
-cloud the issue. Bring something real or step aside.
+not. It's a useless platitude.
