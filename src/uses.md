@@ -31,30 +31,37 @@ I've had since the 1990s.
 
 ### Desktop
 
+See my [dotfiles](https://github.com/joshbeard/dotfiles)
+
 #### macOS
 
-* [Aerospace](https://github.com/nikitabobko/AeroSpace) - tiling window management
+* __Window/Workspace management:__ [Aerospace](https://github.com/nikitabobko/AeroSpace) - tiling window management
+* __Launcher, etc:__ [Raycast](https://www.raycast.com/)
+* __Packages:__ [Homebrew](https://brew.sh/)
+* __Packages:__ [BrewBar](https://github.com/joshbeard/BrewBar) - my own menubar app for managing Homebrew
+* __Editors:__ [neovim](https://neovim.io/) or begrudingly [Cursor](https://www.cursor.com/) with the VIM extension and custom keybindings
 
 #### Linux
 
 * __OS:__ [Arch Linux](https://archlinux.org/), btw
 * __Desktop Environment:__ [Hyprland](https://hyprland.org/)
 * __Launcher:__ [wofi](https://sr.ht/~scoopta/wofi/)
-* __Status:__ [Waybar](https://github.com/Alexays/Waybar)
 * __Launcher:__ [fzf](https://github.com/junegunn/fzf)
-* __Terminal:__ [Ghostty](https://ghostty.org/) recently or [Alacritty](https://alacritty.org/) with [tmux](https://github.com/tmux/tmux)
+* __Status:__ [Waybar](https://github.com/Alexays/Waybar)
 * __Editor:__ [neovim](https://neovim.io/). VIM user since 2001
+* __Mail:__ [NeoMutt](http://www.neomutt.org/)
+* __Wallpapers:__ [walsh](https://github.com/joshbeard/walsh) is my own little wrapper tool for managing wallpapers
+
+#### Common
+
+* __Terminal:__ [Ghostty](https://ghostty.org/) recently or [Alacritty](https://alacritty.org/) with [tmux](https://github.com/tmux/tmux)
+* __Notes:__ [Obsidian](https://obsidian.md/) + nvim
+* __Music:__ [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab) and [last.fm](https://www.last.fm/user/joshbeard)
 * __Fonts:__ [Hack monospace font](https://sourcefoundry.org/hack/)
 * __Shell:__ zsh with [prezto](https://github.com/sorin-ionescu/prezto)
 * __Browsers:__ [Brave](https://brave.com)
 * __Browser Plugins:__ [Vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
   [Dark Reader](https://darkreader.org/).
-* __Notes:__ [Obsidian](https://obsidian.md/) + nvim
-* __Mail:__ [NeoMutt](http://www.neomutt.org/)
-* __Music:__ [spotify](https://open.spotify.com/user/hewbert007?si=52f6e599773a4cab) and [last.fm](https://www.last.fm/user/joshbeard)
-* __Wallpapers:__ [walsh](https://github.com/joshbeard/walsh) is my own little wrapper tool for managing wallpapers
-
-See my [dotfiles](https://github.com/joshbeard/dotfiles)
 
 ```ascii-art-right
        __________________
