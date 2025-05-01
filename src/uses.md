@@ -18,8 +18,9 @@ equipment I use but in the spirit of community and tradition, here it is.
 
 ### Computers
 
-* __Primary:__ MacBook Pro (2015) 13" Retina i7 3.1GHz/16GB. Runs Arch Linux.
-* __Work Provided:__ MacBook Pro M1 - macOS.
+* __Primary:__ MacBook Air M4 (2025) 13" - macOS
+* __Secondary:__ MacBook Pro (2015) 13" Retina i7 - Arch Linux
+* __Work:__ MacBook Pro M1 - macOS.
 * __Keyboards:__ [NuPhy Air75](https://nuphy.com/products/air75)
 * __Mouse:__ Logitech MX Master 3
 * __Monitors:__ Phillips 32" 4k UHD curved, 2x Viewsonic 22" IPS 1080p, 2x
@@ -29,6 +30,12 @@ Checkout my [Old Computers page](/old-computers.html) for previous computers
 I've had since the 1990s.
 
 ### Desktop
+
+#### macOS
+
+* [Aerospace](https://github.com/nikitabobko/AeroSpace) - tiling window management
+
+#### Linux
 
 * __OS:__ [Arch Linux](https://archlinux.org/), btw
 * __Desktop Environment:__ [Hyprland](https://hyprland.org/)
