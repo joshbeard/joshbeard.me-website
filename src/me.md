@@ -98,10 +98,14 @@ maintaining software projects. Some previous titles were Systems Administrator,
 Systems Engineer, Help Desk, and computer guy.
 
 I spend most of my day in a code editor and shell, bouncing across several
-projects. The last few years has involved a lot of Terraform, Go, GitLab CI,
-Python, Docker, shell, and various other tools and languages. At home, I've
+projects. The last few years has involved a lot of Terraform, AWS, Go, GitLab
+CI, Python, Docker, shell, and various other tools and languages. At home, I've
 been coding in Go pretty constantly since late 2022 and maintain a homelab
 on Proxmox that's mostly maintained with Terraform and Ansible.
+
+The perspectives described in [Radical Simplicity](https://www.radicalsimpli.city/) and
+[Choose Boring Technology](https://boringtechnology.club/) really resonate with
+me.
 
 See [my resume](/resume) for more details about my professional experience.
 
@@ -126,17 +130,6 @@ general.
 Checkout my [last.fm](https://www.last.fm/user/joshbeard) profile for my music
 stats (with lots of gaps) dating back to 2005.
 
-### Politics and Culture
-
-Although I occasionally feel the urge to express my opinions on political or
-social issues, I typically hold back, confining such discussions to my family
-or closest friends. I was more flippant online 20 years ago, when things
-seemed a bit less consequential and the separation of online and offline was
-more distinct. My stance has increasingly become contrarian against dominant
-social, cultural, and political issues, trends, and ideologies, which I've
-observed growing more authoritarian and dogmatic in recent years. Concurrently,
-my own viewpoints have evolved significantly.
-
 ```ascii-art-left
         _,--',   _._.--._____
  .--.--';_'-.', ";_      _.,-'
@@ -145,25 +138,6 @@ my own viewpoints have evolved significantly.
         ) >     {_/,     /~)
 snd     |/
 ```
-
-In terms of my political and social alignment, I resonate most with libertarian
-principles, but it really depends on specific issues. I'm generally skeptical
-of broad, centralized authority and collectivism. As for government, I'm wary
-of oppression, _actual_ authoritarianism, and _actual_ totalitarianism. I have
-a preference for authorities in my life to be as proximate and de-centralized
-as possible.
-
-Despite living in a society that professes increasing diversity and
-inclusivity, I find culture becoming more and more superficial, monolithic, and
-intolerant; less diverse and inclusive in actuality. Group think and conformity
-are rampant.
-
-I believe we're massively over-governed and that the contemporary obsession
-with "safety" is overbearing and frustrating when applied to every arbitrary
-aspect of life, especially in the context of "offensive" speech and expression.
-I strongly believe in the right to either withhold an opinion or not have one
-at all. I've had the privilege of knowing and working with people from all
-sorts of backgrounds and wildly different perspectives.
 
 ### In Memory
 
