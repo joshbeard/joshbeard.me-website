@@ -57,9 +57,7 @@ repository on GitHub.
 I'm using [GitHub Actions](https://github.com/joshbeard/joshbeard.me-website/blob/master/.github/workflows/build-deploy.yml) for building
 and deploying the website.
 
-To deploy the AWS resources, I use Terraform in the
-[joshbeard/joshbeard.me-website](https://github.com/joshbeard/joshbeard.me-website)
-repository.
+To deploy the AWS resources, I use Terraform.
 
 ```ascii-art
           &&& &&  & &&
