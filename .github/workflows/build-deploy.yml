@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-      - plugins
 
 jobs:
   # NOTE: This spell checker only checks the changes *in a commit*. It won't
