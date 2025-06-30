@@ -14,8 +14,3 @@
 /src/photos/**/gophermap
 /src/screenshots/**/*.jp?g
 /src/screenshots/**/*.png
-
-# Terraform
-backend.tfvars
-.terraform*
-aws.env

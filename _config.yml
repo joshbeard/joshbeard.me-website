@@ -38,23 +38,19 @@ common_keywords:
 destination: ./_site
 permalink: /posts/:year/:month/:day/:title:output_ext
 exclude:
-  - 'Gemfile'
-  - 'Gemfile.lock'
-  - 'docker-compose.yml'
-  - 'README.md'
-  - 'LICENSE.md'
-  - 'vendor/'
-  - 'Makefile'
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "docker-compose.yml"
+  - "README.md"
+  - "LICENSE.md"
+  - "vendor/"
+  - "Makefile"
   - file_list.txt
   - album_info.yml
   - dist/
   - util/
   - .deploy/
 markdown: kramdown
-
-sass:
-  sass_dir: _sass
-  style: compressed
 
 kramdown:
   input: GFM
@@ -65,19 +61,16 @@ kramdown:
 plugins:
   - jekyll-target-blank
   - jekyll-sitemap
-  #- jekyll-git_metadata
-  - jekyll-sass-converter
   - jekyll-navigation-tree
 
 target-blank:
   add_css_classes: ext
 
 defaults:
-  -
-    scope:
-      path:            "site/assets/**/*"
+  - scope:
+      path: "site/assets/**/*"
     values:
-      sitemap:         false
+      sitemap: false
 
 album_dir: src/photos
 album_out_dir: /photos

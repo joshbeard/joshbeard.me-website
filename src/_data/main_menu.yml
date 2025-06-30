@@ -1,7 +1,7 @@
 - url: /
   title: Home
-- url: /me
-  title: About
+# - url: /me
+#   title: About
 - url: /resume
   title: Resume
 - url: /photos
