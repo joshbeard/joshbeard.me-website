@@ -1,6 +1,6 @@
 #!/bin/sh
 SECURITY_KEY_ID="CA96989D4A3F7869F5DEB38DF9BE548EC3641B41"
-SECURITY_EXPIRES=$(date -u +"%Y-%m-%dT%H:%M:%S.000Z" -d "+1 year")
+SECURITY_EXPIRES=$(date -u -v +1y +"%Y-%m-%dT%H:%M:%S.000Z")
 SECURITY_OUTPUT_PATH="src/security.txt"
 
 if [ -n "$1" ]; then

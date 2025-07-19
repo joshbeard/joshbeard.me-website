@@ -2,24 +2,24 @@
 Hash: SHA256
 
 Contact: mailto:hello@joshbeard.me
-Expires: 2024-08-12T05:03:27.000Z
+Expires: 2026-07-19T05:02:01.000Z
 Encryption: https://joshbeard.me/files/joshbeard-public.asc.txt
 Encryption: https://keys.openpgp.org/search?q=0xCA96989D4A3F7869F5DEB38DF9BE548EC3641B41
 Preferred-Languages: en
 Canonical: https://joshbeard.me/security.txt
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEypaYnUo/eGn13rON+b5UjsNkG0EFAmTXEp8ACgkQ+b5UjsNk
-G0E+4Q//e9YMbBV9jDjHfWgfJJ5Iw93xy33Ig81Qq3Fg/vHCIYOZA/8NuruYRZba
-tUsC6ZVxZBxBOttCERA82Svm4AdkklcCW1KCYDw4TBsK608IaA0jmpjqTnbrTATr
-mASJhlaPbfGTuwXPpCGVwIqQq2qmdOAdpThunUiuUbqWSakJzuwX8JCc5iBuWHux
-cTKW0WzBzGhQ5LrII2dllSYREsRCXGivTlk2OgEc+fMSx+7uJJggLxlJmh7s2sxr
-uZpjtI74D7JjlHBBpUWmpaTtRixxXNQ2yzZYpe4+q51nmyqvuCBcGKnh41cKsCBt
-s1G6MmoMlznWtlnMXM8nZ7fqbYSof0Mb1yaXJjEyAr+nsSRaRVFbpK6yUdgWJfXP
-BVM4F95WVdqGwXH0tCV3ML1Y3R9ZPsU785toxkF8YZGmsQdoLVHVidAzh00qug+7
-jf1FpOM4p+9kcK0pE89UzwBBjoetrucbit9wosejK3AW2fqQe4NBw5vU1mL53Fo/
-AgmklGpIq0Hfc+mXTEPjtgReHP83lvw/oUP/TLnEgqoIrznap2p/wyS2FIshDJb/
-O1yq6DoVtYaD2S9opxDazPFv53osfVipQT3PN5srLpqo6py4yH8M26Wi04Va490X
-DrOpwYKdIyP0Drg1oqe7Q9k24c91PHZskkdCtemWYcV6WtKLABY=
-=mNV9
+iQIzBAEBCAAdFiEEypaYnUo/eGn13rON+b5UjsNkG0EFAmh7JskACgkQ+b5UjsNk
+G0HhmhAAh2xFGb1fKz4uupFeEh5OD0wwFrFi90uQj6VtNPNDzTMfnS0lq5+NOyHP
+kw3BY9WwIwSaCzjjpFvn/rfTMDmGcEFaGbAfKDPn6ctXK0/IRTZrrVZENgCv9D0P
+ENiQEyzqhQgyTy6gvUlO3P317W4PO9rc5Vn+6NWw4PRzWLqVXpk4TnRPplhngFJ+
+s6PSpuqCLfaCFcbVFk76/P+pv6vpgPFLRaFQSz09xa9Gy8FCggAjDbFGJZK+UJ7Y
+12dX+jHsk6J4FJllLKvg4ORvF5bkmK+EHfIjHf/NHZOGC1WwmXhxdGIxcLvFQLXw
+ZXIq4u5Pb6xK89HscllyRcHDbpR70IImhs6CzmziWOqXxY0uih+IXvfNsqE8puRi
+c3w8DOPB7L4kX6oul3dYZhHmMRZrvfbb4dsDK5dyHtLT+GEwZ+guSoIbZykR4xIs
+ZQkk5Sy2A5B37VBdhw+ui/4C2Ez1W3TQ0tQNf+QNa/uw5MCGPFLbGTOcBO/DdO92
+tOKt57ILQcWxjqREs9nn1QbKzUOjWPHOZepeBimf6Vy8PqNZnw6CFj7aKVoloBgS
+eziFFqnCknqId2MSjRaRFgtrsZb/8NqVQvXZgq+6Ux/ypbygL6gy7JRA1IknWSc6
+A2Q09+9+DUYY73oJiKDFUxd+xEpaFnp4jzhNXObv8wLySd5/pAQ=
+=C6PC
 -----END PGP SIGNATURE-----
