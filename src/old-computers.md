@@ -54,8 +54,12 @@ jgs `"""""""""""""`  '-'
 * 2012-2013: Asus Netbook. Ran Linux (Ubuntu) _Now out of retirement and [used](/uses)_.
 * 2019: Chromebook 14a for periodic browsing. Runs ChromeOS and [crouton](https://github.com/dnschneid/crouton). Mom's old computer. Not
   used much.
-* Since 2013: MacBook Pros at work - macOS and Linux off and on.
 * Acer Aspire 1410 Netbook (Core 2 solo @ 1.4GHz; 2 GB RAM) with Arch Linux. Occasionally still used.
+* Since 2013: MacBook Pros at work - macOS and Linux off and on.
+* 2022-2025: MacBook Air M1 (work)
+* 2021-2025: MacBook Pro Retina (2015) - Arch Linux
+* 2025: MacBook Pro M4 (work)
+* 2025: Macbook Air M4 (personal)
 
 Many of these were used as home servers over the years. I ran my own e-mail
 servers at home for several years, along with web servers and an assortment of
@@ -67,6 +71,3 @@ I started using Linux on my desktop around 2000 and continued to until I started
 exploring FreeBSD, which I ran on most of my workstations from 2004-2007 and most
 of my homelab from 2004-2020. From there, It's been a mix of more Linux and
 macOS on my workstations.
-
-See [my "uses" page](/uses/) for more information about what I'm currently
-using.
