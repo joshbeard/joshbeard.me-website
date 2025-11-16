@@ -130,6 +130,37 @@ to add descriptions or adjust metadata.
 
   Helper script for preparing and deploying my images.
 
+### CloudFront Cache Invalidation
+
+After deploying changes, you may need to invalidate the CloudFront cache to ensure
+visitors see the updated content. The [`util/invalidate-cache.rb`](util/invalidate-cache.rb)
+script intelligently determines which paths need invalidation based on changes in `src/`:
+
+- **Global changes** (`_data`, `_includes`, `_layouts`, `_plugins`, `assets`): Invalidates `/*` (everything)
+- **Page changes**: Invalidates only the affected paths (e.g., `/photos/2021*`, `/about*`)
+- **New directories**: Invalidates the parent directory
+
+The script can be used in two ways:
+
+**Automatic (detects changes from git):**
+```shell
+# In CI: automatically detects changes and invalidates accordingly
+ruby util/invalidate-cache.rb
+```
+
+**Manual (specify paths directly):**
+```shell
+# Invalidate specific paths
+ruby util/invalidate-cache.rb /photos/2021 /about
+```
+
+**Requirements:**
+- AWS auth
+- `CF_DISTRIBUTION` environment variable (CloudFront distribution ID)
+- `AWS_REGION` environment variable (optional, default: us-east-1)
+
+The script is automatically run in CI after deployment if changes are detected in `src/`.
+
 ## Screenshots
 
 Screenshots aren't committed to the repository. Instead, they are uploaded
