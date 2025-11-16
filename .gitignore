@@ -5,6 +5,7 @@
 /dist/
 .sass-cache
 .env-local
+.bundler/
 
 /src/photos/**/*.jpg
 /src/photos/**/*.jpeg

@@ -26,7 +26,6 @@ module Jekyll
         end
       end
       def bust_cache(file_name)
-        #CacheDigester.new(file_name: file_name, directory: 'assets/_sass').digest!
         CacheDigester.new(file_name: file_name, directory: 'assets/css').digest!
       end
     end

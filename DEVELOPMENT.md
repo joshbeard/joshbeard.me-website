@@ -30,29 +30,66 @@ My [photos](https://joshbeard.me/photos) are hosted on S3 and the HTML pages
 are generated using a bundled [custom plugin](src/_plugins/gallery_generator.rb),
 adapted from the original plugin at <https://github.com/kylemarsh/jekyll-gallery-generator>.
 
-My plugin will optionally (by default, in my case) use a "file_list.txt" file
-for the list of images instead of the actual files on disk. This is so I can
-leave my photos _out of_ Git and still enable the Jekyll site to build the HTML
-pages for the photo albums and individual photos.
+My plugin uses the `images` key in the `album.yml` file as the source of truth
+for which images are in each album. This allows the Jekyll build to run without
+the image files present locally - they are not in Git. The `album.yml` file is
+generated and maintained by the `photos.rb` script, but can be manually edited
+to add descriptions or adjust metadata.
 
 ### Creating and Updating Photo Albums
 
 1. Create a directory under [`photos/`](photos/) for new albums.
 2. Place images (preferably JPEG images with a `.jpg` extension) in the appropriate album directory.
-3. Create or update the `album_info.yml` file within the album directory.
-4. Run `python util/photos.py`. Refer to the
-   [`photos.py`](util/photos.py) script for details about what it does and its
+3. Create an initial `album.yml` file within the album directory with basic metadata:
+   ```yaml
+   meta_title: Album Title
+   description: Album description
+   images: {}
+   ```
+   The `images` hash will be automatically populated by the script.
+4. Process the photo album(s) using the script:
+   ```shell
+   ./util/photos.rb photos/2022
+   ```
+   This processes a specific album. To process all albums:
+   ```shell
+   ./util/photos.rb
+   ```
+
+   The script supports several options:
+   - `--dry-run`: Preview what would be done without making changes
+   - `--sync`: Upload to S3 and set cache headers (default: local processing only)
+
+   Examples:
+   ```shell
+   ./util/photos.rb photos/2022                    # Local processing only
+   ./util/photos.rb --sync photos/2022             # Include S3 upload
+   ./util/photos.rb --dry-run --sync photos/2022   # Preview S3 operations
+   ```
+
+   Refer to the [`photos.rb`](util/photos.rb) script for details about what it does and its
    requirements. In summary, this will:
-     * Create a file list (file_list.txt) for each album for Jekyll to use to
-       generate the pages.
-     * Remove exif data from images (usinv exiv2)
+     * Update `album.yml` with the `images` key, preserving existing entries and
+       adding new local images. This serves as the source of truth for the Jekyll plugin.
+     * Remove EXIF data from images (using exiv2)
      * Create image thumbnails (using mogrify)
-     * Sync albums to S3
-     * Set the cache-control headers on the S3 objects
-     * Generate Gemini pages and uploads them to S3
-5. Run `jekyll build` or `jekyll serve` to preview the results.
-6. Git commit and push the changes (album_info and file_list files are the only
-   things in Git for photo albums).
+     * Generate Gemini pages (`index.gmi`)
+     * Optionally (with `--sync`): Upload to S3 and set cache-control headers
+
+   **Important**: The script preserves all existing entries in the `images` hash,
+   even if those images aren't present locally. This means you can add new photos
+   to an album without losing references to photos that were previously uploaded.
+
+5. Edit `album.yml` to add descriptions for images (optional):
+   ```yaml
+   images:
+     IMG_0001.jpg: "A beautiful sunset"
+     IMG_0002.jpg: "Mountain landscape"
+   ```
+
+6. Run `jekyll build` or `jekyll serve` to preview the results.
+7. Git commit and push the changes. Only the `album.yml` file is committed to Git
+   for photo albums (images are stored on S3).
 
 ### Components of Photo Album Generation
 
@@ -73,19 +110,23 @@ pages for the photo albums and individual photos.
   HTML template for the main /photos/ page, which lists each album with a
   thumbnail.
 
-* __`src/photos/*/album_info.yml`__
+* __`src/photos/*/album.yml`__
 
-  File that is manually created with configuration and information for a photo
-  album. Refer to the
+  Configuration and metadata file for a photo album. This file is generated and
+  maintained by `photos.rb`, but can be manually edited to add image descriptions
+  or adjust metadata. The `images` key in this file serves as the source of truth
+  for which images are in the album - the Jekyll plugin uses this to generate pages
+  without requiring image files to be present locally.
+
+  The `images` key is a hash where:
+  - Keys are image filenames
+  - Values are optional descriptions for each image
+
+  Refer to the
   [`src/_plugins/gallery_generator.rb`](src/_plugins/gallery_generator.rb) file for
-  documentation.
+  complete documentation of all available keys.
 
-* __`src/photos/*/file_list.txt`__
-
-  File that is generated by `photos.py` that lists each file in an album
-  directory for the Jekyll plugin to build with.
-
-* __[`util/photos.py`](util/photos.py)__
+* __[`util/photos.rb`](util/photos.rb)__
 
   Helper script for preparing and deploying my images.
 

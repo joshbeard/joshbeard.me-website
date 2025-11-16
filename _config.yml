@@ -46,7 +46,7 @@ exclude:
   - "vendor/"
   - "Makefile"
   - file_list.txt
-  - album_info.yml
+  - album.yml
   - dist/
   - util/
   - .deploy/
@@ -72,9 +72,10 @@ defaults:
     values:
       sitemap: false
 
-album_dir: src/photos
-album_out_dir: /photos
-album_thumbs_dir: thumbs
+gallery:
+  src_dir: src/photos
+  out_dir: /photos
+  thumbs_dir: thumbs
 
 nav_tree:
   excludes:

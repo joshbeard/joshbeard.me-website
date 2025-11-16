@@ -8,36 +8,34 @@
 #   ----------------------------
 #     The relative path to the photo sources. Sub-directories of this location
 #     are albums.
-#     album_dir: photos
+#     gallery.src_dir: photos
 #
 #     The root of the URL to serve from (www.mysite.com/<foo>/<album>)
-#     album_out_dir: /photos
+#     gallery.out_dir: /photos
 #
 #     The path where thumbs are located. This is expected to be a sub-directory
 #     of the album.
-#     album_thumbs_dir: thumbs
+#     gallery.thumbs_dir: thumbs
 #
 #   Album Configuration:
 #   --------------------
-#     album_info.yml
+#     album.yml
 #       This file may contain metadata about the album using the following keys:
 #       description : str, optional
 #           A description of the album (string)
 #       meta_description : str, optional
 #           A description of the album to use in the page headers and metadata (string)
-#       photo_descriptions : dict, optional
+#       images : dict, optional
 #           A hash of key/value pairs where the key is a filename and the value is
-#           a description for an image.
+#           a description for an image. If this key exists, the plugin will use
+#           the keys from this hash as the list of images in the album, allowing
+#           the Jekyll build to run without the image files present - they are
+#           not in Git.
 #       key_image : str, optional
 #           An optional filename of an image to use for the album
 #           thumbnail. If none is specified, the first image is used.
 #       keywords : list, optional
 #           A list of keywords to add to the HTML page meta
-#       file_list : boolean, optional
-#           If true, the plugin will not parse the photos from the directory but
-#           instead from a "file_list.txt" file in the album directory. This is
-#           so the Jekyll build can run without the image files present - they
-#           are not in Git.
 #
 # This was adapted from https://github.com/kylemarsh/jekyll-gallery-generator
 #
@@ -103,15 +101,15 @@ module Jekyll
       @base = base # Absolute path to use to find files for generation
 
       # Page will be created at www.mysite.com/#{dir}/#{name}
-      @dir = File.join(site.config['album_out_dir'] || 'albums', outdir)
+      @dir = File.join(site.config['gallery']['out_dir'] || 'albums', outdir)
       @name = album_name_from_page(page)
 
-      @album_source = File.join(site.config['album_dir'] || 'albums', dir)
+      @album_source = File.join(site.config['gallery']['src_dir'] || 'albums', dir)
       @album_metadata = get_album_metadata
 
       @album_name = dir.to_s()
 
-      @thumbs_dir = site.config['album_thumbs_dir'] || 'thumbs'
+      @thumbs_dir = site.config['gallery']['thumbs_dir'] || 'thumbs'
 
       self.process(@name)
       self.read_yaml(File.join(@base, '_layouts'), 'album_index.html')
@@ -121,16 +119,15 @@ module Jekyll
       self.data['albums'] = []
       self.data['description'] = @album_metadata['description']
       self.data['meta_description'] = @album_metadata['meta_description'] || False
-      self.data['photo_descriptions'] = @album_metadata['photo_descriptions']
       self.data['hidden'] = true if @album_metadata['hidden']
       self.data['keywords'] = @album_metadata['keywords'] || []
 
       files, directories = list_album_contents
 
-      if @album_metadata['file_list']
-        if File.exist?(File.join(@album_source, 'file_list.txt'))
-          files = File.readlines(File.join(@album_source, 'file_list.txt'), chomp: true)
-        end
+      # Use images from album.yml as source of truth if available
+      # This allows building without image files present locally
+      if @album_metadata['images'] && @album_metadata['images'].is_a?(Hash) && !@album_metadata['images'].empty?
+        files = @album_metadata['images'].keys.sort
       end
 
       #Pagination
@@ -164,14 +161,14 @@ module Jekyll
         next_file = files[idx+1] || nil
 
         album_page = "#{@dir}/#{album_name_from_page(page)}"
-          do_image(filename, prev_file, next_file, album_page, @album_metadata['photo_descriptions'])
+          do_image(filename, prev_file, next_file, album_page, @album_metadata['images'])
       end
     end
 
     def get_album_metadata
       site_metadata = @site.config['album_config'] || {}
       local_config = {}
-      config_file = File.join(@album_source, 'album_info.yml')
+      config_file = File.join(@album_source, 'album.yml')
       if File.exist? config_file
         local_config = YAML.load_file(config_file)
       end
@@ -253,7 +250,7 @@ module Jekyll
 
     def generate(site)
       if site.layouts.key? 'album_index'
-        base_album_path = site.config['album_dir'] || 'albums'
+        base_album_path = site.config['gallery']['src_dir'] || 'albums'
         albums = Dir.entries(base_album_path)
         albums.reject! { |x| x =~ /^\./ }
         albums.select! { |x| File.directory? File.join(base_album_path, x) }
