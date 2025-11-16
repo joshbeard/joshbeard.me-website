@@ -1,12 +1,14 @@
 .git-metadata/
 .jekyll-cache
 /_site
-/Gemfile.lock
 /dist/
 .sass-cache
 .env-local
+.env
 .bundler/
 
+/**/*.jpg
+/**/*.jpeg
 /src/photos/**/*.jpg
 /src/photos/**/*.jpeg
 /src/photos/**/*.png
