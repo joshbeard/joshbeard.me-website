@@ -38,42 +38,13 @@
   --focus-ring: #207A4C;           /* Focus outlines */
 
   /* Photo Album Specific */
-  --album-shadow: #3b3b3b;         /* Photo shadows */
+  --album-shadow: #484848;         /* Photo shadows */
   --album-overlay: rgba(0,0,0,0.7); /* Image overlays */
 
   /* Fonts */
   --font-primary: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
   --font-mono: 'Ubuntu Mono', 'Courier New', Courier, monospace;
   --font-display: "Play", sans-serif;
-
-  --bg-primary: #1f1f1f;
-  --bg-secondary: #282835;
-  --bg-tertiary: #242831;
-  --bg-code: #262E33;
-  --text-primary: #E1E1E1;
-  --text-secondary: #CACACA;
-  --text-muted: #AFAFAF;
-  --text-accent: #77CBE9;
-  --accent-blue: #77CBE9;
-  --accent-purple: #AE93DD;
-  --accent-green: #71EDBE;
-  --accent-cyan: #5AF2F0;
-  --accent-pink: #f778ba;
-  --accent-orange: #ffab70;
-  --syntax-keyword: #f6dd62;
-  --syntax-string: #fff0a6;
-  --syntax-function: #b2fd6d;
-  --syntax-comment: #6c8b9f;
-  --syntax-number: #f696db;
-  --border-subtle: #393939;
-  --border-default: #393939;
-  --border-accent: #207A4C;
-  --border-success: #238636;
-  --hover-bg: #555D71;
-  --active-bg: #262c36;
-  --focus-ring: #207A4C;
-  --album-shadow: #484848;
-  --album-overlay: rgba(0,0,0,0.7);
 
   /* Spacing */
   --spacing-xs: 6px;
@@ -122,6 +93,7 @@ html, body {
   padding: 0;
   background: var(--bg-primary);
   color: var(--text-primary);
+  font-family: var(--font-primary);
 }
 
 #container {
@@ -552,7 +524,7 @@ img.responsive {
   border: none;
   opacity: 0.2;
   width: 30px;
-  transition: width 0.5s, opacity 0.3s;
+  transition: width 0.5s ease, opacity 0.3s ease;
   color: var(--text-primary);
   text-decoration: none;
 }
