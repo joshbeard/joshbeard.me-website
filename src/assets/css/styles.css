@@ -414,23 +414,61 @@ nav {
   justify-content: center;
 }
 
-.album-in-list { margin: 0 var(--spacing-xs) var(--spacing-md); }
+.album-in-list {
+  margin: 0 var(--spacing-xs) var(--spacing-md);
+  position: relative;
+  width: 230px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.album-in-list:hover {
+  transform: scale(1.08);
+  z-index: 10;
+}
+
+.album-in-list-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.album-in-list-image img {
+  box-shadow: 3px 3px var(--album-shadow);
+  display: block;
+  width: 100%;
+}
 
 .album-in-list-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
   font-family: var(--font-display);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  padding: 12px 8px;
+  transition: background 0.3s ease;
+}
+
+.album-in-list:hover .album-in-list-title {
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .album-in-list-title a {
   text-decoration: none;
+  color: var(--text-primary);
+  font-size: 1em;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
 }
 
-#page .album-in-list-title a:hover {
+#page .album-in-list-title a:hover,
+.album-in-list:hover .album-in-list-title a {
   color: var(--accent-green);
-  text-decoration: underline;
+  text-decoration: none;
 }
-
-.album-in-list-image img { box-shadow: 3px 3px var(--album-shadow); }
 
 .img-thumb, .img_thumb {
   max-height: 200px;

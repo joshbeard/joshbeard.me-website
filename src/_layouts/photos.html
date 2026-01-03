@@ -9,19 +9,20 @@ class: album-list
         {% if page.page_type == 'album' %}
             {% if page.hidden %}{% continue %}{% endif %}
             <div class="album-in-list">
-                <div class="album-in-list-image">
-                {% if page.images %}
-                {{ page.key_image }}
-                    {% if page.key_image_data %}
-                        <a href="{{ page.url }}"><img src="{{ page.key_image_data.thumb }}" class="img-thumb" alt="{{ page.description }}" /></a>
-                    {% else %}
-                        <a href="{{ page.url }}"><img src="{{ page.images[0].thumb }}" class="img-thumb" alt="{{ page.description }}" /></a>
+                <a href="{{ page.url }}" class="album-in-list-link">
+                    <div class="album-in-list-image">
+                    {% if page.images %}
+                        {% if page.key_image_data %}
+                            <img src="{{ page.key_image_data.thumb }}" class="img-thumb" alt="{{ page.description }}" />
+                        {% else %}
+                            <img src="{{ page.images[0].thumb }}" class="img-thumb" alt="{{ page.description }}" />
+                        {% endif %}
                     {% endif %}
-                {% endif %}
-                </div>
-                <div class="album-in-list-title">
-                    <a href="{{ page.url }}">{{ page.title }}</a>
-                </div>
+                    </div>
+                    <div class="album-in-list-title">
+                        <span>{{ page.title }}</span>
+                    </div>
+                </a>
             </div>
         {% endif %}
     {% endfor %}
