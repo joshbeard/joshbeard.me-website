@@ -1,8 +1,8 @@
-# Jekyll config for joshbeard.me
+# Jekyll config for joshbeard.com
 ---
 name: Josh Beard
 source: ./src
-url: https://joshbeard.me
+url: https://joshbeard.com
 common_keywords:
   - joshua beard
   - josh

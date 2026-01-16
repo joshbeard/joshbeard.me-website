@@ -86,4 +86,4 @@ The script generically supports Xorg via `wmctrl` and currently supports
 Hyprland via `hyprctl`. It should be straightforward to adapt to other
 compositors and window managers if they support similar functionality.
 
-Feel free to [contact me](mailto:hello@joshbeard.me) if you have questions.
+Feel free to [contact me](mailto:hello@joshbeard.com) if you have questions.

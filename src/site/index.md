@@ -51,10 +51,10 @@ currently on AWS S3 with AWS CloudFront.
 
 ### Build and Deployment
 
-I maintain the website itself from the [joshbeard/joshbeard.me-website](https://github.com/joshbeard/joshbeard.me-website)
+I maintain the website itself from the [joshbeard/joshbeard-website](https://github.com/joshbeard/joshbeard-website)
 repository on GitHub.
 
-I'm using [GitHub Actions](https://github.com/joshbeard/joshbeard.me-website/blob/master/.github/workflows/build-deploy.yml) for building
+I'm using [GitHub Actions](https://github.com/joshbeard/joshbeard-website/blob/master/.github/workflows/build-deploy.yml) for building
 and deploying the website.
 
 To deploy the AWS resources, I use Terraform.

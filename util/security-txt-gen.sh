@@ -8,12 +8,12 @@ if [ -n "$1" ]; then
 fi
 
 cat << EOF | gpg --clearsign -u "$SECURITY_KEY_ID" -o "$SECURITY_OUTPUT_PATH" --yes -
-Contact: mailto:hello@joshbeard.me
+Contact: mailto:hello@joshbeard.com
 Expires: $SECURITY_EXPIRES
-Encryption: https://joshbeard.me/files/joshbeard-public.asc.txt
+Encryption: https://joshbeard.com/files/joshbeard-public.asc.txt
 Encryption: https://keys.openpgp.org/search?q=0x${SECURITY_KEY_ID}
 Preferred-Languages: en
-Canonical: https://joshbeard.me/security.txt
+Canonical: https://joshbeard.com/security.txt
 EOF
 
 echo "Signed security.txt generated as $SECURITY_OUTPUT_PATH"

@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# joshbeard.me photo album deployer
+# joshbeard.com photo album deployer
 #
 # This hacky script handles the 'build' and deployment of my photo albums.
 #
@@ -519,7 +519,7 @@ if __FILE__ == $0
   PhotoDeployer.set_sync(options[:sync] || false)
 
   puts "#{PhotoDeployer::COLOR_CYAN}╔══════════════════════════════════════════════════════════════════════════════╗#{PhotoDeployer::COLOR_RESET}"
-  puts "#{PhotoDeployer::COLOR_CYAN}                                 joshbeard.me#{PhotoDeployer::COLOR_RESET}"
+  puts "#{PhotoDeployer::COLOR_CYAN}                                 joshbeard.com#{PhotoDeployer::COLOR_RESET}"
   puts "#{PhotoDeployer::COLOR_CYAN}                            Photo Album Deployment#{PhotoDeployer::COLOR_RESET}"
   puts "#{PhotoDeployer::COLOR_CYAN}╚══════════════════════════════════════════════════════════════════════════════╝#{PhotoDeployer::COLOR_RESET}"
   if PhotoDeployer.dry_run?

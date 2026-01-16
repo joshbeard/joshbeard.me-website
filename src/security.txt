@@ -1,25 +1,25 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Contact: mailto:hello@joshbeard.me
-Expires: 2026-07-19T05:02:01.000Z
-Encryption: https://joshbeard.me/files/joshbeard-public.asc.txt
+Contact: mailto:hello@joshbeard.com
+Expires: 2027-01-16T16:29:03.000Z
+Encryption: https://joshbeard.com/files/joshbeard-public.asc.txt
 Encryption: https://keys.openpgp.org/search?q=0xCA96989D4A3F7869F5DEB38DF9BE548EC3641B41
 Preferred-Languages: en
-Canonical: https://joshbeard.me/security.txt
+Canonical: https://joshbeard.com/security.txt
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEypaYnUo/eGn13rON+b5UjsNkG0EFAmh7JskACgkQ+b5UjsNk
-G0HhmhAAh2xFGb1fKz4uupFeEh5OD0wwFrFi90uQj6VtNPNDzTMfnS0lq5+NOyHP
-kw3BY9WwIwSaCzjjpFvn/rfTMDmGcEFaGbAfKDPn6ctXK0/IRTZrrVZENgCv9D0P
-ENiQEyzqhQgyTy6gvUlO3P317W4PO9rc5Vn+6NWw4PRzWLqVXpk4TnRPplhngFJ+
-s6PSpuqCLfaCFcbVFk76/P+pv6vpgPFLRaFQSz09xa9Gy8FCggAjDbFGJZK+UJ7Y
-12dX+jHsk6J4FJllLKvg4ORvF5bkmK+EHfIjHf/NHZOGC1WwmXhxdGIxcLvFQLXw
-ZXIq4u5Pb6xK89HscllyRcHDbpR70IImhs6CzmziWOqXxY0uih+IXvfNsqE8puRi
-c3w8DOPB7L4kX6oul3dYZhHmMRZrvfbb4dsDK5dyHtLT+GEwZ+guSoIbZykR4xIs
-ZQkk5Sy2A5B37VBdhw+ui/4C2Ez1W3TQ0tQNf+QNa/uw5MCGPFLbGTOcBO/DdO92
-tOKt57ILQcWxjqREs9nn1QbKzUOjWPHOZepeBimf6Vy8PqNZnw6CFj7aKVoloBgS
-eziFFqnCknqId2MSjRaRFgtrsZb/8NqVQvXZgq+6Ux/ypbygL6gy7JRA1IknWSc6
-A2Q09+9+DUYY73oJiKDFUxd+xEpaFnp4jzhNXObv8wLySd5/pAQ=
-=C6PC
+iQIzBAEBCAAdFiEEypaYnUo/eGn13rON+b5UjsNkG0EFAmlqZ1AACgkQ+b5UjsNk
+G0EO+hAAiNbx5ouEroCVAc6Dr1AlUguDvaFiJPhrM/gcJRYOp1IDNKGOvsvbEDmx
+tilPaLCJJwkgJD4qBs95vlIvmWFW4wQ0hqkV7wqf4QkzKz0HVcmwS0YuFWK2PVKY
+lEaImXxzTkO63vPYMI0hMhj71q0r39rxX4PunLRxFbnZZO9J5GYJzW1joHU/OcAk
+O7gOEiswmzks7FQoilLregwcv82qCLcIoyTdgu1PDp0nmVl5UQGamDuRWGzp1qJc
+aKqT/WCaNYtUbAuPOIpe7DYVVa6FgHpOlsYV/Q0Hi+9O11+oIr7TFg7Il2w0YX/p
+bZoTP3aOXliIKBbcEnwZuDgrqJRd7QajUwDrIKraAiy5h05utJxUpmWYqCAciPus
+2PzLN15M9tXU7618TfNVGnlIund6WKnMlpGGb883qHgE4CI2hD2aP6Y2UmQBbG5N
+Yun4VGcXbRbhRcfPKHeKNUUlZ5sj4LZtmnPOIxYCkbnzLs/qnmkiJzNBFDdvewI1
+9J0MM1UWF9TL3DCV1BX3MzYXBdWCDDOBn3bfazcesX3xSgECvvJrJxSOCgTRPAKo
+h9pM/Fozo7VGJUgjIINe9E7VSKOdfSi0+PNcm6u/Sh5dWMyvz8Hix1Ub2W61S7Di
+0qJD6MCkbFqc4BVNbO5wEFE9pJfhNV6u53MzC74Cis/IFP9w+zI=
+=8NPR
 -----END PGP SIGNATURE-----

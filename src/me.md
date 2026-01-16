@@ -38,7 +38,7 @@ years. I have a fondness for all of these places.
 If I travel for pleasure, I prefer driving over flying.
 
 If you are looking at this and dig personal websites and that sort of thing,
-say [hello](mailto:hello@joshbeard.me)!
+say [hello](mailto:hello@joshbeard.com)!
 
 ### Computers
 

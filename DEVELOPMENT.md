@@ -26,7 +26,7 @@ This serves the built site from `_site` with Nginx on <http://localhost:8080>
 
 ## Photo Albums
 
-My [photos](https://joshbeard.me/photos) are hosted on S3 and the HTML pages
+My [photos](https://joshbeard.com/photos) are hosted on S3 and the HTML pages
 are generated using a bundled [custom plugin](src/_plugins/gallery_generator.rb),
 adapted from the original plugin at <https://github.com/kylemarsh/jekyll-gallery-generator>.
 

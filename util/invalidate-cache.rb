@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# joshbeard.me CloudFront cache invalidation
+# joshbeard.com CloudFront cache invalidation
 #
 # Intelligently invalidates CloudFront cache based on changes in src/.
 # Maps Jekyll source paths to output paths and handles special directories
