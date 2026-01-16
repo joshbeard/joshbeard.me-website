@@ -1,6 +1,6 @@
 * Josh Beard
 * https://joshbeard.com/
-* https://github.com/joshbeard/joshbeard-website
+* https://github.com/joshbeard/website
 * gemini://jbeard.co/
 * gopher://jbeard.co/
 
